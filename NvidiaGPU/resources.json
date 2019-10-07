@@ -1,0 +1,255 @@
+{
+  "OS" : [
+    {
+      "Comment" : "Latest driver version is at top of the list and pointed to by the static FwLink. Maintain FwLinks for all files.",
+      "Name" : "Windows",
+      "Version" : [
+        {
+          "Name" : "2016/10",
+          "Driver" : [
+            {
+              "Type" : "CUDA",
+              "Version" : [
+                {
+                  "Num" : "398.75",
+                  "DirLink" : "http://download.microsoft.com/download/C/F/3/CF3A81B4-9279-45DA-92D0-AF698537E917/398.75-tesla-desktop-winserver2016-international.exe",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874179"
+                },
+                {
+                  "Num" : "397.44",
+                  "FwLink" : "http://download.microsoft.com/download/2/2/4/224C672F-1AD7-46CF-A4B2-1E7EEAD87F05/397.44-tesla-desktop-winserver2016-international.exe"
+                },
+                {
+                  "Num" : "390.85",
+                  "DirLink" : "http://download.microsoft.com/download/D/8/4/D846AE1E-6565-4EC7-9C99-45FC839A7659/390.85-tesla-desktop-winserver2016-international.exe",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874802"
+                }
+              ]
+            },
+            {
+              "Type" : "GRID",
+              "Version" : [
+                {
+                  "Num" : "425.31",
+                  "DirLink" : "http://download.microsoft.com/download/4/8/C/48C2D46E-EB64-460E-A8D9-0F55737D0D68/425.31_grid_win10_server2016_64bit_international.exe",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874181"
+                },
+                {
+                  "Num" : "412.16",
+                  "DirLink" : "http://download.microsoft.com/download/0/B/0/0B082E50-4162-4910-B422-81B2E06E28B5/412.16_grid_win10_server2016_64bit_international.exe"
+                },
+                {
+                  "Num" : "411.81",
+                  "FwLink" : "http://download.microsoft.com/download/0/B/0/0B082E50-4162-4910-B422-81B2E06E28B5/411.81_grid_win10_server2016_64bit_international.exe"
+                },
+                {
+                  "Num" : "391.81",
+                  "FwLink" : "http://download.microsoft.com/download/A/3/A/A3AA4560-02DC-4315-A503-52E4B5B1E0ED/391.81_grid_win10_server2016_64bit_international.exe"
+                },
+                {
+                  "Num" : "391.58",
+                  "FwLink" : "http://download.microsoft.com/download/1/5/B/15B59944-F780-4A80-A8E1-D4489C83E830/391.58_grid_win10_server2016_64bit_international.exe"
+                },
+                {
+                  "Num" : "391.03",
+                  "DirLink" : "http://download.microsoft.com/download/7/D/2/7D276FE8-93AF-446E-8B0D-0B9EA5700255/391.03_grid_win10_server2016_64bit_international.exe",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874799"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name" : "2012R2",
+          "Driver" : [
+            {
+              "Type" : "CUDA",
+              "Version" : [
+                {
+                  "Num" : "398.75",
+                  "DirLink" : "http://download.microsoft.com/download/4/4/5/445A0DF6-CC60-41BA-8F7C-FB682DBF0C15/398.75-tesla-desktop-winserver2008-2012r2-64bit-international.exe",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874182"
+                },
+                {
+                  "Num" : "397.44",
+                  "FwLink" : "http://download.microsoft.com/download/7/C/2/7C269BB3-6980-4B1A-9C9C-9A7DBEEFA788/397.44-tesla-desktop-winserver2008-2012r2-64bit-international.exe"
+                },
+                {
+                  "Num" : "390.85",
+                  "DirLink" : "http://download.microsoft.com/download/8/2/E/82ED8378-A45C-49EA-96BE-1F535A4864F9/390.85-tesla-desktop-winserver2008-2012r2-64bit-international.exe",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874808"
+                }
+              ]
+            },
+            {
+              "Type" : "GRID",
+              "Version" : [
+                {
+                  "Num" : "425.31",
+                  "DirLink" : "http://download.microsoft.com/download/6/D/7/6D73C628-B5FB-4243-9520-DAEF363223CB/425.31_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874184"
+                },
+                {
+                  "Num" : "412.16",
+                  "DirLink" : "http://download.microsoft.com/download/0/9/8/098B5E8A-0563-4B25-9CDB-173B03B52C60/412.16_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe"
+                },
+                {
+                  "Num" : "411.81",
+                  "FwLink" : "http://download.microsoft.com/download/0/9/8/098B5E8A-0563-4B25-9CDB-173B03B52C60/411.81_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe"
+                },
+                {
+                  "Num" : "391.81",
+                  "FwLink" : "http://download.microsoft.com/download/4/E/B/4EB0A8FB-ADC5-43F5-8AF6-C35CA3E8C68A/391.81_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe"
+                },
+                {
+                  "Num" : "391.58",
+                  "FwLink" : "http://download.microsoft.com/download/C/F/C/CFCDAFC7-7A0D-418B-9188-4AB5F06DDC19/391.58_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe"
+                },
+                {
+                  "Num" : "391.03",
+                  "DirLink" : "http://download.microsoft.com/download/F/9/3/F9317ABC-8EAA-45A8-882B-3E3F4C20DE15/391.03_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874814"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Certificate" : {
+        "Expiration" : "7/26/2018",
+        "DirLink" : "http://download.microsoft.com/download/7/1/F/71FB7755-D899-4FD9-AC05-2216EE8102AC/nvidia.cer",
+        "FwLink" : "https://go.microsoft.com/fwlink/?linkid=871664"
+      }
+    },
+    {
+      "Comment" : "Latest driver version is at top of the list and pointed to by the static FwLink. Maintain FwLinks for all files.",
+      "Name" : "Linux",
+      "Version" : [
+        {
+          "Name" : "Ubuntu",
+          "Driver" : [
+            {
+              "Type" : "CUDA",
+              "Version" : [
+                {
+                  "Num" : "10.0.130",
+                  "DirLink" : "http://download.microsoft.com/download/9/3/5/9356AEC3-D562-4E16-BF7A-4369980CB0D5/cuda-repo-ubuntu1604_10.0.130-1_amd64.deb",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874271"
+                },
+                {
+                  "Num" : "9.2.88",
+                  "FwLink" : "http://download.microsoft.com/download/F/F/A/FFAC979D-AD9C-4684-A6CE-C92BB9372A3B/cuda-repo-ubuntu1604_9.2.88-1_amd64.deb"
+                },
+                {
+                  "Num" : "9.1.85",
+                  "DirLink" : "http://download.microsoft.com/download/F/F/A/FFAC979D-AD9C-4684-A6CE-C92BB9372A3B/cuda-repo-ubuntu1604_9.1.85-1_amd64.deb",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874831"
+                }
+              ]
+            },
+            {
+              "Type" : "GRID",
+              "Version" : [
+                {
+                  "Num" : "418.70",
+                  "DirLink" : "http://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num" : "410.92",
+                  "DirLink" : "http://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run"
+                },
+                {
+                  "Num" : "410.71",
+                  "FwLink" : "http://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.71-grid.run"
+                },
+                {
+                  "Num" : "390.75",
+                  "FwLink" : "http://download.microsoft.com/download/C/C/A/CCA1A402-D4EC-4260-BAD1-3AA1B004882A/NVIDIA-Linux-x86_64-390.75-grid.run"
+                },
+                {
+                  "Num" : "390.57",
+                  "FwLink" : "http://download.microsoft.com/download/6/0/4/6041F2BB-8194-4DB9-BA22-CF1898B9CB70/NVIDIA-Linux-x86_64-grid.run"
+                },
+                {
+                  "Num" : "390.42",
+                  "DirLink" : "http://download.microsoft.com/download/3/8/2/382E8D8A-7620-4F89-B772-A84D97524F7E/NVIDIA-Linux-x86_64-grid.run",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874834"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name" : "RHEL/CentOS",
+          "Driver" : [
+            {
+              "Type" : "CUDA",
+              "Version" : [
+                {
+                  "Num" : "10.0.130",
+                  "DirLink" : "http://download.microsoft.com/download/9/3/5/9356AEC3-D562-4E16-BF7A-4369980CB0D5/cuda-repo-rhel7-10.0.130-1.x86_64.rpm",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874273"
+                },
+                {
+                  "Num" : "9.2.88",
+                  "FwLink" : "http://download.microsoft.com/download/F/F/A/FFAC979D-AD9C-4684-A6CE-C92BB9372A3B/cuda-repo-rhel7-9.2.88-1.x86_64.rpm"
+                },
+                {
+                  "Num" : "9.1.85",
+                  "DirLink" : "http://download.microsoft.com/download/F/F/A/FFAC979D-AD9C-4684-A6CE-C92BB9372A3B/cuda-repo-rhel7-9.1.85-1.x86_64.rpm",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874833"
+                }
+              ]
+            },
+            {
+              "Type" : "GRID",
+              "Version" : [
+                {
+                  "Num" : "418.70",
+                  "DirLink" : "http://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num" : "410.92",
+                  "DirLink" : "http://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run"
+                },
+                {
+                  "Num" : "410.71",
+                  "FwLink" : "http://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.71-grid.run"
+                },
+                {
+                  "Num" : "390.75",
+                  "FwLink" : "http://download.microsoft.com/download/C/C/A/CCA1A402-D4EC-4260-BAD1-3AA1B004882A/NVIDIA-Linux-x86_64-390.75-grid.run"
+                },
+                {
+                  "Num" : "390.57",
+                  "FwLink" : "http://download.microsoft.com/download/6/0/4/6041F2BB-8194-4DB9-BA22-CF1898B9CB70/NVIDIA-Linux-x86_64-grid.run"
+                },
+                {
+                  "Num" : "390.42",
+                  "DirLink" : "http://download.microsoft.com/download/3/8/2/382E8D8A-7620-4F89-B772-A84D97524F7E/NVIDIA-Linux-x86_64-grid.run",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874834"
+                }
+              ]
+            }
+          ],
+          "DKMS" : {
+            "FwLink" : "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm"
+          },
+          "LIS" : {
+            "LatestKernel" : "3.10.0-957.1.3.el7",
+            "FwLink" : "https://aka.ms/lis"
+          }
+        }
+      ],
+      "PublicKey" : {
+        "FwLink" : "http://download.microsoft.com/download/F/F/A/FFAC979D-AD9C-4684-A6CE-C92BB9372A3B/7fa2af80.pub"
+      }
+    }
+  ],
+  "EULA" : {
+    "DirLink" : "http://nvidiadrivereula.azurewebsites.net/NvidiaDriverEULA.htm",
+    "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874330"
+  }
+}
