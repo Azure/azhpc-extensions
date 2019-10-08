@@ -7,7 +7,7 @@
           "Type" : "CX5",
           "OS" : [
             {
-              "Comment" : "Windows driver valid for 2019, 2016, 2012R2, 2012, 10. Driver version is 2.10.",
+              "Comment" : "Windows driver valid for 2019, 2016, 2012R2, 2012, 10. Driver version is 2.22.",
               "Name" : "Windows",
               "Distro" : [
                 {
@@ -15,7 +15,7 @@
                   "Version" : [
                     {
                       "Num" : "All",
-                      "FwLink" : "http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-2_10_50010_All_x64.exe"
+                      "FwLink" : "http://download.microsoft.com/download/0/a/f/0af7e7fd-2e83-4147-aaa4-a5501e6541eb/MLNX_WinOF2-2_22_50000_All_x64.exe"
                     }
                   ]
                 },
@@ -24,7 +24,7 @@
                   "Version" : [
                     {
                       "Num" : "All",
-                      "FwLink" : "http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-2_10_50010_All_x64.exe"
+                      "FwLink" : "http://download.microsoft.com/download/0/a/f/0af7e7fd-2e83-4147-aaa4-a5501e6541eb/MLNX_WinOF2-2_22_50000_All_x64.exe"
                     }
                   ]
                 }
