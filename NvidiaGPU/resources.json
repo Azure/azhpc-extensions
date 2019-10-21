@@ -230,9 +230,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num" : "430.30",
-                  "DirLink" : "http://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run",
+                  "Num" : "430.46",
+                  "DirLink" : "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run",
                   "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num" : "430.30",
+                  "DirLink" : "http://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run"
                 },
                 {
                   "Num" : "418.70",
