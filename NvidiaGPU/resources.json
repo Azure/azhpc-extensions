@@ -40,11 +40,11 @@
                 },
                 {
                   "Num" : "425.31",
-                  "DirLink" : "http://download.microsoft.com/download/4/8/C/48C2D46E-EB64-460E-A8D9-0F55737D0D68/425.31_grid_win10_server2016_64bit_international.exe"
+                  "FwLink" : "http://download.microsoft.com/download/4/8/C/48C2D46E-EB64-460E-A8D9-0F55737D0D68/425.31_grid_win10_server2016_64bit_international.exe"
                 },
                 {
                   "Num" : "412.16",
-                  "DirLink" : "http://download.microsoft.com/download/0/B/0/0B082E50-4162-4910-B422-81B2E06E28B5/412.16_grid_win10_server2016_64bit_international.exe"
+                  "FwLink" : "http://download.microsoft.com/download/0/B/0/0B082E50-4162-4910-B422-81B2E06E28B5/412.16_grid_win10_server2016_64bit_international.exe"
                 },
                 {
                   "Num" : "411.81",
@@ -99,15 +99,15 @@
                 },
                 {
                   "Num" : "431.02",
-                  "DirLink" : "http://download.microsoft.com/download/B/D/6/BD6D1C34-E41F-4654-B5AB-F4DA9C08AA64/431.02_grid_win7_win8_server2008R2_server2012R2_64bit_international.exe"
+                  "FwLink" : "http://download.microsoft.com/download/B/D/6/BD6D1C34-E41F-4654-B5AB-F4DA9C08AA64/431.02_grid_win7_win8_server2008R2_server2012R2_64bit_international.exe"
                 },
                 {
                   "Num" : "425.31",
-                  "DirLink" : "http://download.microsoft.com/download/6/D/7/6D73C628-B5FB-4243-9520-DAEF363223CB/425.31_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe"
+                  "FwLink" : "http://download.microsoft.com/download/6/D/7/6D73C628-B5FB-4243-9520-DAEF363223CB/425.31_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe"
                 },
                 {
                   "Num" : "412.16",
-                  "DirLink" : "http://download.microsoft.com/download/0/9/8/098B5E8A-0563-4B25-9CDB-173B03B52C60/412.16_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe"
+                  "FwLink" : "http://download.microsoft.com/download/0/9/8/098B5E8A-0563-4B25-9CDB-173B03B52C60/412.16_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe"
                 },
                 {
                   "Num" : "411.81",
@@ -173,15 +173,15 @@
                 },
                 {
                   "Num" : "430.30",
-                  "DirLink" : "http://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run"
+                  "FwLink" : "http://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run"
                 },
                 {
                   "Num" : "418.70",
-                  "DirLink" : "http://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run"
+                  "FwLink" : "http://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run"
                 },
                 {
                   "Num" : "410.92",
-                  "DirLink" : "http://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run"
+                  "FwLink" : "http://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run"
                 },
                 {
                   "Num" : "410.71",
@@ -236,15 +236,15 @@
                 },
                 {
                   "Num" : "430.30",
-                  "DirLink" : "http://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run"
+                  "FwLink" : "http://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run"
                 },
                 {
                   "Num" : "418.70",
-                  "DirLink" : "http://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run"
+                  "FwLink" : "http://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run"
                 },
                 {
                   "Num" : "410.92",
-                  "DirLink" : "http://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run"
+                  "FwLink" : "http://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run"
                 },
                 {
                   "Num" : "410.71",
