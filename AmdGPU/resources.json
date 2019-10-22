@@ -1,0 +1,32 @@
+{
+  "OS" : [
+    {
+      "Name" : "Windows",
+      "Version" : [
+        {
+          "Name" : "2016/10",
+          "Driver" : [
+            {
+              "Type" : "Radeon",
+              "Version" : [
+                {
+                  "Num" : "XX.XX.XX",
+                  "DirLink" : "empty",
+                }
+              ]
+            },
+           ]
+        },
+       ],
+      "Certificate" : {
+        "Expiration" : "X/X/XXXX",
+        "DirLink" : "",
+        "FwLink" : ""
+      }
+    },
+  ],
+  "EULA" : {
+    "DirLink" : "",
+    "FwLink" : ""
+  }
+}
