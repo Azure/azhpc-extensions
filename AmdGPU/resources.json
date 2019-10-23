@@ -10,8 +10,8 @@
               "Type" : "Radeon",
               "Version" : [
                 {
-                  "Num" : "1.0",
-                  "DirLink" : "https://download.microsoft.com/download/A/E/0/AE002626-9D9D-448D-8197-1EA510E297CE/msmpisetup.exe"
+                  "Num" : "Preview",
+                  "DirLink" : "http://download.microsoft.com/download/f/c/b/fcbcbccd-3d38-4d2c-94ff-a109732d1db0/AMD_Radeon_Preview_Win.zip"
                 }
               ]
             }
