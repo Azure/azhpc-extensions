@@ -10,7 +10,7 @@
               "Type" : "Radeon",
               "Version" : [
                 {
-                  "Num" : "XX.XX.XX",
+                  "Num" : "1.0",
                   "DirLink" : "https://download.microsoft.com/download/A/E/0/AE002626-9D9D-448D-8197-1EA510E297CE/msmpisetup.exe",
                 }
               ]
