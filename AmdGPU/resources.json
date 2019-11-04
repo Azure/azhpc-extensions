@@ -10,23 +10,14 @@
               "Type" : "Radeon",
               "Version" : [
                 {
-                  "Num" : "XX.XX.XX",
-                  "DirLink" : "empty",
+                  "Num" : "Preview",
+                  "DirLink" : "http://download.microsoft.com/download/f/c/b/fcbcbccd-3d38-4d2c-94ff-a109732d1db0/AMD_Radeon_Preview_Win.zip"
                 }
               ]
-            },
+            }
            ]
-        },
-       ],
-      "Certificate" : {
-        "Expiration" : "X/X/XXXX",
-        "DirLink" : "",
-        "FwLink" : ""
-      }
-    },
-  ],
-  "EULA" : {
-    "DirLink" : "",
-    "FwLink" : ""
-  }
+        }
+       ]
+    }
+  ]
 }
