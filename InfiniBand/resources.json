@@ -38,6 +38,10 @@
                   "Name" : "Ubuntu",
                   "Version" : [
                     {
+                      "Num" : "19.04",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.7-1.0.0.1/MLNX_OFED_LINUX-4.7-1.0.0.1-ubuntu19.04-x86_64.tgz"
+                    },
+                    {
                       "Num" : "18.10",
                       "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.5-1.0.1.0/MLNX_OFED_LINUX-4.5-1.0.1.0-ubuntu18.10-x86_64.tgz"
                     },
