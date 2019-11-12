@@ -1,23 +1,19 @@
 {
-  "OS" : [
+  "OS": [
     {
-      "Name" : "Windows",
-      "Version" : [
+      "Name": "Windows",
+      "Version": [
         {
-          "Name" : "2016/10",
-          "Driver" : [
+          "Name": "2016/10",
+          "Driver": [
             {
-              "Type" : "Radeon",
-              "Version" : [
-                {
-                  "Num" : "Preview",
-                  "DirLink" : "http://download.microsoft.com/download/8/6/6/866b8389-f01d-4f90-99bb-02dacab17d60/Radeon_Pro_Software_for_Enterprise_19_Q4_1_Preview.zip"
-                }
-              ]
+              "Type": "Radeon",
+              "Num": "Preview",
+              "DirLink": "http://download.microsoft.com/download/8/6/6/866b8389-f01d-4f90-99bb-02dacab17d60/Radeon_Pro_Software_for_Enterprise_19_Q4_1_Preview.zip"
             }
-           ]
+          ]
         }
-       ]
+      ]
     }
   ]
 }
