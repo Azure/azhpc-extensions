@@ -30,13 +30,9 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num" : "441.66",
-                  "DirLink" : "https://download.microsoft.com/download/2/a/3/2a316e62-3be9-4ddb-ae8e-c04b6df6e22d/441.66_grid_win10_server2016_server2019_64bit_international.exe",
-                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874181"
-                },
-                {
                   "Num" : "431.79",
-                  "FwLink" : "https://download.microsoft.com/download/e/8/2/e8257939-a439-4da8-a927-b64b63743db1/431.79_grid_win10_server2016_server2019_64bit_international.exe",
+                  "DirLink" : "https://download.microsoft.com/download/e/8/2/e8257939-a439-4da8-a927-b64b63743db1/431.79_grid_win10_server2016_server2019_64bit_international.exe",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874181"
                 },
                 {
                   "Num" : "431.02",
@@ -97,13 +93,9 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num" : "441.66",
-                  "DirLink" : "https://download.microsoft.com/download/d/8/0/d80091f8-0d55-47c2-958a-bacd136f432a/441.66_grid_win7_win8_server2008R2_server2012R2_64bit_international.exe",
-                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874184"
-                },
-                {
                   "Num" : "431.79",
-                  "FwLink" : "https://download.microsoft.com/download/8/6/e/86ef2daa-b31e-43ad-90f2-bd795384b71e/431.79_grid_win7_win8_server2008R2_server2012R2_64bit_international.exe",
+                  "DirLink" : "https://download.microsoft.com/download/8/6/e/86ef2daa-b31e-43ad-90f2-bd795384b71e/431.79_grid_win7_win8_server2008R2_server2012R2_64bit_international.exe",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874184"
                 },
                 {
                   "Num" : "431.02",
@@ -175,13 +167,9 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num" : "440.43",
-                  "DirLink" : "https://download.microsoft.com/download/b/9/5/b95127da-6d8f-4dea-8d7d-827be40bb2b7/NVIDIA-Linux-x86_64-440.43-grid.run",
-                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874272"
-                },
-                {
                   "Num" : "430.46",
-                  "FwLink" : "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run",
+                  "DirLink" : "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874272"
                 },
                 {
                   "Num" : "430.30",
@@ -242,13 +230,9 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num" : "440.43",
-                  "DirLink" : "https://download.microsoft.com/download/b/9/5/b95127da-6d8f-4dea-8d7d-827be40bb2b7/NVIDIA-Linux-x86_64-440.43-grid.run",
-                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874272"
-                },
-                {
                   "Num" : "430.46",
-                  "FwLink" : "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run",
+                  "DirLink" : "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874272"
                 },
                 {
                   "Num" : "430.30",
