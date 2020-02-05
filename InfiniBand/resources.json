@@ -63,7 +63,7 @@
                     {
                       "Num" : "7.5",
                       "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.7-1.0.0.1/MLNX_OFED_LINUX-4.7-1.0.0.1-rhel7.5-x86_64.tgz",
-                      "KernelDevelVer" : "3.10.0-862.43.1.el7.x86_64",
+                      "KernelDevelVer" : "3.10.0-862.43.1.el7.x86_64"
                     },                    
                     {
                       "Num" : "7.4",
