@@ -30,6 +30,11 @@
               "Type" : "GRID",
               "Version" : [
                 {
+                  "Num" : "442.06",
+                  "DirLink" : "https://download.microsoft.com/download/b/8/f/b8f5ecec-b8f9-47de-b007-ac40adc88dc8/442.06_grid_win10_server2016_server2019_64bit_international.exe",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874181"
+                },
+                {
                   "Num" : "441.66",
                   "DirLink" : "https://download.microsoft.com/download/2/a/3/2a316e62-3be9-4ddb-ae8e-c04b6df6e22d/441.66_grid_win10_server2016_server2019_64bit_international.exe",
                   "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874181"
@@ -96,6 +101,11 @@
             {
               "Type" : "GRID",
               "Version" : [
+                {
+                  "Num" : "442.06",
+                  "DirLink" : "https://download.microsoft.com/download/4/3/3/4330fd5c-c685-4ca1-abca-3b2fb3c11d2e/442.06_grid_win7_win8_server2008R2_server2012R2_64bit_international.exe",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874184"
+                },
                 {
                   "Num" : "441.66",
                   "DirLink" : "https://download.microsoft.com/download/d/8/0/d80091f8-0d55-47c2-958a-bacd136f432a/441.66_grid_win7_win8_server2008R2_server2012R2_64bit_international.exe",
@@ -174,6 +184,11 @@
             {
               "Type" : "GRID",
               "Version" : [
+                {
+                  "Num" : "440.56",
+                  "DirLink" : "https://download.microsoft.com/download/3/0/8/3084787d-078d-4a3d-b3e8-7394c6a1e2cd/NVIDIA-Linux-x86_64-440.56-grid.run",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
                 {
                   "Num" : "440.43",
                   "DirLink" : "https://download.microsoft.com/download/b/9/5/b95127da-6d8f-4dea-8d7d-827be40bb2b7/NVIDIA-Linux-x86_64-440.43-grid.run",
