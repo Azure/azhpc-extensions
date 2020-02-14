@@ -1,0 +1,186 @@
+{
+  "Driver" : [
+    {
+      "Name" : "OFED",
+      "Version" : [
+        {
+          "Type" : "CX6",
+          "OS" : [
+            {
+              "Comment" : "Windows driver valid for 2019, 2016, 2012R2, 2012, 10. Driver version is 2.22.",
+              "Name" : "Windows",
+              "Distro" : [
+                {
+                  "Name" : "2016/10",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "http://download.microsoft.com/download/0/a/f/0af7e7fd-2e83-4147-aaa4-a5501e6541eb/MLNX_WinOF2-2_22_50000_All_x64.exe"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "2012R2",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "http://download.microsoft.com/download/0/a/f/0af7e7fd-2e83-4147-aaa4-a5501e6541eb/MLNX_WinOF2-2_22_50000_All_x64.exe"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Comment" : "Driver version is 4.7-1.0.0.1",
+              "Name" : "Linux",
+              "Distro" : [
+                {
+                  "Name" : "Ubuntu",
+                  "Version" : [
+                    {
+                      "Num" : "18.04",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.7-1.0.0.1/MLNX_OFED_LINUX-4.7-1.0.0.1-ubuntu18.04-x86_64.tgz"
+                    },                    
+                    {
+                      "Num" : "16.04",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.7-1.0.0.1/MLNX_OFED_LINUX-4.7-1.0.0.1-ubuntu16.04-x86_64.tgz"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "RHEL/CentOS",
+                  "Version" : [
+                    {
+                      "Num" : "7.7",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.7-1.0.0.1/MLNX_OFED_LINUX-4.7-1.0.0.1-rhel7.7-x86_64.tgz",
+                      "KernelDevelVer" : "3.10.0-1062.el7.x86_64"
+                    },
+                    {
+                      "Num" : "7.6",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.7-1.0.0.1/MLNX_OFED_LINUX-4.7-1.0.0.1-rhel7.6-x86_64.tgz",
+                      "KernelDevelVer" : "3.10.0-957.1.3.el7.x86_64"
+                    },
+                    {
+                      "Num" : "7.5",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.7-1.0.0.1/MLNX_OFED_LINUX-4.7-1.0.0.1-rhel7.5-x86_64.tgz",
+                      "KernelDevelVer" : "3.10.0-862.43.1.el7.x86_64"
+                    },                    
+                    {
+                      "Num" : "7.4",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.7-1.0.0.1/MLNX_OFED_LINUX-4.7-1.0.0.1-rhel7.4-x86_64.tgz",
+                      "KernelDevelVer" : "3.10.0-693.el7.x86_64",
+                      "KernelDevelRPM" : "http://vault.centos.org/7.4.1708/os/x86_64/Packages/kernel-devel-3.10.0-693.el7.x86_64.rpm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Type" : "CX5",
+          "OS" : [
+            {
+              "Comment" : "Windows driver valid for 2019, 2016, 2012R2, 2012, 10. Driver version is 2.22.",
+              "Name" : "Windows",
+              "Distro" : [
+                {
+                  "Name" : "2016/10",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "http://download.microsoft.com/download/0/a/f/0af7e7fd-2e83-4147-aaa4-a5501e6541eb/MLNX_WinOF2-2_22_50000_All_x64.exe"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "2012R2",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "http://download.microsoft.com/download/0/a/f/0af7e7fd-2e83-4147-aaa4-a5501e6541eb/MLNX_WinOF2-2_22_50000_All_x64.exe"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Comment": "Driver version is 4.5-1.0.1.0.",
+              "Name": "Linux",
+              "Distro": [
+                {
+                  "Name": "Ubuntu",
+                  "Version": [
+                    {
+                      "Num": "18.10",
+                      "FwLink": "http://content.mellanox.com/ofed/MLNX_OFED-4.5-1.0.1.0/MLNX_OFED_LINUX-4.5-1.0.1.0-ubuntu18.10-x86_64.tgz"
+                    },
+                    {
+                      "Num": "18.04",
+                      "FwLink": "http://content.mellanox.com/ofed/MLNX_OFED-4.5-1.0.1.0/MLNX_OFED_LINUX-4.5-1.0.1.0-ubuntu18.04-x86_64.tgz"
+                    },
+                    {
+                      "Num": "16.04",
+                      "FwLink": "http://content.mellanox.com/ofed/MLNX_OFED-4.5-1.0.1.0/MLNX_OFED_LINUX-4.5-1.0.1.0-ubuntu16.04-x86_64.tgz"
+                    }
+                  ]
+                },
+                {
+                  "Name": "RHEL/CentOS",
+                  "Version": [
+                    {
+                      "Num": "7.6",
+                      "FwLink": "http://content.mellanox.com/ofed/MLNX_OFED-4.5-1.0.1.0/MLNX_OFED_LINUX-4.5-1.0.1.0-rhel7.6-x86_64.tgz",
+                      "KernelDevelVer": "3.10.0-957.1.3.el7.x86_64"
+                    },
+                    {
+                      "Num": "7.5",
+                      "FwLink": "http://content.mellanox.com/ofed/MLNX_OFED-4.5-1.0.1.0/MLNX_OFED_LINUX-4.5-1.0.1.0-rhel7.5-x86_64.tgz",
+                      "KernelDevelVer": "3.10.0-862.el7.x86_64",
+                      "KernelDevelRPM": "http://vault.centos.org/7.5.1804/os/x86_64/Packages/kernel-devel-3.10.0-862.el7.x86_64.rpm"
+                    },
+                    {
+                      "Num": "7.4",
+                      "FwLink": "http://content.mellanox.com/ofed/MLNX_OFED-4.5-1.0.1.0/MLNX_OFED_LINUX-4.5-1.0.1.0-rhel7.4-x86_64.tgz",
+                      "KernelDevelVer": "3.10.0-693.el7.x86_64",
+                      "KernelDevelRPM": "http://vault.centos.org/7.4.1708/os/x86_64/Packages/kernel-devel-3.10.0-693.el7.x86_64.rpm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Type" : "CX3-Pro",
+          "OS" : [
+            {
+              "Comment" : "Driver version is 5.65.",
+              "Name" : "Windows",
+              "Distro" : [
+                {
+                  "Name" : "2016/10",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "http://download.microsoft.com/download/F/4/4/F4430323-FA5D-4A57-869D-8A4A46C8C3CE/MLNX_VPI_WinOF-5_65_51000_All_win2016_x64.exe"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "2012R2",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "http://download.microsoft.com/download/4/E/E/4EEA2BBA-0C34-4AFE-A562-36F2062AB84F/MLNX_VPI_WinOF-5_65_51000_All_win2012R2_x64.exe"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
