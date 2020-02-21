@@ -56,7 +56,7 @@
                   "Version" : [
                     {
                       "Num" : "7.7",
-                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.7-1.0.0.1/MLNX_OFED_LINUX-4.7-1.0.0.1-rhel7.6-x86_64.tgz"
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.7-1.0.0.1/MLNX_OFED_LINUX-4.7-1.0.0.1-rhel7.7-x86_64.tgz"
                     },
                     {
                       "Num" : "7.6",
