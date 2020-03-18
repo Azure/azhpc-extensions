@@ -31,15 +31,15 @@
               ]
             },
             {
-              "Comment" : "Driver version is 4.7-1.0.0.1",
+              "Comment" : "Driver version is 5.0-1.0.0.0",
               "Name" : "Linux",
               "Distro" : [
                 {
                   "Name" : "Ubuntu",
                   "Version" : [
                     {
-                      "Num" : "18.10",
-                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.0-1.0.0.0/MLNX_OFED_LINUX-5.0-1.0.0.0-ubuntu18.10-x86_64.tgz"
+                      "Num" : "20.04",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.0-1.0.0.0/MLNX_OFED_LINUX-5.0-1.0.0.0-ubuntu20.04-x86_64.tgz"
                     },
                     {
                       "Num" : "18.04",
@@ -54,6 +54,14 @@
                 {
                   "Name" : "RHEL/CentOS",
                   "Version" : [
+                    {
+                      "Num" : "8.2",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.0-1.0.0.0/MLNX_OFED_LINUX-5.0-1.0.0.0-rhel8.2-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "8.1",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.0-1.0.0.0/MLNX_OFED_LINUX-5.0-1.0.0.0-rhel8.1-x86_64.tgz"
+                    },
                     {
                       "Num" : "7.7",
                       "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.0-1.0.0.0/MLNX_OFED_LINUX-5.0-1.0.0.0-rhel7.7-x86_64.tgz"
