@@ -8,8 +8,8 @@
           "Driver": [
             {
               "Type": "Radeon",
-              "Num": "Preview",
-              "DirLink": "http://download.microsoft.com/download/d/b/a/dba70bb8-db9d-4632-96b5-7df8d902de90/Radeon-Pro-Software-for-Enterprise-19.Q4.1-Technical-Preview.exe"
+              "Num": "GA",
+              "DirLink": "https://download.microsoft.com/download/3/8/9/3893407b-e8aa-4079-8592-735d7dd1c19a/Radeon-Pro-Software-for-Enterprise-GA.exe"
             }
           ]
         }
