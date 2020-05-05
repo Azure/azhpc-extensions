@@ -43,7 +43,8 @@
                     },
                     {
                       "Num" : "18.04",
-                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.0-1.0.0.0/MLNX_OFED_LINUX-5.0-1.0.0.0-ubuntu18.04-x86_64.tgz"
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.0-1.0.0.0/MLNX_OFED_LINUX-5.0-1.0.0.0-ubuntu18.04-x86_64.tgz",
+                      "ScriptUrn" : "azhpc-images/ubuntu-18.04-hpc"
                     },                    
                     {
                       "Num" : "16.04",
@@ -60,17 +61,20 @@
                     },
                     {
                       "Num" : "8.1",
-                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.0-1.0.0.0/MLNX_OFED_LINUX-5.0-1.0.0.0-rhel8.1-x86_64.tgz"
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.0-1.0.0.0/MLNX_OFED_LINUX-5.0-1.0.0.0-rhel8.1-x86_64.tgz",
+                      "ScriptUrn" : "azhpc-images/centos-8.1-hpc"
                     },
                     {
                       "Num" : "7.7",
-                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.0-1.0.0.0/MLNX_OFED_LINUX-5.0-1.0.0.0-rhel7.7-x86_64.tgz"
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.0-1.0.0.0/MLNX_OFED_LINUX-5.0-1.0.0.0-rhel7.7-x86_64.tgz",
+                      "ScriptUrn" : "azhpc-images/centos-7.7-hpc"
                     },
                     {
                       "Num" : "7.6",
                       "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.0-1.0.0.0/MLNX_OFED_LINUX-5.0-1.0.0.0-rhel7.6-x86_64.tgz",
                       "KernelDevelVer" : "3.10.0-957.27.2.el7.x86_64",
-                      "KernelDevelRPM" : "https://linuxsoft.cern.ch/cern/centos/7/updates/x86_64/Packages/kernel-devel-3.10.0-957.27.2.el7.x86_64.rpm"
+                      "KernelDevelRPM" : "https://linuxsoft.cern.ch/cern/centos/7/updates/x86_64/Packages/kernel-devel-3.10.0-957.27.2.el7.x86_64.rpm",
+                      "ScriptUrn" : "azhpc-images/centos-7.6-hpc"
                     },
                     {
                       "Num" : "7.5",
