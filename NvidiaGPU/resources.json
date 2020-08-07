@@ -11,9 +11,13 @@
               "Type" : "CUDA",
               "Version" : [
                 {
-                  "Num" : "398.75",
-                  "DirLink" : "http://download.microsoft.com/download/C/F/3/CF3A81B4-9279-45DA-92D0-AF698537E917/398.75-tesla-desktop-winserver2016-international.exe",
+                  "Num" : "451.82",
+                  "DirLink" : "http://download.microsoft.com/download/6/1/0/6102ece3-39ae-4a95-93c1-e76db97c4ed3/Tesla_Windows_451_82.exe",
                   "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874179"
+                },
+                {
+                  "Num" : "398.75",
+                  "FwLink" : "http://download.microsoft.com/download/C/F/3/CF3A81B4-9279-45DA-92D0-AF698537E917/398.75-tesla-desktop-winserver2016-international.exe"
                 },
                 {
                   "Num" : "397.44",
