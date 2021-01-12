@@ -34,9 +34,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "452.57",
-                  "DirLink": "https://download.microsoft.com/download/1/b/1/1b15516a-de49-4ba4-8651-6abda4f7fb82/452.57_grid_win10_server2016_server2019_64bit_international.exe",
+                  "Num": "452.77",
+                  "DirLink": "https://download.microsoft.com/download/f/d/5/fd5ad39b-89cb-4990-ae85-a6fd30475584/452.77_grid_win10_server2016_server2019_64bit_azure_swl.exe",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874181"
+                },
+                {
+                  "Num": "452.57",
+                  "FwLink": "https://download.microsoft.com/download/1/b/1/1b15516a-de49-4ba4-8651-6abda4f7fb82/452.57_grid_win10_server2016_server2019_64bit_international.exe"
                 },
                 {
                   "Num": "452.39",
@@ -117,9 +121,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "452.57",
-                  "DirLink": "https://download.microsoft.com/download/8/2/9/829ebbe2-182a-4037-8698-a27e6f190a81/452.57_grid_server2012R2_64bit_international.exe",
+                  "Num": "452.77",
+                  "DirLink": "https://download.microsoft.com/download/5/4/3/54323644-3c84-4aa1-97ec-35491f94c866/452.77_grid_server2012R2_64bit_azure_swl.exe",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874184"
+                },
+                {
+                  "Num": "452.57",
+                  "FwLink": "https://download.microsoft.com/download/8/2/9/829ebbe2-182a-4037-8698-a27e6f190a81/452.57_grid_server2012R2_64bit_international.exe"
                 },
                 {
                   "Num": "451.48",
@@ -211,9 +219,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "450.89",
-                  "DirLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run",
+                  "Num": "450.102",
+                  "DirLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num": "450.89",
+                  "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run"
                 },
                 {
                   "Num": "450.80",
@@ -301,9 +313,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "450.89",
-                  "DirLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run",
+                  "Num": "450.102",
+                  "DirLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num": "450.89",
+                  "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run"
                 },
                 {
                   "Num": "450.80",
@@ -390,9 +406,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "450.89",
-                  "DirLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run",
+                  "Num": "450.102",
+                  "DirLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num": "450.89",
+                  "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run"
                 },
                 {
                   "Num": "450.80",
@@ -478,9 +498,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "450.89",
-                  "DirLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run",
+                  "Num": "450.102",
+                  "DirLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num": "450.89",
+                  "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run"
                 },
                 {
                   "Num": "450.80",
@@ -560,9 +584,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "450.89",
-                  "DirLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run",
+                  "Num": "450.102",
+                  "DirLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num": "450.89",
+                  "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run"
                 },
                 {
                   "Num": "450.80",
