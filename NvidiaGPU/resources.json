@@ -34,9 +34,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "461.09",
-                  "DirLink": "https://download.microsoft.com/download/4/8/d/48d2d45b-bebc-44ad-9c58-e0b79a9d4ff2/461.09_grid_win10_server2016_server2019_64bit_azure_swl.exe",
+                  "Num": "461.33",
+                  "DirLink": "https://download.microsoft.com/download/9/7/e/97e1be73-d24b-410b-9c08-cc98c7becfa3/461.33_grid_win10_server2016_server2019_64bit_azure_swl.exe",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874181"
+                },
+                {
+                  "Num": "461.09",
+                  "DirLink": "https://download.microsoft.com/download/4/8/d/48d2d45b-bebc-44ad-9c58-e0b79a9d4ff2/461.09_grid_win10_server2016_server2019_64bit_azure_swl.exe"
                 },
                 {
                   "Num": "452.77",
@@ -125,9 +129,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "461.09",
-                  "DirLink": "https://download.microsoft.com/download/c/5/e/c5e7df99-364d-45f5-bff7-c253d59121f1/461.09_grid_server2012R2_64bit_azure_swl.exe",
+                  "Num": "461.33",
+                  "DirLink": "https://download.microsoft.com/download/9/9/c/99caf5c6-af9f-48b2-bcb0-af5ec64b8592/461.33_grid_server2012R2_64bit_azure_swl.exe",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874184"
+                },
+                {
+                  "Num": "461.09",
+                  "DirLink": "https://download.microsoft.com/download/c/5/e/c5e7df99-364d-45f5-bff7-c253d59121f1/461.09_grid_server2012R2_64bit_azure_swl.exe"
                 },
                 {
                   "Num": "452.77",
