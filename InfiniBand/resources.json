@@ -181,11 +181,11 @@
           "Type" : "CX3-Pro",
           "OS" : [
             {
-              "Comment" : "Driver version is 5.65.",
+              "Comment" : "Driver version is 5.65. Win 2019 and Win 10 are not supported yet.",
               "Name" : "Windows",
               "Distro" : [
                 {
-                  "Name" : "2016/10",
+                  "Name" : "2016",
                   "Version" : [
                     {
                       "Num" : "All",
