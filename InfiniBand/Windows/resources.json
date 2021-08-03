@@ -163,7 +163,7 @@
                   "Version" : [
                     {
                       "Num" : "All",
-                      "FwLink" : "http://download.microsoft.com/download/F/4/4/F4430323-FA5D-4A57-869D-8A4A46C8C3CE/MLNX_VPI_WinOF-5_65_51000_All_win2016_x64.exe"
+                      "FwLink" : "https://download.microsoft.com/download/e/f/f/eff09aa8-7d75-4ff8-b772-5fc9e374370e/MLNX_VPI_WinOF-5_65_51000_All_win2016_x64.exe"
                     }
                   ]
                 },
@@ -172,7 +172,16 @@
                   "Version" : [
                     {
                       "Num" : "All",
-                      "FwLink" : "http://download.microsoft.com/download/4/E/E/4EEA2BBA-0C34-4AFE-A562-36F2062AB84F/MLNX_VPI_WinOF-5_65_51000_All_win2012R2_x64.exe"
+                      "FwLink" : "https://download.microsoft.com/download/2/6/e/26e9cb43-657e-44cc-a8e9-e4247951d590/MLNX_VPI_WinOF-5_65_51000_All_win2012R2_x64.exe"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "2019",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "https://download.microsoft.com/download/e/5/c/e5cb143e-f3d4-467b-b874-1aa7d5a7af7c/MLNX_VPI_WinOF-5_65_51000_All_win2019_x64.exe"
                     }
                   ]
                 }
