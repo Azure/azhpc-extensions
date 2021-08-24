@@ -11,7 +11,7 @@
               "Name" : "Windows",
               "Distro" : [
                 {
-                  "Name" : "2016/10",
+                  "Name" : "2016",
                   "Version" : [
                     {
                       "Num" : "All",
@@ -21,6 +21,15 @@
                 },
                 {
                   "Name" : "2012R2",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "http://download.microsoft.com/download/0/a/f/0af7e7fd-2e83-4147-aaa4-a5501e6541eb/MLNX_WinOF2-2_22_50000_All_x64.exe"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "2019/10",
                   "Version" : [
                     {
                       "Num" : "All",
@@ -85,7 +94,7 @@
               "Name" : "Windows",
               "Distro" : [
                 {
-                  "Name" : "2016/10",
+                  "Name" : "2016",
                   "Version" : [
                     {
                       "Num" : "All",
@@ -95,6 +104,15 @@
                 },
                 {
                   "Name" : "2012R2",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "http://download.microsoft.com/download/0/a/f/0af7e7fd-2e83-4147-aaa4-a5501e6541eb/MLNX_WinOF2-2_22_50000_All_x64.exe"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "2019/10",
                   "Version" : [
                     {
                       "Num" : "All",
@@ -159,7 +177,7 @@
               "Name" : "Windows",
               "Distro" : [
                 {
-                  "Name" : "2016/10",
+                  "Name" : "2016",
                   "Version" : [
                     {
                       "Num" : "All",
@@ -177,7 +195,7 @@
                   ]
                 },
                 {
-                  "Name" : "2019",
+                  "Name" : "2019/10",
                   "Version" : [
                     {
                       "Num" : "All",
