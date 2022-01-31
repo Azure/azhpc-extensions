@@ -454,6 +454,18 @@
                   "DriverFwLink" : "https://go.microsoft.com/fwlink/?linkid=2180349",
                   "DKMSUrl" : "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
                   "InstallMethod" : 0
+                },
+                {
+                  "Comment" : "For NCasT4v3 series / Tesla T4 GPUs",
+                  "SkuRegEx" : "(nc[0-9]+as_t4)",
+                  "Num" : "10.0.130",
+                  "DirLink" : "https://download.microsoft.com/download/9/3/5/9356AEC3-D562-4E16-BF7A-4369980CB0D5/cuda-repo-rhel7-10.0.130-1.x86_64.rpm",
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874273",
+                  "DriverVersion" : "470.82.01",
+                  "DriverDirLink" : "https://download.microsoft.com/download/d/9/1/d9199489-e041-4019-a558-59fc58571a9f/nvidia-driver-local-repo-rhel7-470.82.01-1.0-1.x86_64.rpm",
+                  "DriverFwLink" : "https://go.microsoft.com/fwlink/?linkid=2180349",
+                  "DKMSUrl" : "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
+                  "InstallMethod" : 0
                 }
               ]
             }
@@ -572,6 +584,15 @@
                 {
                   "Comment" : "For NCv1 series / Tesla K80 GPUs",
                   "SkuRegEx" : "(nc[0-9]+r?(_promo)?)$",
+                  "Num" : "11.1",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo",
+                  "DKMSUrl" : "https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm",
+                  "DriverVersion" : "470",
+                  "InstallMethod" : 2
+                },
+                {
+                  "Comment" : "For NCasT4v3 series / Tesla T4 GPUs",
+                  "SkuRegEx" : "(nc[0-9]+as_t4)",
                   "Num" : "11.1",
                   "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo",
                   "DKMSUrl" : "https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm",
@@ -699,6 +720,15 @@
                   "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
                   "DriverVersion" : "470",
                   "InstallMethod" : 1
+                },
+                {
+                  "Comment" : "For NCasT4v3 series / Tesla T4 GPUs",
+                  "SkuRegEx" : "(nc[0-9]+as_t4)",
+                  "Num" : "11.1",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
+                  "DriverVersion" : "470",
+                  "InstallMethod" : 1
                 }
               ]
             }
@@ -713,14 +743,14 @@
               "Version" : [
                 {
                   "Num" : "11.1",
-                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
-                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
                   "InstallMethod" : 1
                 },
                 {
                   "Num" : "11.0",
-                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
-                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
                   "InstallMethod" : 1
                 }
               ]
@@ -811,8 +841,17 @@
                   "Comment" : "For NCv1 series / Tesla K80 GPUs",
                   "SkuRegEx" : "(nc[0-9]+r?(_promo)?)$",
                   "Num" : "11.1",
-                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
-                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
+                  "DriverVersion" : "470",
+                  "InstallMethod" : 1
+                },
+                {
+                  "Comment" : "For NCasT4v3 series / Tesla T4 GPUs",
+                  "SkuRegEx" : "(nc[0-9]+as_t4)",
+                  "Num" : "11.1",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
                   "DriverVersion" : "470",
                   "InstallMethod" : 1
                 }
