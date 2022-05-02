@@ -861,7 +861,7 @@
         }
       ],
       "PublicKey" : {
-        "FwLink" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/3bf863cc.pub"
+        "FwLink" : "https://download.microsoft.com/download/f/4/7/f472d46c-1bc2-49dc-b43b-c803ce3e2f1d/3bf863cc.pub"
       }
     }
   ],
