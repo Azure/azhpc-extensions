@@ -343,12 +343,14 @@
                   "Num" : "10.0.130",
                   "DirLink" : "https://download.microsoft.com/download/9/3/5/9356AEC3-D562-4E16-BF7A-4369980CB0D5/cuda-repo-rhel7-10.0.130-1.x86_64.rpm",
                   "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874273",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64/cuda-rhel7.repo",
                   "DKMSUrl" : "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
                   "InstallMethod" : 0
                 },
                 {
                   "Num" : "9.2.88",
                   "FwLink" : "https://download.microsoft.com/download/F/F/A/FFAC979D-AD9C-4684-A6CE-C92BB9372A3B/cuda-repo-rhel7-9.2.88-1.x86_64.rpm",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64/cuda-rhel7.repo",
                   "DKMSUrl" : "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
                   "InstallMethod" : 0
                 },
@@ -356,6 +358,7 @@
                   "Num" : "9.1.85",
                   "DirLink" : "https://download.microsoft.com/download/F/F/A/FFAC979D-AD9C-4684-A6CE-C92BB9372A3B/cuda-repo-rhel7-9.1.85-1.x86_64.rpm",
                   "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874833",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64/cuda-rhel7.repo",
                   "DKMSUrl" : "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
                   "InstallMethod" : 0
                 }
@@ -861,7 +864,9 @@
         }
       ],
       "PublicKey" : {
-        "FwLink" : "https://download.microsoft.com/download/f/4/7/f472d46c-1bc2-49dc-b43b-c803ce3e2f1d/3bf863cc.pub"
+        "FwLink" : "https://download.microsoft.com/download/f/4/7/f472d46c-1bc2-49dc-b43b-c803ce3e2f1d/3bf863cc.pub",
+        "BaseUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
+        "KeyRing" : "cuda-keyring_1.0-1_all.deb"
       }
     }
   ],
