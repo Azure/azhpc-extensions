@@ -34,9 +34,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "472.39",
-                  "DirLink": "https://download.microsoft.com/download/3/2/2/322f99aa-57f3-4539-b5fc-718f8c0e2579/472.39_grid_win11_win10_64bit_Azure-SWL.exe",
+                  "Num": "512.78",
+                  "DirLink": "https://download.microsoft.com/download/7/3/6/7361d1b9-08c8-4571-87aa-18cf671e71a0/512.78_grid_win10_win11_server2016_server2019_server2022_64bit_azure_swl.exe",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874181"
+                },
+                {
+                  "Num": "472.39",
+                  "FwLink": "https://download.microsoft.com/download/3/2/2/322f99aa-57f3-4539-b5fc-718f8c0e2579/472.39_grid_win11_win10_64bit_Azure-SWL.exe"
                 },
                 {
                   "Num": "471.68",
@@ -368,9 +372,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "470.82",
-                  "DirLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run",
+                  "Num": "510.73",
+                  "DirLink": "https://download.microsoft.com/download/6/2/5/625e22a0-34ea-4d03-8738-a639acebc15e/NVIDIA-Linux-x86_64-510.73.08-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num": "470.82",
+                  "FwLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run"
                 },
                 {
                   "Num": "470.63",
@@ -506,9 +514,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "470.82",
-                  "DirLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run",
+                  "Num": "510.73",
+                  "DirLink": "https://download.microsoft.com/download/6/2/5/625e22a0-34ea-4d03-8738-a639acebc15e/NVIDIA-Linux-x86_64-510.73.08-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num": "470.82",
+                  "FwLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run"
                 },
                 {
                   "Num": "470.63",
@@ -637,9 +649,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "470.82",
-                  "DirLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run",
+                  "Num": "510.73",
+                  "DirLink": "https://download.microsoft.com/download/6/2/5/625e22a0-34ea-4d03-8738-a639acebc15e/NVIDIA-Linux-x86_64-510.73.08-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num": "470.82",
+                  "FwLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run"
                 },
                 {
                   "Num": "470.63",
@@ -762,9 +778,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "470.82",
-                  "DirLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run",
+                  "Num": "510.73",
+                  "DirLink": "https://download.microsoft.com/download/6/2/5/625e22a0-34ea-4d03-8738-a639acebc15e/NVIDIA-Linux-x86_64-510.73.08-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num": "470.82",
+                  "FwLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run"
                 },
                 {
                   "Num": "470.63",
