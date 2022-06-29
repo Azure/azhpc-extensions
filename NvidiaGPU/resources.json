@@ -11,9 +11,13 @@
               "Type" : "CUDA",
               "Version" : [
                 {
-                  "Num" : "451.82",
-                  "DirLink" : "https://download.microsoft.com/download/6/1/0/6102ece3-39ae-4a95-93c1-e76db97c4ed3/Tesla_Windows_451_82.exe",
+                  "Num" : "473.47",
+                  "DirLink" : "http://download.microsoft.com/download/a/c/a/aca6122c-3565-4f55-9d4d-56a1cecc6ba6/473.47-data-center-tesla-desktop-winserver-2019-2016-international.exe",
                   "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874179"
+                },
+                {
+                  "Num" : "451.82",
+                  "FwLink" : "https://download.microsoft.com/download/6/1/0/6102ece3-39ae-4a95-93c1-e76db97c4ed3/Tesla_Windows_451_82.exe"
                 },
                 {
                   "Num" : "398.75",
