@@ -766,14 +766,14 @@
               "Version" : [
                 {
                   "Num" : "11.1",
-                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
                   "InstallMethod" : 1
                 },
                 {
                   "Num" : "11.0",
-                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
                   "InstallMethod" : 1
                 }
               ]
@@ -868,8 +868,8 @@
                   "Comment" : "For NCv1 series / Tesla K80 GPUs",
                   "SkuRegEx" : "(nc[0-9]+r?(_promo)?)$",
                   "Num" : "11.1",
-                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
                   "DriverVersion" : "470",
                   "InstallMethod" : 1
                 },
@@ -877,8 +877,8 @@
                   "Comment" : "For NCasT4v3 series / Tesla T4 GPUs",
                   "SkuRegEx" : "(nc[0-9]+as_t4)",
                   "Num" : "11.1",
-                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
                   "DriverVersion" : "470",
                   "InstallMethod" : 1
                 }
