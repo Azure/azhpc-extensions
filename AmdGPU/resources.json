@@ -9,8 +9,8 @@
             {
               "Type": "Radeon",
               "Num": "GA",
-              "DirLink": "https://download.microsoft.com/download/4/1/2/412559d0-4de5-4fb1-aa27-eaa3873e1f81/AMD-Azure-NVv4-Driver-22Q2.exe",
-              "FwLink": "https://go.microsoft.com/fwlink/?linkid=2175154"
+              "DirLink": "https://download.microsoft.com/download/7/9/6/79620982-19db-4b10-8e09-bfb27402320d/Guest-AMD_GPU DRIVER-230208a-388197e-microsoft.zip",
+              "FwLink": "https://go.microsoft.com/fwlink/?linkid=2234555"
             }
           ]
         }
