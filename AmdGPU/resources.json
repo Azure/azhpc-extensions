@@ -11,12 +11,7 @@
               "Num": "GA",
               "DirLink": "https://download.microsoft.com/download/4/1/2/412559d0-4de5-4fb1-aa27-eaa3873e1f81/AMD-Azure-NVv4-Driver-22Q2.exe",
               "FwLink": "https://go.microsoft.com/fwlink/?linkid=2175154"
-            }
-          ]
-        },
-        {
-          "Name": "Phase4beta",
-          "Driver": [
+            },
             {
               "Type": "Radeon",
               "Num": "GA",
@@ -24,7 +19,7 @@
               "FwLink": "https://go.microsoft.com/fwlink/?linkid=2234555"
             }
           ]
-        }
+        }      
       ]
     }
   ]
