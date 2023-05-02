@@ -20,7 +20,7 @@
               "DirLink": "https://download.microsoft.com/download/7/9/6/79620982-19db-4b10-8e09-bfb27402320d/Guest-AMD_GPU DRIVER-230208a-388197e-microsoft.zip",
               "FwLink": "https://go.microsoft.com/fwlink/?linkid=2234555",
               "AuthenticodeSignature": "Guest-AMD_GPU DRIVER-230208a-388197e-microsoft\\Packages\\Drivers\\Display\\WT6A_INF\\amdfdans\\amdfdans.cat",
-              "DriverPath:": "Guest-AMD_GPU DRIVER-230208a-388197e-microsoft\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf"
+              "DriverPath": "Guest-AMD_GPU DRIVER-230208a-388197e-microsoft\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf"
             }
           ]
         }      
