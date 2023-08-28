@@ -561,7 +561,7 @@
                 },
                 {
                   "Num": "525.105",
-                  "DirLink": "https://download.microsoft.com/download/6/b/d/6bd2850f-5883-4e2a-9a35-edbd3dd6808c/NVIDIA-Linux-x86_64-525.105.17-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/b/d/6bd2850f-5883-4e2a-9a35-edbd3dd6808c/NVIDIA-Linux-x86_64-525.105.17-grid-azure.run"
                 },
                 {
                   "Num": "525.85",
