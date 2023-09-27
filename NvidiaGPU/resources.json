@@ -675,12 +675,6 @@
               "Type" : "CUDA",
               "Version" : [
                 {
-                  "Num" : "12.2",
-                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
-                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
-                  "InstallMethod" : 1
-                },
-                {
                   "Num" : "12.1",
                   "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
                   "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
