@@ -255,27 +255,28 @@
       "Version" : [
         {
           "Name" : "Ubuntu",
-          "Version" : "16.x",
+          "Version" : "22.x",
           "Driver" : [
             {
               "Type" : "CUDA",
               "Version" : [
                 {
-                  "Num" : "10.0.130",
-                  "DirLink" : "https://download.microsoft.com/download/9/3/5/9356AEC3-D562-4E16-BF7A-4369980CB0D5/cuda-repo-ubuntu1604_10.0.130-1_amd64.deb",
-                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874271",
-                  "InstallMethod" : 0
+                  "Num" : "12.2",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin",
+                  "InstallMethod" : 1
                 },
                 {
-                  "Num" : "9.2.88",
-                  "FwLink" : "https://download.microsoft.com/download/F/F/A/FFAC979D-AD9C-4684-A6CE-C92BB9372A3B/cuda-repo-ubuntu1604_9.2.88-1_amd64.deb",
-                  "InstallMethod" : 0
+                  "Num" : "12.1",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin",
+                  "InstallMethod" : 1
                 },
                 {
-                  "Num" : "9.1.85",
-                  "DirLink" : "https://download.microsoft.com/download/F/F/A/FFAC979D-AD9C-4684-A6CE-C92BB9372A3B/cuda-repo-ubuntu1604_9.1.85-1_amd64.deb",
-                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874831",
-                  "InstallMethod" : 0
+                  "Num" : "12.0",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin",
+                  "InstallMethod" : 1
                 }
               ]
             },
@@ -678,6 +679,18 @@
               "Type" : "CUDA",
               "Version" : [
                 {
+                  "Num" : "12.1",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
+                  "InstallMethod" : 1
+                },
+                {
+                  "Num" : "12.0",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
+                  "InstallMethod" : 1
+                },
+                {
                   "Num" : "11.1",
                   "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
                   "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
@@ -820,15 +833,33 @@
               "Type" : "CUDA",
               "Version" : [
                 {
+                  "Num" : "12.2",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
+                  "InstallMethod" : 1
+                },
+                {
+                  "Num" : "12.1",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
+                  "InstallMethod" : 1
+                },
+                {
+                  "Num" : "12.0",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
+                  "InstallMethod" : 1
+                },
+                {
                   "Num" : "11.1",
-                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
-                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
                   "InstallMethod" : 1
                 },
                 {
                   "Num" : "11.0",
-                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
-                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
+                  "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
+                  "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
                   "InstallMethod" : 1
                 }
               ]
