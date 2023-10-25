@@ -38,9 +38,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "536.25",
-                  "DirLink": "https://download.microsoft.com/download/c/2/6/c265afdc-b985-470d-952c-b3f0cc9a2be8/536.25_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
+                  "Num": "537.13",
+                  "DirLink": "https://download.microsoft.com/download/9/d/6/9d6f3611-ff0c-43bc-8958-fe7fb0ded78d/537.13_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874181"
+                },
+                {
+                  "Num": "536.25",
+                  "FwLink": "https://download.microsoft.com/download/c/2/6/c265afdc-b985-470d-952c-b3f0cc9a2be8/536.25_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
                 },
                 {
                   "Num": "528.89",
