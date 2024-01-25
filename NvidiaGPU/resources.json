@@ -38,9 +38,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "537.13",
-                  "DirLink": "https://download.microsoft.com/download/9/d/6/9d6f3611-ff0c-43bc-8958-fe7fb0ded78d/537.13_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
+                  "Num": "538.15",
+                  "DirLink": "https://download.microsoft.com/download/c/b/0/cb00d90e-5786-4882-89cd-75fb17fa787d/538.15_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874181"
+                },
+                {
+                  "Num": "537.13",
+                  "DirLink": "https://download.microsoft.com/download/9/d/6/9d6f3611-ff0c-43bc-8958-fe7fb0ded78d/537.13_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe"
                 },
                 {
                   "Num": "536.25",
@@ -284,9 +288,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "535.54",
-                  "DirLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run",
+                  "Num": "535.154",
+                  "DirLink": "https://download.microsoft.com/download/1/4/4/14450d0e-a3f2-4b0a-9bb4-a8e729e986c4/NVIDIA-Linux-x86_64-535.154.05-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num": "535.54",
+                  "DirLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run"
                 },
                 {
                   "Num": "525.105",
@@ -413,9 +421,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "535.54",
-                  "DirLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run",
+                  "Num": "535.154",
+                  "DirLink": "https://download.microsoft.com/download/1/4/4/14450d0e-a3f2-4b0a-9bb4-a8e729e986c4/NVIDIA-Linux-x86_64-535.154.05-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num": "535.54",
+                  "DirLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run"
                 },
                 {
                   "Num": "525.105",
@@ -560,9 +572,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "535.54",
-                  "DirLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run",
+                  "Num": "535.154",
+                  "DirLink": "https://download.microsoft.com/download/1/4/4/14450d0e-a3f2-4b0a-9bb4-a8e729e986c4/NVIDIA-Linux-x86_64-535.154.05-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num": "535.54",
+                  "DirLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run"
                 },
                 {
                   "Num": "525.105",
@@ -714,9 +730,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "535.54",
-                  "DirLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run",
+                  "Num": "535.154",
+                  "DirLink": "https://download.microsoft.com/download/1/4/4/14450d0e-a3f2-4b0a-9bb4-a8e729e986c4/NVIDIA-Linux-x86_64-535.154.05-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num": "535.54",
+                  "DirLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run"
                 },
                 {
                   "Num": "525.105",
@@ -868,9 +888,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "535.54",
-                  "DirLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run",
+                  "Num": "535.154",
+                  "DirLink": "https://download.microsoft.com/download/1/4/4/14450d0e-a3f2-4b0a-9bb4-a8e729e986c4/NVIDIA-Linux-x86_64-535.154.05-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                },
+                {
+                  "Num": "535.54",
+                  "DirLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run"
                 },
                 {
                   "Num": "525.105",
