@@ -31,6 +31,48 @@
               "DriverPath": "Guest-AMD_GPU DRIVER-230208a-388197e-microsoft\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf"
             }
           ]
+        },
+        {
+          "Name": "Server2022",
+          "Driver": [
+            {
+              "SKU": "NVv4",
+              "Type": "Radeon",
+              "Num": "GA",
+              "DirLink": "",
+              "FwLink": "",
+              "DriverPath": ""
+            },
+            {
+              "SKU": "NGv1",
+              "Type": "Radeon",
+              "Num": "GA",
+              "DirLink": "https://download.microsoft.com/download/2/0/9/209f96a0-082c-4ee9-965a-f5d73cb515a2/non-whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-winsvr2022.exe",
+              "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268726",
+              "DriverPath": ""
+            }
+          ]
+        },
+        {
+          "Name": "Server2019",
+          "Driver": [
+            {
+              "SKU": "NVv4",
+              "Type": "Radeon",
+              "Num": "GA",
+              "DirLink": "",
+              "FwLink": "",
+              "DriverPath": ""
+            },
+            {
+              "SKU": "NGv1",
+              "Type": "Radeon",
+              "Num": "GA",
+              "DirLink": "https://download.microsoft.com/download/4/5/5/455cbd46-2bf6-4b20-affb-c320c36ba9f4/non-whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-winsvr2019.exe",
+              "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268376",
+              "DriverPath": ""
+            }
+          ]
         }
       ]
     }
