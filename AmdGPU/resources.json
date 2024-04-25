@@ -39,8 +39,8 @@
               "SKU": "NVv4",
               "Type": "Radeon",
               "Num": "GA",
-              "DirLink": "",
-              "FwLink": "",
+              "DirLink": " https://download.microsoft.com/download/2/d/3/2d328d15-4188-4fdb-8912-fb300a212dfc/AMD-Azure-NVv4-Driver-23Q3-winsvr2022.exe",
+              "FwLink": "https://go.microsoft.com/fwlink/?linkid=2269817",
               "DriverPath": ""
             },
             {
@@ -60,8 +60,8 @@
               "SKU": "NVv4",
               "Type": "Radeon",
               "Num": "GA",
-              "DirLink": "",
-              "FwLink": "",
+              "DirLink": "https://download.microsoft.com/download/e/8/8/e88bb244-b8e8-47cc-9f86-9ba2632b3cb6/AMD-Azure-NVv4-Driver-23Q3-winsvr2019.exe",
+              "FwLink": "https://go.microsoft.com/fwlink/?linkid=2269917",
               "DriverPath": ""
             },
             {
