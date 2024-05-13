@@ -12,7 +12,8 @@
               "Num": "GA",
               "DirLink": "https://download.microsoft.com/download/4/1/2/412559d0-4de5-4fb1-aa27-eaa3873e1f81/AMD-Azure-NVv4-Driver-22Q2.exe",
               "FwLink": "https://go.microsoft.com/fwlink/?linkid=2175154",
-              "DriverPath": "AMD\\AMD-Azure-NVv4-Driver-22Q2\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf"
+              "DriverPath": "AMD\\AMD-Azure-NVv4-Driver-22Q2\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
+              "DriverFileSize":508080113
             },
             {
               "SKU": "NGv1",
@@ -20,7 +21,8 @@
               "Num": "GA",
               "DirLink": "https://download.microsoft.com/download/9/1/e/91ed0d01-1a2c-46ad-b014-51ece3b1936c/amd-software-cloud-edition-23.q3-azure-ngads-v620.exe",
               "FwLink": "https://go.microsoft.com/fwlink/?linkid=2234555",
-              "DriverPath": "AMD\\AMD Software Cloud Edition 23.Q3\\Packages\\Drivers\\Display\\WT6A_INF\\"
+              "DriverPath": "AMD\\AMD Software Cloud Edition 23.Q3\\Packages\\Drivers\\Display\\WT6A_INF\\",
+              "DriverFileSize":672465407
             },
             {
               "SKU": "NGv1",
@@ -39,9 +41,10 @@
               "SKU": "NVv4",
               "Type": "Radeon",
               "Num": "GA",
-              "DirLink": " https://download.microsoft.com/download/2/d/3/2d328d15-4188-4fdb-8912-fb300a212dfc/AMD-Azure-NVv4-Driver-23Q3-winsvr2022.exe",
+              "DirLink": "https://download.microsoft.com/download/2/d/3/2d328d15-4188-4fdb-8912-fb300a212dfc/AMD-Azure-NVv4-Driver-23Q3-winsvr2022.exe",
               "FwLink": "https://go.microsoft.com/fwlink/?linkid=2269817",
-              "DriverPath": ""
+              "DriverPath": "",
+              "DriverFileSize":603286873
             },
             {
               "SKU": "NGv1",
@@ -49,7 +52,8 @@
               "Num": "GA",
               "DirLink": "https://download.microsoft.com/download/2/0/9/209f96a0-082c-4ee9-965a-f5d73cb515a2/non-whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-winsvr2022.exe",
               "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268726",
-              "DriverPath": ""
+              "DriverPath": "",
+              "DriverFileSize":615994424
             }
           ]
         },
@@ -62,7 +66,8 @@
               "Num": "GA",
               "DirLink": "https://download.microsoft.com/download/e/8/8/e88bb244-b8e8-47cc-9f86-9ba2632b3cb6/AMD-Azure-NVv4-Driver-23Q3-winsvr2019.exe",
               "FwLink": "https://go.microsoft.com/fwlink/?linkid=2269917",
-              "DriverPath": ""
+              "DriverPath": "",
+              "DriverFileSize":603118818
             },
             {
               "SKU": "NGv1",
@@ -70,7 +75,8 @@
               "Num": "GA",
               "DirLink": "https://download.microsoft.com/download/4/5/5/455cbd46-2bf6-4b20-affb-c320c36ba9f4/non-whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-winsvr2019.exe",
               "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268376",
-              "DriverPath": ""
+              "DriverPath": "",
+              "DriverFileSize":615974392
             }
           ]
         }
