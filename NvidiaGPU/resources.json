@@ -42,110 +42,154 @@
               "Type" : "GRID",
               "Version" : [
                 {
+                  "Num": "538.46",
+                  "DirLink": "https://download.microsoft.com/download/a/3/1/a3186ac9-1f9f-4351-a8e7-b5b34ea4e4ea/538.46_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874181",
+                  "vGPUVersion" :"16.5",
+                  "SupportedOSVersions" : "Windows Server 2019, Windows Server 2022, Windows 10 22H2, Windows 11 23H2"
+                },
+                {
                   "Num": "538.15",
                   "DirLink": "https://download.microsoft.com/download/c/b/0/cb00d90e-5786-4882-89cd-75fb17fa787d/538.15_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874181"
+                  "vGPUVersion" :"16.3",
+                  "SupportedOSVersions" : "Windows Server 2019, Windows Server 2022, Windows 10 22H2, Windows 11 22H2"
                 },
                 {
                   "Num": "537.13",
-                  "FwLink": "https://download.microsoft.com/download/9/d/6/9d6f3611-ff0c-43bc-8958-fe7fb0ded78d/537.13_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe"
+                  "FwLink": "https://download.microsoft.com/download/9/d/6/9d6f3611-ff0c-43bc-8958-fe7fb0ded78d/537.13_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
+                  "vGPUVersion" :"16.2",
+                  "SupportedOSVersions" : "Windows Server 2019, Windows Server 2022, Windows 10 22H2, Windows 11 22H2"
                 },
                 {
                   "Num": "536.25",
-                  "FwLink": "https://download.microsoft.com/download/c/2/6/c265afdc-b985-470d-952c-b3f0cc9a2be8/536.25_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe"
+                  "FwLink": "https://download.microsoft.com/download/c/2/6/c265afdc-b985-470d-952c-b3f0cc9a2be8/536.25_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
+                  "vGPUVersion" :"16.0",
+                  "SupportedOSVersions" : "Windows Server 2019, Windows Server 2022, Windows 10 22H2, Windows 11 22H2"
                 },
                 {
                   "Num": "528.89",
-                  "FwLink": "https://download.microsoft.com/download/2/5/a/25ad21ca-ed89-41b4-935f-73023ef6c5af/528.89_grid_win10_win11_server2019_server2022_dch_64bit_international_Azure_swl.exe"
+                  "FwLink": "https://download.microsoft.com/download/2/5/a/25ad21ca-ed89-41b4-935f-73023ef6c5af/528.89_grid_win10_win11_server2019_server2022_dch_64bit_international_Azure_swl.exe",
+                  "vGPUVersion" :"15.2",
+                  "SupportedOSVersions" : "Windows Server 2019, Windows Server 2022, Windows 10 22H2"
                 },
                 {
                   "Num": "528.24",
-                  "FwLink": "https://download.microsoft.com/download/f/a/f/fafa2972-4975-482e-99e6-442d5ad864a1/528.24_grid_win10_win11_server2019_server2022_dch_64bit_international-Azure-swl.exe"
+                  "FwLink": "https://download.microsoft.com/download/f/a/f/fafa2972-4975-482e-99e6-442d5ad864a1/528.24_grid_win10_win11_server2019_server2022_dch_64bit_international-Azure-swl.exe",
+                  "vGPUVersion" :"15.1",
+                  "SupportedOSVersions" : "Windows Server 2019, Windows Server 2022, Windows 10 22H2"
                 },
                 {
                   "Num": "527.41",
-                  "FwLink": "https://download.microsoft.com/download/4/6/0/4605339d-133c-4b7b-a750-90352df79aa6/527.41_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe"
+                  "FwLink": "https://download.microsoft.com/download/4/6/0/4605339d-133c-4b7b-a750-90352df79aa6/527.41_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
+                  "vGPUVersion" :"15.0",
+                  "SupportedOSVersions" : "Windows Server 2019, Windows Server 2022, Windows 10 22H2"
                 },
                 {
                   "Num": "512.78",
-                  "FwLink": "https://download.microsoft.com/download/7/3/6/7361d1b9-08c8-4571-87aa-18cf671e71a0/512.78_grid_win10_win11_server2016_server2019_server2022_64bit_azure_swl.exe"
+                  "FwLink": "https://download.microsoft.com/download/7/3/6/7361d1b9-08c8-4571-87aa-18cf671e71a0/512.78_grid_win10_win11_server2016_server2019_server2022_64bit_azure_swl.exe",
+                  "vGPUVersion" :"14.1",
+                  "SupportedOSVersions" : "Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows Server 2022, Windows 10 21H2"
                 },
                 {
                   "Num": "472.39",
-                  "FwLink": "https://download.microsoft.com/download/3/2/2/322f99aa-57f3-4539-b5fc-718f8c0e2579/472.39_grid_win11_win10_64bit_Azure-SWL.exe"
+                  "FwLink": "https://download.microsoft.com/download/3/2/2/322f99aa-57f3-4539-b5fc-718f8c0e2579/472.39_grid_win11_win10_64bit_Azure-SWL.exe",
+                  "vGPUVersion" :"13.1",
+                  "SupportedOSVersions" : "Windows Server 2012 R2, Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows Server 2022, Windows 10 21H2"
                 },
                 {
                   "Num": "471.68",
-                  "FwLink": "https://download.microsoft.com/download/f/0/1/f0121609-68b4-48af-8426-ef454d4d2376/471.68_grid_win10_server2016_server2019_server-azure-swl.exe"
+                  "FwLink": "https://download.microsoft.com/download/f/0/1/f0121609-68b4-48af-8426-ef454d4d2376/471.68_grid_win10_server2016_server2019_server-azure-swl.exe",
+                  "vGPUVersion" :"13",
+                  "SupportedOSVersions" : "Windows Server 2012 R2, Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows Server 2022, Windows 10 21H2"
                 },
                 {
                   "Num": "462.31",
-                  "FwLink": "https://download.microsoft.com/download/0/0/1/001f0edf-d852-4297-9cb7-10b31b1abf45/462.31_grid_win10_server2016_server2019_64bit_azure_swl.exe"
+                  "FwLink": "https://download.microsoft.com/download/0/0/1/001f0edf-d852-4297-9cb7-10b31b1abf45/462.31_grid_win10_server2016_server2019_64bit_azure_swl.exe",
+                  "vGPUVersion" :"12.2",
+                  "SupportedOSVersions" : "Windows Server 2012 R2, Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows 10 21H1"
                 },
                 {
                   "Num": "461.33",
-                  "FwLink": "https://download.microsoft.com/download/9/7/e/97e1be73-d24b-410b-9c08-cc98c7becfa3/461.33_grid_win10_server2016_server2019_64bit_azure_swl.exe"
+                  "FwLink": "https://download.microsoft.com/download/9/7/e/97e1be73-d24b-410b-9c08-cc98c7becfa3/461.33_grid_win10_server2016_server2019_64bit_azure_swl.exe",
+                  "vGPUVersion" :"12.1",
+                  "SupportedOSVersions" : "Windows Server 2012 R2, Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows 10 21H1"
                 },
                 {
                   "Num": "461.09",
-                  "FwLink": "https://download.microsoft.com/download/4/8/d/48d2d45b-bebc-44ad-9c58-e0b79a9d4ff2/461.09_grid_win10_server2016_server2019_64bit_azure_swl.exe"
+                  "FwLink": "https://download.microsoft.com/download/4/8/d/48d2d45b-bebc-44ad-9c58-e0b79a9d4ff2/461.09_grid_win10_server2016_server2019_64bit_azure_swl.exe",
+                  "vGPUVersion" :"12.0",
+                  "SupportedOSVersions" : "Windows Server 2012 R2, Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows 10 21H1"
                 },
                 {
                   "Num": "452.77",
-                  "FwLink": "https://download.microsoft.com/download/f/d/5/fd5ad39b-89cb-4990-ae85-a6fd30475584/452.77_grid_win10_server2016_server2019_64bit_azure_swl.exe"
+                  "FwLink": "https://download.microsoft.com/download/f/d/5/fd5ad39b-89cb-4990-ae85-a6fd30475584/452.77_grid_win10_server2016_server2019_64bit_azure_swl.exe",
+                  "vGPUVersion" :"11.3"
                 },
                 {
                   "Num": "452.57",
-                  "FwLink": "https://download.microsoft.com/download/1/b/1/1b15516a-de49-4ba4-8651-6abda4f7fb82/452.57_grid_win10_server2016_server2019_64bit_international.exe"
+                  "FwLink": "https://download.microsoft.com/download/1/b/1/1b15516a-de49-4ba4-8651-6abda4f7fb82/452.57_grid_win10_server2016_server2019_64bit_international.exe",
+                  "vGPUVersion" :"11.2"
                 },
                 {
                   "Num": "452.39",
-                  "FwLink": "https://download.microsoft.com/download/9/9/1/99186e1b-d27d-47d5-9957-175c88f4efbe/452.39_grid_win10_64bit_whql.exe"
+                  "FwLink": "https://download.microsoft.com/download/9/9/1/99186e1b-d27d-47d5-9957-175c88f4efbe/452.39_grid_win10_64bit_whql.exe",
+                  "vGPUVersion" :"11.1"
                 },
                 {
                   "Num": "451.48",
-                  "FwLink": "https://download.microsoft.com/download/C/1/4/c147a482-1364-4d12-b9e3-0beda0f00a13/451.48_grid_win10_server2016_server2019_64bit_international.exe"
+                  "FwLink": "https://download.microsoft.com/download/C/1/4/c147a482-1364-4d12-b9e3-0beda0f00a13/451.48_grid_win10_server2016_server2019_64bit_international.exe",
+                  "vGPUVersion" :"11.0"
                 },
                 {
                   "Num" : "442.06",
-                  "FwLink" : "https://download.microsoft.com/download/b/8/f/b8f5ecec-b8f9-47de-b007-ac40adc88dc8/442.06_grid_win10_64bit_international_whql.exe"
+                  "FwLink" : "https://download.microsoft.com/download/b/8/f/b8f5ecec-b8f9-47de-b007-ac40adc88dc8/442.06_grid_win10_64bit_international_whql.exe",
+                  "vGPUVersion" :"10.1"
                 },
                 {
                   "Num" : "441.66",
-                  "FwLink" : "https://download.microsoft.com/download/2/a/3/2a316e62-3be9-4ddb-ae8e-c04b6df6e22d/441.66_grid_win10_server2016_server2019_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/2/a/3/2a316e62-3be9-4ddb-ae8e-c04b6df6e22d/441.66_grid_win10_server2016_server2019_64bit_international.exe",
+                  "vGPUVersion" :"10.0"
                 },
                 {
                   "Num" : "431.79",
-                  "FwLink" : "https://download.microsoft.com/download/e/8/2/e8257939-a439-4da8-a927-b64b63743db1/431.79_grid_win10_server2016_server2019_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/e/8/2/e8257939-a439-4da8-a927-b64b63743db1/431.79_grid_win10_server2016_server2019_64bit_international.exe",
+                  "vGPUVersion" :"9.1"
                 },
                 {
                   "Num" : "431.02",
-                  "FwLink" : "https://download.microsoft.com/download/8/C/C/8CC88D54-EB07-44D3-8FA9-B797B173ED04/431.02_grid_win10_server2016_server2019_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/8/C/C/8CC88D54-EB07-44D3-8FA9-B797B173ED04/431.02_grid_win10_server2016_server2019_64bit_international.exe",
+                  "vGPUVersion" :"9.0"
                 },
                 {
                   "Num" : "425.31",
-                  "FwLink" : "https://download.microsoft.com/download/4/8/C/48C2D46E-EB64-460E-A8D9-0F55737D0D68/425.31_grid_win10_server2016_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/4/8/C/48C2D46E-EB64-460E-A8D9-0F55737D0D68/425.31_grid_win10_server2016_64bit_international.exe",
+                  "vGPUVersion" :"8.0"
                 },
                 {
                   "Num" : "412.16",
-                  "FwLink" : "https://download.microsoft.com/download/0/B/0/0B082E50-4162-4910-B422-81B2E06E28B5/412.16_grid_win10_server2016_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/0/B/0/0B082E50-4162-4910-B422-81B2E06E28B5/412.16_grid_win10_server2016_64bit_international.exe",
+                  "vGPUVersion" :"7.1"
                 },
                 {
                   "Num" : "411.81",
-                  "FwLink" : "https://download.microsoft.com/download/0/B/0/0B082E50-4162-4910-B422-81B2E06E28B5/411.81_grid_win10_server2016_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/0/B/0/0B082E50-4162-4910-B422-81B2E06E28B5/411.81_grid_win10_server2016_64bit_international.exe",
+                  "vGPUVersion" :"7.0"
                 },
                 {
                   "Num" : "391.81",
-                  "FwLink" : "https://download.microsoft.com/download/A/3/A/A3AA4560-02DC-4315-A503-52E4B5B1E0ED/391.81_grid_win10_server2016_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/A/3/A/A3AA4560-02DC-4315-A503-52E4B5B1E0ED/391.81_grid_win10_server2016_64bit_international.exe",
+                  "vGPUVersion" :"6.2"
                 },
                 {
                   "Num" : "391.58",
-                  "FwLink" : "https://download.microsoft.com/download/1/5/B/15B59944-F780-4A80-A8E1-D4489C83E830/391.58_grid_win10_server2016_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/1/5/B/15B59944-F780-4A80-A8E1-D4489C83E830/391.58_grid_win10_server2016_64bit_international.exe",
+                  "vGPUVersion" :"6.1"
                 },
                 {
                   "Num" : "391.03",
                   "DirLink" : "https://download.microsoft.com/download/7/D/2/7D276FE8-93AF-446E-8B0D-0B9EA5700255/391.03_grid_win10_server2016_64bit_international.exe",
-                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874799"
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874799",
+                  "vGPUVersion" :"6.0"
                 }
               ]
             }
@@ -179,72 +223,93 @@
                 {
                   "Num": "471.68",
                   "DirLink": "https://download.microsoft.com/download/9/b/4/9b4d4f8d-7962-4a67-839b-37cc95756759/471.68_grid_winserver2012R2_64bit_azure_swl.exe",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874184"
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874184",
+                  "vGPUVersion" :"13.0",
+                  "SupportedOSVersions" : "Windows Server 2012 R2, Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows Server 2022, Windows 10 21H2"
                 },
                 {
                   "Num": "462.31",
-                  "FwLink": "https://download.microsoft.com/download/1/2/0/120551f5-cc05-4911-bd29-88fb2747213c/462.31_grid_server2012R2_64bit_azure_swl.exe"
+                  "FwLink": "https://download.microsoft.com/download/1/2/0/120551f5-cc05-4911-bd29-88fb2747213c/462.31_grid_server2012R2_64bit_azure_swl.exe",
+                  "vGPUVersion" :"12.2",
+                  "SupportedOSVersions" : "Windows Server 2012 R2, Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows 10 21H1"
                 },
                 {
                   "Num": "461.33",
-                  "FwLink": "https://download.microsoft.com/download/9/9/c/99caf5c6-af9f-48b2-bcb0-af5ec64b8592/461.33_grid_server2012R2_64bit_azure_swl.exe"
+                  "FwLink": "https://download.microsoft.com/download/9/9/c/99caf5c6-af9f-48b2-bcb0-af5ec64b8592/461.33_grid_server2012R2_64bit_azure_swl.exe",
+                  "vGPUVersion" :"12.1",
+                  "SupportedOSVersions" : "Windows Server 2012 R2, Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows 10 21H1"
                 },
                 {
                   "Num": "461.09",
-                  "FwLink": "https://download.microsoft.com/download/c/5/e/c5e7df99-364d-45f5-bff7-c253d59121f1/461.09_grid_server2012R2_64bit_azure_swl.exe"
+                  "FwLink": "https://download.microsoft.com/download/c/5/e/c5e7df99-364d-45f5-bff7-c253d59121f1/461.09_grid_server2012R2_64bit_azure_swl.exe",
+                  "vGPUVersion" :"12.0",
+                  "SupportedOSVersions" : "Windows Server 2012 R2, Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows 10 21H1"
                 },
                 {
                   "Num": "452.77",
-                  "FwLink": "https://download.microsoft.com/download/5/4/3/54323644-3c84-4aa1-97ec-35491f94c866/452.77_grid_server2012R2_64bit_azure_swl.exe"
+                  "FwLink": "https://download.microsoft.com/download/5/4/3/54323644-3c84-4aa1-97ec-35491f94c866/452.77_grid_server2012R2_64bit_azure_swl.exe",
+                  "vGPUVersion" :"11.3"
                 },
                 {
                   "Num": "452.57",
-                  "FwLink": "https://download.microsoft.com/download/8/2/9/829ebbe2-182a-4037-8698-a27e6f190a81/452.57_grid_server2012R2_64bit_international.exe"
+                  "FwLink": "https://download.microsoft.com/download/8/2/9/829ebbe2-182a-4037-8698-a27e6f190a81/452.57_grid_server2012R2_64bit_international.exe",
+                  "vGPUVersion" :"11.2"
                 },
                 {
                   "Num": "451.48",
-                  "FwLink": "https://download.microsoft.com/download/f/7/2/f729e28b-57b8-4141-b577-38d2390973ef/451.48_grid_server2012R2_64bit_international.exe"
+                  "FwLink": "https://download.microsoft.com/download/f/7/2/f729e28b-57b8-4141-b577-38d2390973ef/451.48_grid_server2012R2_64bit_international.exe",
+                  "vGPUVersion" :"11.0"
                 },
                 {
                   "Num" : "442.06",
-                  "FwLink" : "https://download.microsoft.com/download/4/3/3/4330fd5c-c685-4ca1-abca-3b2fb3c11d2e/442.06_grid_win8_win7_64bit_international_whql.exe"
+                  "FwLink" : "https://download.microsoft.com/download/4/3/3/4330fd5c-c685-4ca1-abca-3b2fb3c11d2e/442.06_grid_win8_win7_64bit_international_whql.exe",
+                  "vGPUVersion" :"10.1"
                 },
                 {
                   "Num" : "441.66",
-                  "FwLink" : "https://download.microsoft.com/download/d/8/0/d80091f8-0d55-47c2-958a-bacd136f432a/441.66_grid_win7_win8_server2008R2_server2012R2_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/d/8/0/d80091f8-0d55-47c2-958a-bacd136f432a/441.66_grid_win7_win8_server2008R2_server2012R2_64bit_international.exe",
+                  "vGPUVersion" :"10.0"
                 },
                 {
                   "Num" : "431.79",
-                  "FwLink" : "https://download.microsoft.com/download/8/6/e/86ef2daa-b31e-43ad-90f2-bd795384b71e/431.79_grid_win7_win8_server2008R2_server2012R2_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/8/6/e/86ef2daa-b31e-43ad-90f2-bd795384b71e/431.79_grid_win7_win8_server2008R2_server2012R2_64bit_international.exe",
+                  "vGPUVersion" :"9.1"
                 },
                 {
                   "Num" : "431.02",
-                  "FwLink" : "https://download.microsoft.com/download/B/D/6/BD6D1C34-E41F-4654-B5AB-F4DA9C08AA64/431.02_grid_win7_win8_server2008R2_server2012R2_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/B/D/6/BD6D1C34-E41F-4654-B5AB-F4DA9C08AA64/431.02_grid_win7_win8_server2008R2_server2012R2_64bit_international.exe",
+                  "vGPUVersion" :"9.0"
                 },
                 {
                   "Num" : "425.31",
-                  "FwLink" : "https://download.microsoft.com/download/6/D/7/6D73C628-B5FB-4243-9520-DAEF363223CB/425.31_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/6/D/7/6D73C628-B5FB-4243-9520-DAEF363223CB/425.31_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe",
+                  "vGPUVersion" :"8.0"
                 },
                 {
                   "Num" : "412.16",
-                  "FwLink" : "https://download.microsoft.com/download/0/9/8/098B5E8A-0563-4B25-9CDB-173B03B52C60/412.16_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/0/9/8/098B5E8A-0563-4B25-9CDB-173B03B52C60/412.16_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe",
+                  "vGPUVersion" :"7.1"
                 },
                 {
                   "Num" : "411.81",
-                  "FwLink" : "https://download.microsoft.com/download/0/9/8/098B5E8A-0563-4B25-9CDB-173B03B52C60/411.81_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/0/9/8/098B5E8A-0563-4B25-9CDB-173B03B52C60/411.81_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe",
+                  "vGPUVersion" :"7.0"
                 },
                 {
                   "Num" : "391.81",
-                  "FwLink" : "https://download.microsoft.com/download/4/E/B/4EB0A8FB-ADC5-43F5-8AF6-C35CA3E8C68A/391.81_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/4/E/B/4EB0A8FB-ADC5-43F5-8AF6-C35CA3E8C68A/391.81_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe",
+                  "vGPUVersion" :"6.2"
                 },
                 {
                   "Num" : "391.58",
-                  "FwLink" : "https://download.microsoft.com/download/C/F/C/CFCDAFC7-7A0D-418B-9188-4AB5F06DDC19/391.58_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe"
+                  "FwLink" : "https://download.microsoft.com/download/C/F/C/CFCDAFC7-7A0D-418B-9188-4AB5F06DDC19/391.58_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe",
+                  "vGPUVersion" :"6.1"
                 },
                 {
                   "Num" : "391.03",
                   "DirLink" : "https://download.microsoft.com/download/F/9/3/F9317ABC-8EAA-45A8-882B-3E3F4C20DE15/391.03_grid_win8_win7_server2012R2_server2008R2_64bit_international.exe",
-                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874814"
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874814",
+                  "vGPUVersion" :"6.0"
                 }
               ]
             }
@@ -292,98 +357,136 @@
               "Type" : "GRID",
               "Version" : [
                 {
+                  "Num": "535.161",
+                  "DirLink": "https://download.microsoft.com/download/8/d/a/8da4fb8e-3a9b-4e6a-bc9a-72ff64d7a13c/NVIDIA-Linux-x86_64-535.161.08-grid-azure.run",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272",
+                  "vGPUVersion" :"16.5",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9 "
+                },
+                {
                   "Num": "535.154",
                   "DirLink": "https://download.microsoft.com/download/1/4/4/14450d0e-a3f2-4b0a-9bb4-a8e729e986c4/NVIDIA-Linux-x86_64-535.154.05-grid-azure.run",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                  "vGPUVersion" :"16.3",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9 "
                 },
                 {
                   "Num": "535.54",
-                  "FwLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run",
+                  "vGPUVersion" :"16.2",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9, 7.9"
                 },
                 {
                   "Num": "525.105",
-                  "FwLink": "https://download.microsoft.com/download/6/b/d/6bd2850f-5883-4e2a-9a35-edbd3dd6808c/NVIDIA-Linux-x86_64-525.105.17-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/b/d/6bd2850f-5883-4e2a-9a35-edbd3dd6808c/NVIDIA-Linux-x86_64-525.105.17-grid-azure.run",
+                  "vGPUVersion" :"15.2",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Ubuntu 18.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 8.7, 8.8, 7.9"
                 },
                 {
                   "Num": "525.85",
-                  "FwLink": "https://download.microsoft.com/download/c/e/9/ce913061-ccf1-4c88-94ff-294e48c55439/NVIDIA-Linux-x86_64-525.85.05-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/c/e/9/ce913061-ccf1-4c88-94ff-294e48c55439/NVIDIA-Linux-x86_64-525.85.05-grid-azure.run",
+                  "vGPUVersion" :"15.1",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Ubuntu 18.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 8.7, 8.8, 7.9"
                 },
                 {
                   "Num": "525.60",
-                  "FwLink": "https://download.microsoft.com/download/1/e/8/1e82a212-9e77-4d74-9455-828d430a39f1/NVIDIA-Linux-x86_64-525.60.13-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/1/e/8/1e82a212-9e77-4d74-9455-828d430a39f1/NVIDIA-Linux-x86_64-525.60.13-grid-azure.run",
+                  "vGPUVersion" :"15.0",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Ubuntu 18.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 8.7, 8.8, 7.9"
                 },
                 {
                   "Num": "470.82",
-                  "FwLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run",
+                  "vGPUVersion" :"13.1",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 20.04 LTS LTS, Red Hat Enterprise Linux 8.1, 8.2, 8.4"
                 },
                 {
                   "Num": "470.63",
-                  "FwLink": "https://download.microsoft.com/download/b/d/d/bdd729ee-5003-4427-ace4-a7b9172b2e29/NVIDIA-Linux-x86_64-470.63.01-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/b/d/d/bdd729ee-5003-4427-ace4-a7b9172b2e29/NVIDIA-Linux-x86_64-470.63.01-grid-azure.run",
+                  "vGPUVersion" :"13.0",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 20.04 LTS LTS, Red Hat Enterprise Linux 8.1, 8.2, 8.4"
                 },
                 {
                   "Num": "460.73",
-                  "FwLink": "https://download.microsoft.com/download/5/f/9/5f9d855b-8910-4e2d-90a6-5a038e78940f/NVIDIA-Linux-x86_64-460.73.01-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/5/f/9/5f9d855b-8910-4e2d-90a6-5a038e78940f/NVIDIA-Linux-x86_64-460.73.01-grid-azure.run",
+                  "vGPUVersion" :"12.2",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS LTS, Red Hat Enterprise Linux 8.1 - 8.4, 7.7 - 7.9"
                 },
                 {
                   "Num": "460.32",
-                  "FwLink": "https://download.microsoft.com/download/9/5/c/95c667ff-ab95-4c56-89e0-e13e9a76782d/NVIDIA-Linux-x86_64-460.32.03-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/9/5/c/95c667ff-ab95-4c56-89e0-e13e9a76782d/NVIDIA-Linux-x86_64-460.32.03-grid-azure.run",
+                  "vGPUVersion" :"12.1",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS LTS, Red Hat Enterprise Linux 8.1 - 8.3, 7.7 - 7.9"
                 },
                 {
                   "Num": "450.102",
-                  "FwLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run",
+                  "vGPUVersion" :"11.3"
                 },
                 {
                   "Num": "450.89",
-                  "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run",
+                  "vGPUVersion" :"11.2"
                 },
                 {
                   "Num": "450.80",
-                  "FwLink": "https://download.microsoft.com/download/6/1/d/61dad7f0-7be6-48b5-b297-bd46e44a1f14/NVIDIA-Linux-x86_64-450.80.02-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/1/d/61dad7f0-7be6-48b5-b297-bd46e44a1f14/NVIDIA-Linux-x86_64-450.80.02-grid-azure.run",
+                  "vGPUVersion" :"11.1"
                 },
                 {
                   "Num": "450.51",
-                  "FwLink": "https://download.microsoft.com/download/d/d/9/dd97a245-d277-4f43-915e-8d38b01334fb/NVIDIA-Linux-x86_64-450.51.05-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/d/d/9/dd97a245-d277-4f43-915e-8d38b01334fb/NVIDIA-Linux-x86_64-450.51.05-grid-azure.run",
+                  "vGPUVersion" :"11.0"
                 },
                 {
                   "Num" : "440.56",
-                  "FwLink" : "https://download.microsoft.com/download/3/0/8/3084787d-078d-4a3d-b3e8-7394c6a1e2cd/NVIDIA-Linux-x86_64-440.56-grid-azure.run"
+                  "FwLink" : "https://download.microsoft.com/download/3/0/8/3084787d-078d-4a3d-b3e8-7394c6a1e2cd/NVIDIA-Linux-x86_64-440.56-grid-azure.run",
+                  "vGPUVersion" :"10.1"
                 },
                 {
                   "Num" : "440.43",
-                  "FwLink" : "https://download.microsoft.com/download/b/9/5/b95127da-6d8f-4dea-8d7d-827be40bb2b7/NVIDIA-Linux-x86_64-440.43-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/b/9/5/b95127da-6d8f-4dea-8d7d-827be40bb2b7/NVIDIA-Linux-x86_64-440.43-grid.run",
+                  "vGPUVersion" :"10.0"
                 },
                 {
                   "Num" : "430.46",
-                  "FwLink" : "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run",
+                  "vGPUVersion" :"9.1"
                 },
                 {
                   "Num" : "430.30",
-                  "FwLink" : "https://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run",
+                  "vGPUVersion" :"9.0"
                 },
                 {
                   "Num" : "418.70",
-                  "FwLink" : "https://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run",
+                  "vGPUVersion" :"8.x"
                 },
                 {
                   "Num" : "410.92",
-                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run",
+                  "vGPUVersion" :"7.1"
                 },
                 {
                   "Num" : "410.71",
-                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.71-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.71-grid.run",
+                  "vGPUVersion" :"7.0"
                 },
                 {
                   "Num" : "390.75",
-                  "FwLink" : "https://download.microsoft.com/download/C/C/A/CCA1A402-D4EC-4260-BAD1-3AA1B004882A/NVIDIA-Linux-x86_64-390.75-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/C/C/A/CCA1A402-D4EC-4260-BAD1-3AA1B004882A/NVIDIA-Linux-x86_64-390.75-grid.run",
+                  "vGPUVersion" :"6.2"
                 },
                 {
                   "Num" : "390.57",
-                  "FwLink" : "https://download.microsoft.com/download/6/0/4/6041F2BB-8194-4DB9-BA22-CF1898B9CB70/NVIDIA-Linux-x86_64-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/6/0/4/6041F2BB-8194-4DB9-BA22-CF1898B9CB70/NVIDIA-Linux-x86_64-grid.run",
+                  "vGPUVersion" :"6.1"
                 },
                 {
                   "Num" : "390.42",
                   "DirLink" : "https://download.microsoft.com/download/3/8/2/382E8D8A-7620-4F89-B772-A84D97524F7E/NVIDIA-Linux-x86_64-grid.run",
-                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874834"
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874834",
+                  "vGPUVersion" :"6.0"
                 }
               ]
             }
@@ -425,102 +528,142 @@
               "Type" : "GRID",
               "Version" : [
                 {
+                  "Num": "535.161",
+                  "DirLink": "https://download.microsoft.com/download/8/d/a/8da4fb8e-3a9b-4e6a-bc9a-72ff64d7a13c/NVIDIA-Linux-x86_64-535.161.08-grid-azure.run",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272",
+                  "vGPUVersion" :"16.5",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9 "
+                },
+                {
                   "Num": "535.154",
                   "DirLink": "https://download.microsoft.com/download/1/4/4/14450d0e-a3f2-4b0a-9bb4-a8e729e986c4/NVIDIA-Linux-x86_64-535.154.05-grid-azure.run",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                  "vGPUVersion" :"16.3",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9 "
                 },
                 {
                   "Num": "535.54",
-                  "FwLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run",
+                  "vGPUVersion" :"16.2",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9, 7.9"
                 },
                 {
                   "Num": "525.105",
-                  "FwLink": "https://download.microsoft.com/download/6/b/d/6bd2850f-5883-4e2a-9a35-edbd3dd6808c/NVIDIA-Linux-x86_64-525.105.17-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/b/d/6bd2850f-5883-4e2a-9a35-edbd3dd6808c/NVIDIA-Linux-x86_64-525.105.17-grid-azure.run",
+                  "vGPUVersion" :"15.2",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 8.7, 8.8, 7.9"
                 },
                 {
                   "Num": "525.85",
-                  "FwLink": "https://download.microsoft.com/download/c/e/9/ce913061-ccf1-4c88-94ff-294e48c55439/NVIDIA-Linux-x86_64-525.85.05-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/c/e/9/ce913061-ccf1-4c88-94ff-294e48c55439/NVIDIA-Linux-x86_64-525.85.05-grid-azure.run",
+                  "vGPUVersion" :"15.1",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 8.7, 8.8, 7.9"
                 },
                 {
                   "Num": "525.60",
-                  "FwLink": "https://download.microsoft.com/download/1/e/8/1e82a212-9e77-4d74-9455-828d430a39f1/NVIDIA-Linux-x86_64-525.60.13-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/1/e/8/1e82a212-9e77-4d74-9455-828d430a39f1/NVIDIA-Linux-x86_64-525.60.13-grid-azure.run",
+                  "vGPUVersion" :"15.0",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 8.7, 8.8, 7.9"
                 },
                 {
                   "Num": "510.73",
-                  "FwLink": "https://download.microsoft.com/download/6/2/5/625e22a0-34ea-4d03-8738-a639acebc15e/NVIDIA-Linux-x86_64-510.73.08-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/2/5/625e22a0-34ea-4d03-8738-a639acebc15e/NVIDIA-Linux-x86_64-510.73.08-grid-azure.run",
+                  "vGPUVersion" :"14.1",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, 16.04 LTS, 14.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 7.9"
                 },
                 {
                   "Num": "470.82",
-                  "FwLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run",
+                  "vGPUVersion" :"13.1",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1, 8.2, 8.4, 7.7-7.9"
                 },
                 {
                   "Num": "470.63",
-                  "FwLink": "https://download.microsoft.com/download/b/d/d/bdd729ee-5003-4427-ace4-a7b9172b2e29/NVIDIA-Linux-x86_64-470.63.01-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/b/d/d/bdd729ee-5003-4427-ace4-a7b9172b2e29/NVIDIA-Linux-x86_64-470.63.01-grid-azure.run",
+                  "vGPUVersion" :"13.0",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1, 8.2, 8.4, 7.7-7.9"
                 },
                 {
                   "Num": "460.73",
-                  "FwLink": "https://download.microsoft.com/download/5/f/9/5f9d855b-8910-4e2d-90a6-5a038e78940f/NVIDIA-Linux-x86_64-460.73.01-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/5/f/9/5f9d855b-8910-4e2d-90a6-5a038e78940f/NVIDIA-Linux-x86_64-460.73.01-grid-azure.run",
+                  "vGPUVersion" :"12.2",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1 - 8.4, 7.7 - 7.9"
                 },
                 {
                   "Num": "460.32",
-                  "FwLink": "https://download.microsoft.com/download/9/5/c/95c667ff-ab95-4c56-89e0-e13e9a76782d/NVIDIA-Linux-x86_64-460.32.03-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/9/5/c/95c667ff-ab95-4c56-89e0-e13e9a76782d/NVIDIA-Linux-x86_64-460.32.03-grid-azure.run",
+                  "vGPUVersion" :"12.1",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1 - 8.3, 7.7 - 7.9"
                 },
                 {
                   "Num": "450.102",
-                  "FwLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run",
+                  "vGPUVersion" :"11.3"
                 },
                 {
                   "Num": "450.89",
-                  "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run",
+                  "vGPUVersion" :"11.2"
                 },
                 {
                   "Num": "450.80",
-                  "FwLink": "https://download.microsoft.com/download/6/1/d/61dad7f0-7be6-48b5-b297-bd46e44a1f14/NVIDIA-Linux-x86_64-450.80.02-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/1/d/61dad7f0-7be6-48b5-b297-bd46e44a1f14/NVIDIA-Linux-x86_64-450.80.02-grid-azure.run",
+                  "vGPUVersion" :"11.1"
                 },
                 {
                   "Num": "450.51",
-                  "FwLink": "https://download.microsoft.com/download/d/d/9/dd97a245-d277-4f43-915e-8d38b01334fb/NVIDIA-Linux-x86_64-450.51.05-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/d/d/9/dd97a245-d277-4f43-915e-8d38b01334fb/NVIDIA-Linux-x86_64-450.51.05-grid-azure.run",
+                  "vGPUVersion" :"11.0"
                 },
                 {
                   "Num" : "440.56",
-                  "FwLink" : "https://download.microsoft.com/download/3/0/8/3084787d-078d-4a3d-b3e8-7394c6a1e2cd/NVIDIA-Linux-x86_64-440.56-grid-azure.run"
+                  "FwLink" : "https://download.microsoft.com/download/3/0/8/3084787d-078d-4a3d-b3e8-7394c6a1e2cd/NVIDIA-Linux-x86_64-440.56-grid-azure.run",
+                  "vGPUVersion" :"10.1"
                 },
                 {
                   "Num" : "440.43",
-                  "FwLink" : "https://download.microsoft.com/download/b/9/5/b95127da-6d8f-4dea-8d7d-827be40bb2b7/NVIDIA-Linux-x86_64-440.43-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/b/9/5/b95127da-6d8f-4dea-8d7d-827be40bb2b7/NVIDIA-Linux-x86_64-440.43-grid.run",
+                  "vGPUVersion" :"10.0"
                 },
                 {
                   "Num" : "430.46",
-                  "FwLink" : "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run",
+                  "vGPUVersion" :"9.1"
                 },
                 {
                   "Num" : "430.30",
-                  "FwLink" : "https://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run",
+                  "vGPUVersion" :"9.0"
                 },
                 {
                   "Num" : "418.70",
-                  "FwLink" : "https://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run",
+                  "vGPUVersion" :"8.x"
                 },
                 {
                   "Num" : "410.92",
-                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run",
+                  "vGPUVersion" :"7.1"
                 },
                 {
                   "Num" : "410.71",
-                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.71-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.71-grid.run",
+                  "vGPUVersion" :"7.0"
                 },
                 {
                   "Num" : "390.75",
-                  "FwLink" : "https://download.microsoft.com/download/C/C/A/CCA1A402-D4EC-4260-BAD1-3AA1B004882A/NVIDIA-Linux-x86_64-390.75-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/C/C/A/CCA1A402-D4EC-4260-BAD1-3AA1B004882A/NVIDIA-Linux-x86_64-390.75-grid.run",
+                  "vGPUVersion" :"6.2"
                 },
                 {
                   "Num" : "390.57",
-                  "FwLink" : "https://download.microsoft.com/download/6/0/4/6041F2BB-8194-4DB9-BA22-CF1898B9CB70/NVIDIA-Linux-x86_64-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/6/0/4/6041F2BB-8194-4DB9-BA22-CF1898B9CB70/NVIDIA-Linux-x86_64-grid.run",
+                  "vGPUVersion" :"6.1"
                 },
                 {
                   "Num" : "390.42",
                   "DirLink" : "https://download.microsoft.com/download/3/8/2/382E8D8A-7620-4F89-B772-A84D97524F7E/NVIDIA-Linux-x86_64-grid.run",
-                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874834"
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874834",
+                  "vGPUVersion" :"6.0"
                 }
               ]
             },
@@ -576,102 +719,142 @@
               "Type" : "GRID",
               "Version" : [
                 {
+                  "Num": "535.161",
+                  "DirLink": "https://download.microsoft.com/download/8/d/a/8da4fb8e-3a9b-4e6a-bc9a-72ff64d7a13c/NVIDIA-Linux-x86_64-535.161.08-grid-azure.run",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272",
+                  "vGPUVersion" :"16.5",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9 "
+                },
+                {
                   "Num": "535.154",
                   "DirLink": "https://download.microsoft.com/download/1/4/4/14450d0e-a3f2-4b0a-9bb4-a8e729e986c4/NVIDIA-Linux-x86_64-535.154.05-grid-azure.run",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                  "vGPUVersion" :"16.3",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9 "
                 },
                 {
                   "Num": "535.54",
-                  "FwLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run",
+                  "vGPUVersion" :"16.2",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9, 7.9"
                 },
                 {
                   "Num": "525.105",
-                  "FwLink": "https://download.microsoft.com/download/6/b/d/6bd2850f-5883-4e2a-9a35-edbd3dd6808c/NVIDIA-Linux-x86_64-525.105.17-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/b/d/6bd2850f-5883-4e2a-9a35-edbd3dd6808c/NVIDIA-Linux-x86_64-525.105.17-grid-azure.run",
+                  "vGPUVersion" :"15.2",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 8.7, 8.8, 7.9"
                 },
                 {
                   "Num": "525.85",
-                  "FwLink": "https://download.microsoft.com/download/c/e/9/ce913061-ccf1-4c88-94ff-294e48c55439/NVIDIA-Linux-x86_64-525.85.05-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/c/e/9/ce913061-ccf1-4c88-94ff-294e48c55439/NVIDIA-Linux-x86_64-525.85.05-grid-azure.run",
+                  "vGPUVersion" :"15.1",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 8.7, 8.8, 7.9"
                 },
                 {
                   "Num": "525.60",
-                  "FwLink": "https://download.microsoft.com/download/1/e/8/1e82a212-9e77-4d74-9455-828d430a39f1/NVIDIA-Linux-x86_64-525.60.13-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/1/e/8/1e82a212-9e77-4d74-9455-828d430a39f1/NVIDIA-Linux-x86_64-525.60.13-grid-azure.run",
+                  "vGPUVersion" :"15.0",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 8.7, 8.8, 7.9"
                 },
                 {
                   "Num": "510.73",
-                  "FwLink": "https://download.microsoft.com/download/6/2/5/625e22a0-34ea-4d03-8738-a639acebc15e/NVIDIA-Linux-x86_64-510.73.08-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/2/5/625e22a0-34ea-4d03-8738-a639acebc15e/NVIDIA-Linux-x86_64-510.73.08-grid-azure.run",
+                  "vGPUVersion" :"14.1",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, 16.04 LTS, 14.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 7.9"
                 },
                 {
                   "Num": "470.82",
-                  "FwLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run",
+                  "vGPUVersion" :"13.1",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1, 8.2, 8.4, 7.7-7.9"
                 },
                 {
                   "Num": "470.63",
-                  "FwLink": "https://download.microsoft.com/download/b/d/d/bdd729ee-5003-4427-ace4-a7b9172b2e29/NVIDIA-Linux-x86_64-470.63.01-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/b/d/d/bdd729ee-5003-4427-ace4-a7b9172b2e29/NVIDIA-Linux-x86_64-470.63.01-grid-azure.run",
+                  "vGPUVersion" :"13.0",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1, 8.2, 8.4, 7.7-7.9"
                 },
                 {
                   "Num": "460.73",
-                  "FwLink": "https://download.microsoft.com/download/5/f/9/5f9d855b-8910-4e2d-90a6-5a038e78940f/NVIDIA-Linux-x86_64-460.73.01-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/5/f/9/5f9d855b-8910-4e2d-90a6-5a038e78940f/NVIDIA-Linux-x86_64-460.73.01-grid-azure.run",
+                  "vGPUVersion" :"12.2",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1 - 8.4, 7.7 - 7.9"
                 },
                 {
                   "Num": "460.32",
-                  "FwLink": "https://download.microsoft.com/download/9/5/c/95c667ff-ab95-4c56-89e0-e13e9a76782d/NVIDIA-Linux-x86_64-460.32.03-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/9/5/c/95c667ff-ab95-4c56-89e0-e13e9a76782d/NVIDIA-Linux-x86_64-460.32.03-grid-azure.run",
+                  "vGPUVersion" :"12.1",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1 - 8.3, 7.7 - 7.9"
                 },
                 {
                   "Num": "450.102",
-                  "FwLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run",
+                  "vGPUVersion" :"11.3"
                 },
                 {
                   "Num": "450.89",
-                  "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run",
+                  "vGPUVersion" :"11.2"
                 },
                 {
                   "Num": "450.80",
-                  "FwLink": "https://download.microsoft.com/download/6/1/d/61dad7f0-7be6-48b5-b297-bd46e44a1f14/NVIDIA-Linux-x86_64-450.80.02-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/1/d/61dad7f0-7be6-48b5-b297-bd46e44a1f14/NVIDIA-Linux-x86_64-450.80.02-grid-azure.run",
+                  "vGPUVersion" :"11.1"
                 },
                 {
                   "Num": "450.51",
-                  "FwLink": "https://download.microsoft.com/download/d/d/9/dd97a245-d277-4f43-915e-8d38b01334fb/NVIDIA-Linux-x86_64-450.51.05-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/d/d/9/dd97a245-d277-4f43-915e-8d38b01334fb/NVIDIA-Linux-x86_64-450.51.05-grid-azure.run",
+                  "vGPUVersion" :"11.0"
                 },
                 {
                   "Num" : "440.56",
-                  "FwLink" : "https://download.microsoft.com/download/3/0/8/3084787d-078d-4a3d-b3e8-7394c6a1e2cd/NVIDIA-Linux-x86_64-440.56-grid-azure.run"
+                  "FwLink" : "https://download.microsoft.com/download/3/0/8/3084787d-078d-4a3d-b3e8-7394c6a1e2cd/NVIDIA-Linux-x86_64-440.56-grid-azure.run",
+                  "vGPUVersion" :"10.1"
                 },
                 {
                   "Num" : "440.43",
-                  "FwLink" : "https://download.microsoft.com/download/b/9/5/b95127da-6d8f-4dea-8d7d-827be40bb2b7/NVIDIA-Linux-x86_64-440.43-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/b/9/5/b95127da-6d8f-4dea-8d7d-827be40bb2b7/NVIDIA-Linux-x86_64-440.43-grid.run",
+                  "vGPUVersion" :"10.0"
                 },
                 {
                   "Num" : "430.46",
-                  "FwLink" : "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run",
+                  "vGPUVersion" :"9.1"
                 },
                 {
                   "Num" : "430.30",
-                  "FwLink" : "https://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run",
+                  "vGPUVersion" :"9.0"
                 },
                 {
                   "Num" : "418.70",
-                  "FwLink" : "https://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run",
+                  "vGPUVersion" :"8.x"
                 },
                 {
                   "Num" : "410.92",
-                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run",
+                  "vGPUVersion" :"7.1"
                 },
                 {
                   "Num" : "410.71",
-                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.71-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.71-grid.run",
+                  "vGPUVersion" :"7.0"
                 },
                 {
                   "Num" : "390.75",
-                  "FwLink" : "https://download.microsoft.com/download/C/C/A/CCA1A402-D4EC-4260-BAD1-3AA1B004882A/NVIDIA-Linux-x86_64-390.75-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/C/C/A/CCA1A402-D4EC-4260-BAD1-3AA1B004882A/NVIDIA-Linux-x86_64-390.75-grid.run",
+                  "vGPUVersion" :"6.2"
                 },
                 {
                   "Num" : "390.57",
-                  "FwLink" : "https://download.microsoft.com/download/6/0/4/6041F2BB-8194-4DB9-BA22-CF1898B9CB70/NVIDIA-Linux-x86_64-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/6/0/4/6041F2BB-8194-4DB9-BA22-CF1898B9CB70/NVIDIA-Linux-x86_64-grid.run",
+                  "vGPUVersion" :"6.1"
                 },
                 {
                   "Num" : "390.42",
                   "DirLink" : "https://download.microsoft.com/download/3/8/2/382E8D8A-7620-4F89-B772-A84D97524F7E/NVIDIA-Linux-x86_64-grid.run",
-                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874834"
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874834",
+                  "vGPUVersion" :"6.0"
                 }
               ]
             },
@@ -734,102 +917,142 @@
               "Type" : "GRID",
               "Version" : [
                 {
+                  "Num": "535.161",
+                  "DirLink": "https://download.microsoft.com/download/8/d/a/8da4fb8e-3a9b-4e6a-bc9a-72ff64d7a13c/NVIDIA-Linux-x86_64-535.161.08-grid-azure.run",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272",
+                  "vGPUVersion" :"16.5",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9 "
+                },
+                {
                   "Num": "535.154",
                   "DirLink": "https://download.microsoft.com/download/1/4/4/14450d0e-a3f2-4b0a-9bb4-a8e729e986c4/NVIDIA-Linux-x86_64-535.154.05-grid-azure.run",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                  "vGPUVersion" :"16.3",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9 "
                 },
                 {
                   "Num": "535.54",
-                  "FwLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run",
+                  "vGPUVersion" :"16.2",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9, 7.9"
                 },
                 {
                   "Num": "525.105",
-                  "FwLink": "https://download.microsoft.com/download/6/b/d/6bd2850f-5883-4e2a-9a35-edbd3dd6808c/NVIDIA-Linux-x86_64-525.105.17-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/b/d/6bd2850f-5883-4e2a-9a35-edbd3dd6808c/NVIDIA-Linux-x86_64-525.105.17-grid-azure.run",
+                  "vGPUVersion" :"15.2",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 8.7, 8.8, 7.9"
                 },
                 {
                   "Num": "525.85",
-                  "FwLink": "https://download.microsoft.com/download/c/e/9/ce913061-ccf1-4c88-94ff-294e48c55439/NVIDIA-Linux-x86_64-525.85.05-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/c/e/9/ce913061-ccf1-4c88-94ff-294e48c55439/NVIDIA-Linux-x86_64-525.85.05-grid-azure.run",
+                  "vGPUVersion" :"15.1",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 8.7, 8.8, 7.9"
                 },
                 {
                   "Num": "525.60",
-                  "FwLink": "https://download.microsoft.com/download/1/e/8/1e82a212-9e77-4d74-9455-828d430a39f1/NVIDIA-Linux-x86_64-525.60.13-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/1/e/8/1e82a212-9e77-4d74-9455-828d430a39f1/NVIDIA-Linux-x86_64-525.60.13-grid-azure.run",
+                  "vGPUVersion" :"15.0",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 8.7, 8.8, 7.9"
                 },
                 {
                   "Num": "510.73",
-                  "FwLink": "https://download.microsoft.com/download/6/2/5/625e22a0-34ea-4d03-8738-a639acebc15e/NVIDIA-Linux-x86_64-510.73.08-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/2/5/625e22a0-34ea-4d03-8738-a639acebc15e/NVIDIA-Linux-x86_64-510.73.08-grid-azure.run",
+                  "vGPUVersion" :"14.1",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, 16.04 LTS, 14.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 7.9"
                 },
                 {
                   "Num": "470.82",
-                  "FwLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run",
+                  "vGPUVersion" :"13.1",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1, 8.2, 8.4, 7.7-7.9"
                 },
                 {
                   "Num": "470.63",
-                  "FwLink": "https://download.microsoft.com/download/b/d/d/bdd729ee-5003-4427-ace4-a7b9172b2e29/NVIDIA-Linux-x86_64-470.63.01-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/b/d/d/bdd729ee-5003-4427-ace4-a7b9172b2e29/NVIDIA-Linux-x86_64-470.63.01-grid-azure.run",
+                  "vGPUVersion" :"13.0",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1, 8.2, 8.4, 7.7-7.9"
                 },
                 {
                   "Num": "460.73",
-                  "FwLink": "https://download.microsoft.com/download/5/f/9/5f9d855b-8910-4e2d-90a6-5a038e78940f/NVIDIA-Linux-x86_64-460.73.01-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/5/f/9/5f9d855b-8910-4e2d-90a6-5a038e78940f/NVIDIA-Linux-x86_64-460.73.01-grid-azure.run",
+                  "vGPUVersion" :"12.2",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1 - 8.4, 7.7 - 7.9"
                 },
                 {
                   "Num": "460.32",
-                  "FwLink": "https://download.microsoft.com/download/9/5/c/95c667ff-ab95-4c56-89e0-e13e9a76782d/NVIDIA-Linux-x86_64-460.32.03-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/9/5/c/95c667ff-ab95-4c56-89e0-e13e9a76782d/NVIDIA-Linux-x86_64-460.32.03-grid-azure.run",
+                  "vGPUVersion" :"12.1",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1 - 8.3, 7.7 - 7.9"
                 },
                 {
                   "Num": "450.102",
-                  "FwLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run",
+                  "vGPUVersion" :"11.3"
                 },
                 {
                   "Num": "450.89",
-                  "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run",
+                  "vGPUVersion" :"11.2"
                 },
                 {
                   "Num": "450.80",
-                  "FwLink": "https://download.microsoft.com/download/6/1/d/61dad7f0-7be6-48b5-b297-bd46e44a1f14/NVIDIA-Linux-x86_64-450.80.02-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/1/d/61dad7f0-7be6-48b5-b297-bd46e44a1f14/NVIDIA-Linux-x86_64-450.80.02-grid-azure.run",
+                  "vGPUVersion" :"11.1"
                 },
                 {
                   "Num": "450.51",
-                  "FwLink": "https://download.microsoft.com/download/d/d/9/dd97a245-d277-4f43-915e-8d38b01334fb/NVIDIA-Linux-x86_64-450.51.05-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/d/d/9/dd97a245-d277-4f43-915e-8d38b01334fb/NVIDIA-Linux-x86_64-450.51.05-grid-azure.run",
+                  "vGPUVersion" :"11.0"
                 },
                 {
                   "Num" : "440.56",
-                  "FwLink" : "https://download.microsoft.com/download/3/0/8/3084787d-078d-4a3d-b3e8-7394c6a1e2cd/NVIDIA-Linux-x86_64-440.56-grid-azure.run"
+                  "FwLink" : "https://download.microsoft.com/download/3/0/8/3084787d-078d-4a3d-b3e8-7394c6a1e2cd/NVIDIA-Linux-x86_64-440.56-grid-azure.run",
+                  "vGPUVersion" :"10.1"
                 },
                 {
                   "Num" : "440.43",
-                  "FwLink" : "https://download.microsoft.com/download/b/9/5/b95127da-6d8f-4dea-8d7d-827be40bb2b7/NVIDIA-Linux-x86_64-440.43-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/b/9/5/b95127da-6d8f-4dea-8d7d-827be40bb2b7/NVIDIA-Linux-x86_64-440.43-grid.run",
+                  "vGPUVersion" :"10.0"
                 },
                 {
                   "Num" : "430.46",
-                  "FwLink" : "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run",
+                  "vGPUVersion" :"9.1"
                 },
                 {
                   "Num" : "430.30",
-                  "FwLink" : "https://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run",
+                  "vGPUVersion" :"9.0"
                 },
                 {
                   "Num" : "418.70",
-                  "FwLink" : "https://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run",
+                  "vGPUVersion" :"8.x"
                 },
                 {
                   "Num" : "410.92",
-                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run",
+                  "vGPUVersion" :"7.1"
                 },
                 {
                   "Num" : "410.71",
-                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.71-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.71-grid.run",
+                  "vGPUVersion" :"7.0"
                 },
                 {
                   "Num" : "390.75",
-                  "FwLink" : "https://download.microsoft.com/download/C/C/A/CCA1A402-D4EC-4260-BAD1-3AA1B004882A/NVIDIA-Linux-x86_64-390.75-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/C/C/A/CCA1A402-D4EC-4260-BAD1-3AA1B004882A/NVIDIA-Linux-x86_64-390.75-grid.run",
+                  "vGPUVersion" :"6.2"
                 },
                 {
                   "Num" : "390.57",
-                  "FwLink" : "https://download.microsoft.com/download/6/0/4/6041F2BB-8194-4DB9-BA22-CF1898B9CB70/NVIDIA-Linux-x86_64-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/6/0/4/6041F2BB-8194-4DB9-BA22-CF1898B9CB70/NVIDIA-Linux-x86_64-grid.run",
+                  "vGPUVersion" :"6.1"
                 },
                 {
                   "Num" : "390.42",
                   "DirLink" : "https://download.microsoft.com/download/3/8/2/382E8D8A-7620-4F89-B772-A84D97524F7E/NVIDIA-Linux-x86_64-grid.run",
-                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874834"
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874834",
+                  "vGPUVersion" :"6.0"
                 }
               ]
             },
@@ -892,102 +1115,142 @@
               "Type" : "GRID",
               "Version" : [
                 {
+                  "Num": "535.161",
+                  "DirLink": "https://download.microsoft.com/download/8/d/a/8da4fb8e-3a9b-4e6a-bc9a-72ff64d7a13c/NVIDIA-Linux-x86_64-535.161.08-grid-azure.run",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272",
+                  "vGPUVersion" :"16.5",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9 "
+                },
+                {
                   "Num": "535.154",
                   "DirLink": "https://download.microsoft.com/download/1/4/4/14450d0e-a3f2-4b0a-9bb4-a8e729e986c4/NVIDIA-Linux-x86_64-535.154.05-grid-azure.run",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                  "vGPUVersion" :"16.3",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9 "
                 },
                 {
                   "Num": "535.54",
-                  "FwLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run",
+                  "vGPUVersion" :"16.2",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9, 7.9"
                 },
                 {
                   "Num": "525.105",
-                  "FwLink": "https://download.microsoft.com/download/6/b/d/6bd2850f-5883-4e2a-9a35-edbd3dd6808c/NVIDIA-Linux-x86_64-525.105.17-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/b/d/6bd2850f-5883-4e2a-9a35-edbd3dd6808c/NVIDIA-Linux-x86_64-525.105.17-grid-azure.run",
+                  "vGPUVersion" :"15.2",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 8.7, 8.8, 7.9"
                 },
                 {
                   "Num": "525.85",
-                  "FwLink": "https://download.microsoft.com/download/c/e/9/ce913061-ccf1-4c88-94ff-294e48c55439/NVIDIA-Linux-x86_64-525.85.05-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/c/e/9/ce913061-ccf1-4c88-94ff-294e48c55439/NVIDIA-Linux-x86_64-525.85.05-grid-azure.run",
+                  "vGPUVersion" :"15.1",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 8.7, 8.8, 7.9"
                 },
                 {
                   "Num": "525.60",
-                  "FwLink": "https://download.microsoft.com/download/1/e/8/1e82a212-9e77-4d74-9455-828d430a39f1/NVIDIA-Linux-x86_64-525.60.13-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/1/e/8/1e82a212-9e77-4d74-9455-828d430a39f1/NVIDIA-Linux-x86_64-525.60.13-grid-azure.run",
+                  "vGPUVersion" :"15.0",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 8.7, 8.8, 7.9"
                 },
                 {
                   "Num": "510.73",
-                  "FwLink": "https://download.microsoft.com/download/6/2/5/625e22a0-34ea-4d03-8738-a639acebc15e/NVIDIA-Linux-x86_64-510.73.08-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/2/5/625e22a0-34ea-4d03-8738-a639acebc15e/NVIDIA-Linux-x86_64-510.73.08-grid-azure.run",
+                  "vGPUVersion" :"14.1",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 18.04 LTS, 16.04 LTS, 14.04 LTS, Red Hat Enterprise Linux 8.4, 8.6, 7.9"
                 },
                 {
                   "Num": "470.82",
-                  "FwLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run",
+                  "vGPUVersion" :"13.1",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1, 8.2, 8.4, 7.7-7.9"
                 },
                 {
                   "Num": "470.63",
-                  "FwLink": "https://download.microsoft.com/download/b/d/d/bdd729ee-5003-4427-ace4-a7b9172b2e29/NVIDIA-Linux-x86_64-470.63.01-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/b/d/d/bdd729ee-5003-4427-ace4-a7b9172b2e29/NVIDIA-Linux-x86_64-470.63.01-grid-azure.run",
+                  "vGPUVersion" :"13.0",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1, 8.2, 8.4, 7.7-7.9"
                 },
                 {
                   "Num": "460.73",
-                  "FwLink": "https://download.microsoft.com/download/5/f/9/5f9d855b-8910-4e2d-90a6-5a038e78940f/NVIDIA-Linux-x86_64-460.73.01-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/5/f/9/5f9d855b-8910-4e2d-90a6-5a038e78940f/NVIDIA-Linux-x86_64-460.73.01-grid-azure.run",
+                  "vGPUVersion" :"12.2",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1 - 8.4, 7.7 - 7.9"
                 },
                 {
                   "Num": "460.32",
-                  "FwLink": "https://download.microsoft.com/download/9/5/c/95c667ff-ab95-4c56-89e0-e13e9a76782d/NVIDIA-Linux-x86_64-460.32.03-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/9/5/c/95c667ff-ab95-4c56-89e0-e13e9a76782d/NVIDIA-Linux-x86_64-460.32.03-grid-azure.run",
+                  "vGPUVersion" :"12.1",
+                  "SupportedOSVersions" : "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS, Red Hat Enterprise Linux 8.1 - 8.3, 7.7 - 7.9"
                 },
                 {
                   "Num": "450.102",
-                  "FwLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run",
+                  "vGPUVersion" :"11.3"
                 },
                 {
                   "Num": "450.89",
-                  "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run",
+                  "vGPUVersion" :"11.2"
                 },
                 {
                   "Num": "450.80",
-                  "FwLink": "https://download.microsoft.com/download/6/1/d/61dad7f0-7be6-48b5-b297-bd46e44a1f14/NVIDIA-Linux-x86_64-450.80.02-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/6/1/d/61dad7f0-7be6-48b5-b297-bd46e44a1f14/NVIDIA-Linux-x86_64-450.80.02-grid-azure.run",
+                  "vGPUVersion" :"11.1"
                 },
                 {
                   "Num": "450.51",
-                  "FwLink": "https://download.microsoft.com/download/d/d/9/dd97a245-d277-4f43-915e-8d38b01334fb/NVIDIA-Linux-x86_64-450.51.05-grid-azure.run"
+                  "FwLink": "https://download.microsoft.com/download/d/d/9/dd97a245-d277-4f43-915e-8d38b01334fb/NVIDIA-Linux-x86_64-450.51.05-grid-azure.run",
+                  "vGPUVersion" :"11.0"
                 },
                 {
                   "Num" : "440.56",
-                  "FwLink" : "https://download.microsoft.com/download/3/0/8/3084787d-078d-4a3d-b3e8-7394c6a1e2cd/NVIDIA-Linux-x86_64-440.56-grid-azure.run"
+                  "FwLink" : "https://download.microsoft.com/download/3/0/8/3084787d-078d-4a3d-b3e8-7394c6a1e2cd/NVIDIA-Linux-x86_64-440.56-grid-azure.run",
+                  "vGPUVersion" :"10.1"
                 },
                 {
                   "Num" : "440.43",
-                  "FwLink" : "https://download.microsoft.com/download/b/9/5/b95127da-6d8f-4dea-8d7d-827be40bb2b7/NVIDIA-Linux-x86_64-440.43-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/b/9/5/b95127da-6d8f-4dea-8d7d-827be40bb2b7/NVIDIA-Linux-x86_64-440.43-grid.run",
+                  "vGPUVersion" :"10.0"
                 },
                 {
                   "Num" : "430.46",
-                  "FwLink" : "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run",
+                  "vGPUVersion" :"9.1"
                 },
                 {
                   "Num" : "430.30",
-                  "FwLink" : "https://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run",
+                  "vGPUVersion" :"9.0"
                 },
                 {
                   "Num" : "418.70",
-                  "FwLink" : "https://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run",
+                  "vGPUVersion" :"8.x"
                 },
                 {
                   "Num" : "410.92",
-                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run",
+                  "vGPUVersion" :"7.1"
                 },
                 {
                   "Num" : "410.71",
-                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.71-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.71-grid.run",
+                  "vGPUVersion" :"7.0"
                 },
                 {
                   "Num" : "390.75",
-                  "FwLink" : "https://download.microsoft.com/download/C/C/A/CCA1A402-D4EC-4260-BAD1-3AA1B004882A/NVIDIA-Linux-x86_64-390.75-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/C/C/A/CCA1A402-D4EC-4260-BAD1-3AA1B004882A/NVIDIA-Linux-x86_64-390.75-grid.run",
+                  "vGPUVersion" :"6.2"
                 },
                 {
                   "Num" : "390.57",
-                  "FwLink" : "https://download.microsoft.com/download/6/0/4/6041F2BB-8194-4DB9-BA22-CF1898B9CB70/NVIDIA-Linux-x86_64-grid.run"
+                  "FwLink" : "https://download.microsoft.com/download/6/0/4/6041F2BB-8194-4DB9-BA22-CF1898B9CB70/NVIDIA-Linux-x86_64-grid.run",
+                  "vGPUVersion" :"6.1"
                 },
                 {
                   "Num" : "390.42",
                   "DirLink" : "https://download.microsoft.com/download/3/8/2/382E8D8A-7620-4F89-B772-A84D97524F7E/NVIDIA-Linux-x86_64-grid.run",
-                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874834"
+                  "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874834",
+                  "vGPUVersion" :"6.0"
                 }
               ]
             },
