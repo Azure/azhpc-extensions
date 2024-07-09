@@ -9,6 +9,44 @@
           "Driver" : [
             {
               "Type" : "CUDA",
+              "SupportedAzureVMFamily" : [
+                {
+                  "series" : "NC",
+                  "GPU" : "NVIDIA Tesla K80"
+                },
+                {
+                  "series" : "NCv2",
+                  "GPU" : "NVIDIA Tesla P100"
+                },
+                {
+                  "series" : "NCv3",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "ND",
+                  "GPU" : "NVIDIA Tesla P40"
+                },
+                {
+                  "series" : "NDv2",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "NCasT4_v3",
+                  "GPU" : "NVIDIA Tesla T4"
+                },
+                {
+                  "series" : "NV",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVv3",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVadsA10_v5",
+                  "GPU" : "NVIDIA A10"
+                }
+              ],
               "Version" : [
                 {
                   "Num" : "529.19",
