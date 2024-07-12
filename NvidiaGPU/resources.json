@@ -78,6 +78,44 @@
             },
             {
               "Type" : "GRID",
+              "SupportedAzureVMFamily" : [
+                {
+                  "series" : "NC",
+                  "GPU" : "NVIDIA Tesla K80"
+                },
+                {
+                  "series" : "NCv2",
+                  "GPU" : "NVIDIA Tesla P100"
+                },
+                {
+                  "series" : "NCv3",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "ND",
+                  "GPU" : "NVIDIA Tesla P40"
+                },
+                {
+                  "series" : "NDv2",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "NCasT4_v3",
+                  "GPU" : "NVIDIA Tesla T4"
+                },
+                {
+                  "series" : "NV",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVv3",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVadsA10_v5",
+                  "GPU" : "NVIDIA A10"
+                }
+              ],
               "Version" : [
                 {
                   "Num": "538.46",
@@ -238,6 +276,44 @@
           "Driver" : [
             {
               "Type" : "CUDA",
+              "SupportedAzureVMFamily" : [
+                {
+                  "series" : "NC",
+                  "GPU" : "NVIDIA Tesla K80"
+                },
+                {
+                  "series" : "NCv2",
+                  "GPU" : "NVIDIA Tesla P100"
+                },
+                {
+                  "series" : "NCv3",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "ND",
+                  "GPU" : "NVIDIA Tesla P40"
+                },
+                {
+                  "series" : "NDv2",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "NCasT4_v3",
+                  "GPU" : "NVIDIA Tesla T4"
+                },
+                {
+                  "series" : "NV",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVv3",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVadsA10_v5",
+                  "GPU" : "NVIDIA A10"
+                }
+              ],
               "Version" : [
                 {
                   "Num" : "398.75",
@@ -257,6 +333,44 @@
             },
             {
               "Type" : "GRID",
+              "SupportedAzureVMFamily" : [
+                {
+                  "series" : "NC",
+                  "GPU" : "NVIDIA Tesla K80"
+                },
+                {
+                  "series" : "NCv2",
+                  "GPU" : "NVIDIA Tesla P100"
+                },
+                {
+                  "series" : "NCv3",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "ND",
+                  "GPU" : "NVIDIA Tesla P40"
+                },
+                {
+                  "series" : "NDv2",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "NCasT4_v3",
+                  "GPU" : "NVIDIA Tesla T4"
+                },
+                {
+                  "series" : "NV",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVv3",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVadsA10_v5",
+                  "GPU" : "NVIDIA A10"
+                }
+              ],
               "Version" : [
                 {
                   "Num": "471.68",
@@ -370,6 +484,44 @@
           "Driver" : [
             {
               "Type" : "CUDA",
+              "SupportedAzureVMFamily" : [
+                {
+                  "series" : "NC",
+                  "GPU" : "NVIDIA Tesla K80"
+                },
+                {
+                  "series" : "NCv2",
+                  "GPU" : "NVIDIA Tesla P100"
+                },
+                {
+                  "series" : "NCv3",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "ND",
+                  "GPU" : "NVIDIA Tesla P40"
+                },
+                {
+                  "series" : "NDv2",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "NCasT4_v3",
+                  "GPU" : "NVIDIA Tesla T4"
+                },
+                {
+                  "series" : "NV",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVv3",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVadsA10_v5",
+                  "GPU" : "NVIDIA A10"
+                }
+              ],
               "Version" : [
                 {
                   "Num" : "12.2",
@@ -393,6 +545,44 @@
             },
             {
               "Type" : "GRID",
+              "SupportedAzureVMFamily" : [
+                {
+                  "series" : "NC",
+                  "GPU" : "NVIDIA Tesla K80"
+                },
+                {
+                  "series" : "NCv2",
+                  "GPU" : "NVIDIA Tesla P100"
+                },
+                {
+                  "series" : "NCv3",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "ND",
+                  "GPU" : "NVIDIA Tesla P40"
+                },
+                {
+                  "series" : "NDv2",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "NCasT4_v3",
+                  "GPU" : "NVIDIA Tesla T4"
+                },
+                {
+                  "series" : "NV",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVv3",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVadsA10_v5",
+                  "GPU" : "NVIDIA A10"
+                }
+              ],
               "Version" : [
                 {
                   "Num": "535.161",
@@ -536,6 +726,44 @@
           "Driver" : [
             {
               "Type" : "CUDA",
+              "SupportedAzureVMFamily" : [
+                {
+                  "series" : "NC",
+                  "GPU" : "NVIDIA Tesla K80"
+                },
+                {
+                  "series" : "NCv2",
+                  "GPU" : "NVIDIA Tesla P100"
+                },
+                {
+                  "series" : "NCv3",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "ND",
+                  "GPU" : "NVIDIA Tesla P40"
+                },
+                {
+                  "series" : "NDv2",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "NCasT4_v3",
+                  "GPU" : "NVIDIA Tesla T4"
+                },
+                {
+                  "series" : "NV",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVv3",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVadsA10_v5",
+                  "GPU" : "NVIDIA A10"
+                }
+              ],
               "Version" : [
                 {
                   "Num" : "10.0.130",
@@ -564,6 +792,44 @@
             },
             {
               "Type" : "GRID",
+              "SupportedAzureVMFamily" : [
+                {
+                  "series" : "NC",
+                  "GPU" : "NVIDIA Tesla K80"
+                },
+                {
+                  "series" : "NCv2",
+                  "GPU" : "NVIDIA Tesla P100"
+                },
+                {
+                  "series" : "NCv3",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "ND",
+                  "GPU" : "NVIDIA Tesla P40"
+                },
+                {
+                  "series" : "NDv2",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "NCasT4_v3",
+                  "GPU" : "NVIDIA Tesla T4"
+                },
+                {
+                  "series" : "NV",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVv3",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVadsA10_v5",
+                  "GPU" : "NVIDIA A10"
+                }
+              ],
               "Version" : [
                 {
                   "Num": "535.161",
@@ -738,6 +1004,44 @@
           "Driver" : [
             {
               "Type" : "CUDA",
+              "SupportedAzureVMFamily" : [
+                {
+                  "series" : "NC",
+                  "GPU" : "NVIDIA Tesla K80"
+                },
+                {
+                  "series" : "NCv2",
+                  "GPU" : "NVIDIA Tesla P100"
+                },
+                {
+                  "series" : "NCv3",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "ND",
+                  "GPU" : "NVIDIA Tesla P40"
+                },
+                {
+                  "series" : "NDv2",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "NCasT4_v3",
+                  "GPU" : "NVIDIA Tesla T4"
+                },
+                {
+                  "series" : "NV",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVv3",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVadsA10_v5",
+                  "GPU" : "NVIDIA A10"
+                }
+              ],
               "Version" : [
                 {
                   "Num" : "11.1",
@@ -755,6 +1059,44 @@
             },
             {
               "Type" : "GRID",
+              "SupportedAzureVMFamily" : [
+                {
+                  "series" : "NC",
+                  "GPU" : "NVIDIA Tesla K80"
+                },
+                {
+                  "series" : "NCv2",
+                  "GPU" : "NVIDIA Tesla P100"
+                },
+                {
+                  "series" : "NCv3",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "ND",
+                  "GPU" : "NVIDIA Tesla P40"
+                },
+                {
+                  "series" : "NDv2",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "NCasT4_v3",
+                  "GPU" : "NVIDIA Tesla T4"
+                },
+                {
+                  "series" : "NV",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVv3",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVadsA10_v5",
+                  "GPU" : "NVIDIA A10"
+                }
+              ],
               "Version" : [
                 {
                   "Num": "535.161",
@@ -918,6 +1260,44 @@
           "Driver" : [
             {
               "Type" : "CUDA",
+              "SupportedAzureVMFamily" : [
+                {
+                  "series" : "NC",
+                  "GPU" : "NVIDIA Tesla K80"
+                },
+                {
+                  "series" : "NCv2",
+                  "GPU" : "NVIDIA Tesla P100"
+                },
+                {
+                  "series" : "NCv3",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "ND",
+                  "GPU" : "NVIDIA Tesla P40"
+                },
+                {
+                  "series" : "NDv2",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "NCasT4_v3",
+                  "GPU" : "NVIDIA Tesla T4"
+                },
+                {
+                  "series" : "NV",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVv3",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVadsA10_v5",
+                  "GPU" : "NVIDIA A10"
+                }
+              ],
               "Version" : [
                 {
                   "Num" : "12.1",
@@ -953,6 +1333,44 @@
             },
             {
               "Type" : "GRID",
+              "SupportedAzureVMFamily" : [
+                {
+                  "series" : "NC",
+                  "GPU" : "NVIDIA Tesla K80"
+                },
+                {
+                  "series" : "NCv2",
+                  "GPU" : "NVIDIA Tesla P100"
+                },
+                {
+                  "series" : "NCv3",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "ND",
+                  "GPU" : "NVIDIA Tesla P40"
+                },
+                {
+                  "series" : "NDv2",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "NCasT4_v3",
+                  "GPU" : "NVIDIA Tesla T4"
+                },
+                {
+                  "series" : "NV",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVv3",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVadsA10_v5",
+                  "GPU" : "NVIDIA A10"
+                }
+              ],
               "Version" : [
                 {
                   "Num": "535.161",
@@ -1096,6 +1514,44 @@
             },
             {
               "Type" : "CUDA with last supported Nvidia driver",
+              "SupportedAzureVMFamily" : [
+                {
+                  "series" : "NC",
+                  "GPU" : "NVIDIA Tesla K80"
+                },
+                {
+                  "series" : "NCv2",
+                  "GPU" : "NVIDIA Tesla P100"
+                },
+                {
+                  "series" : "NCv3",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "ND",
+                  "GPU" : "NVIDIA Tesla P40"
+                },
+                {
+                  "series" : "NDv2",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "NCasT4_v3",
+                  "GPU" : "NVIDIA Tesla T4"
+                },
+                {
+                  "series" : "NV",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVv3",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVadsA10_v5",
+                  "GPU" : "NVIDIA A10"
+                }
+              ],
               "Version" : [
                 {
                   "Comment" : "For NCv1 series / Tesla K80 GPUs",
@@ -1116,6 +1572,44 @@
           "Driver" : [
             {
               "Type" : "CUDA",
+              "SupportedAzureVMFamily" : [
+                {
+                  "series" : "NC",
+                  "GPU" : "NVIDIA Tesla K80"
+                },
+                {
+                  "series" : "NCv2",
+                  "GPU" : "NVIDIA Tesla P100"
+                },
+                {
+                  "series" : "NCv3",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "ND",
+                  "GPU" : "NVIDIA Tesla P40"
+                },
+                {
+                  "series" : "NDv2",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "NCasT4_v3",
+                  "GPU" : "NVIDIA Tesla T4"
+                },
+                {
+                  "series" : "NV",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVv3",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVadsA10_v5",
+                  "GPU" : "NVIDIA A10"
+                }
+              ],
               "Version" : [
                 {
                   "Num" : "12.2",
@@ -1151,6 +1645,44 @@
             },
             {
               "Type" : "GRID",
+              "SupportedAzureVMFamily" : [
+                {
+                  "series" : "NC",
+                  "GPU" : "NVIDIA Tesla K80"
+                },
+                {
+                  "series" : "NCv2",
+                  "GPU" : "NVIDIA Tesla P100"
+                },
+                {
+                  "series" : "NCv3",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "ND",
+                  "GPU" : "NVIDIA Tesla P40"
+                },
+                {
+                  "series" : "NDv2",
+                  "GPU" : "NVIDIA Tesla V100"
+                },
+                {
+                  "series" : "NCasT4_v3",
+                  "GPU" : "NVIDIA Tesla T4"
+                },
+                {
+                  "series" : "NV",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVv3",
+                  "GPU" : "NVIDIA Tesla M60"
+                },
+                {
+                  "series" : "NVadsA10_v5",
+                  "GPU" : "NVIDIA A10"
+                }
+              ],
               "Version" : [
                 {
                   "Num": "535.161",
