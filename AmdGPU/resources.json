@@ -128,10 +128,10 @@
               "Num": "GA",
               "DriverVersion" : "23Q3",
               "SupportedOSVersions":"",
-              "DirLink": "https://download.microsoft.com/download/e/8/8/e88bb244-b8e8-47cc-9f86-9ba2632b3cb6/AMD-Azure-NVv4-Driver-23Q3-winsvr2019.exe",
+              "DirLink": "https://download.microsoft.com/download/2/d/3/2d328d15-4188-4fdb-8912-fb300a212dfc/AMD-Azure-NVv4-Driver-23Q3-winsvr2022.exe",
               "FwLink": "https://go.microsoft.com/fwlink/?linkid=2269817",
               "DriverPath": "AMD\\AMD Software Azure NVv4 Guest Driver 23Q3\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
-              "DriverFileSize":603118818
+              "DriverFileSize":603286873
             },
             {
               "SKU": "NGv1",
