@@ -45,12 +45,23 @@
               "SKU": "NVv4",
               "Type": "Radeon",
               "Num": "GA",
-              "DriverVersion" : "23Q3",
-              "SupportedOSVersions":"",
-              "DirLink": "https://download.microsoft.com/download/0/8/1/081db0c3-d2c0-44ae-be45-90a63610b16e/AMD-Azure-NVv4-Driver-23Q3-win10-win11.exe",
-              "FwLink": "https://download.microsoft.com/download/0/8/1/081db0c3-d2c0-44ae-be45-90a63610b16e/AMD-Azure-NVv4-Driver-23Q3-win10-win11.exe",
-              "DriverPath": "",
-              "DriverFileSize": 669015588
+              "Version" : [
+                {
+                  "Name" : "Latest",
+                  "DriverVersion" : "23Q3",
+                  "DirLink": "https://download.microsoft.com/download/0/8/1/081db0c3-d2c0-44ae-be45-90a63610b16e/AMD-Azure-NVv4-Driver-23Q3-win10-win11.exe",
+                  "FwLink": "https://download.microsoft.com/download/0/8/1/081db0c3-d2c0-44ae-be45-90a63610b16e/AMD-Azure-NVv4-Driver-23Q3-win10-win11.exe",
+                  "DriverPath": "",
+                  "DriverFileSize": 669015588
+                },
+                {
+                  "DriverVersion" : "22Q2",
+                  "DirLink": "https://download.microsoft.com/download/4/1/2/412559d0-4de5-4fb1-aa27-eaa3873e1f81/AMD-Azure-NVv4-Driver-22Q2.exe",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=2175154",
+                  "DriverPath": "",
+                  "DriverFileSize":508080113
+                }
+              ]              
             },
             {
               "SKU": "NGv1",
