@@ -44,7 +44,7 @@
                 },
                 {
                   "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10"
+                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -113,7 +113,7 @@
                 },
                 {
                   "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10"
+                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -311,7 +311,7 @@
                 },
                 {
                   "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10"
+                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -368,7 +368,7 @@
                 },
                 {
                   "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10"
+                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -519,7 +519,7 @@
                 },
                 {
                   "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10"
+                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -580,7 +580,7 @@
                 },
                 {
                   "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10"
+                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -761,7 +761,7 @@
                 },
                 {
                   "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10"
+                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -827,7 +827,7 @@
                 },
                 {
                   "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10"
+                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -1039,7 +1039,7 @@
                 },
                 {
                   "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10"
+                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -1094,7 +1094,7 @@
                 },
                 {
                   "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10"
+                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -1295,7 +1295,7 @@
                 },
                 {
                   "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10"
+                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -1368,7 +1368,7 @@
                 },
                 {
                   "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10"
+                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -1549,7 +1549,7 @@
                 },
                 {
                   "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10"
+                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -1607,7 +1607,7 @@
                 },
                 {
                   "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10"
+                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -1680,7 +1680,7 @@
                 },
                 {
                   "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10"
+                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
