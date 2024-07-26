@@ -41,10 +41,6 @@
                 {
                   "series" : "NVv3",
                   "GPU" : "NVIDIA Tesla M60"
-                },
-                {
-                  "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -308,10 +304,6 @@
                 {
                   "series" : "NVv3",
                   "GPU" : "NVIDIA Tesla M60"
-                },
-                {
-                  "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -516,10 +508,6 @@
                 {
                   "series" : "NVv3",
                   "GPU" : "NVIDIA Tesla M60"
-                },
-                {
-                  "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -758,10 +746,6 @@
                 {
                   "series" : "NVv3",
                   "GPU" : "NVIDIA Tesla M60"
-                },
-                {
-                  "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -1036,10 +1020,6 @@
                 {
                   "series" : "NVv3",
                   "GPU" : "NVIDIA Tesla M60"
-                },
-                {
-                  "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -1292,10 +1272,6 @@
                 {
                   "series" : "NVv3",
                   "GPU" : "NVIDIA Tesla M60"
-                },
-                {
-                  "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -1546,10 +1522,6 @@
                 {
                   "series" : "NVv3",
                   "GPU" : "NVIDIA Tesla M60"
-                },
-                {
-                  "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
@@ -1604,10 +1576,6 @@
                 {
                   "series" : "NVv3",
                   "GPU" : "NVIDIA Tesla M60"
-                },
-                {
-                  "series" : "NVadsA10_v5",
-                  "GPU" : "NVIDIA A10 Tensor Core"
                 }
               ],
               "Version" : [
