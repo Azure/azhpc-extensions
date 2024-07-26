@@ -50,7 +50,7 @@
                   "Name" : "Latest",
                   "DriverVersion" : "23Q3",
                   "DirLink": "https://download.microsoft.com/download/0/8/1/081db0c3-d2c0-44ae-be45-90a63610b16e/AMD-Azure-NVv4-Driver-23Q3-win10-win11.exe",
-                  "FwLink": "https://download.microsoft.com/download/0/8/1/081db0c3-d2c0-44ae-be45-90a63610b16e/AMD-Azure-NVv4-Driver-23Q3-win10-win11.exe",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281173",
                   "DriverPath": "",
                   "DriverFileSize": 669015588
                 },
@@ -72,7 +72,7 @@
                   "Name": "Latest",
                   "DriverVersion" : "24.3.1",
                   "DirLink": "https://download.microsoft.com/download/f/9/9/f9957727-073d-4b1e-afa1-b00a52f1f97a/whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-win10-win11.exe",
-                  "FwLink": "https://download.microsoft.com/download/f/9/9/f9957727-073d-4b1e-afa1-b00a52f1f97a/whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-win10-win11.exe",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281503",
                   "DriverPath": "",
                   "DriverFileSize": 682327232
                 },
@@ -99,7 +99,7 @@
                   "Name": "Latest",
                   "DriverVersion" : "23Q3",
                   "DirLink": "https://download.microsoft.com/download/0/8/1/081db0c3-d2c0-44ae-be45-90a63610b16e/AMD-Azure-NVv4-Driver-23Q3-win10-win11.exe",
-                  "FwLink": "https://download.microsoft.com/download/0/8/1/081db0c3-d2c0-44ae-be45-90a63610b16e/AMD-Azure-NVv4-Driver-23Q3-win10-win11.exe",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281173",
                   "DriverPath": "",
                   "DriverFileSize": 669015588
                 },
@@ -121,7 +121,7 @@
                   "Name": "Latest",
                   "DriverVersion" : "24.3.1",
                   "DirLink": "https://download.microsoft.com/download/f/9/9/f9957727-073d-4b1e-afa1-b00a52f1f97a/whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-win10-win11.exe",
-                  "FwLink": "https://download.microsoft.com/download/f/9/9/f9957727-073d-4b1e-afa1-b00a52f1f97a/whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-win10-win11.exe",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281503",
                   "DriverPath": "",
                   "DriverFileSize": 682327232
                 },
@@ -170,7 +170,7 @@
                   "Name": "Latest",
                   "DriverVersion" : "24.3.1",
                   "DirLink": "https://download.microsoft.com/download/f/9/9/f9957727-073d-4b1e-afa1-b00a52f1f97a/whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-win10-win11.exe",
-                  "FwLink": "https://download.microsoft.com/download/f/9/9/f9957727-073d-4b1e-afa1-b00a52f1f97a/whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-win10-win11.exe",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281503",
                   "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\",
                   "DriverFileSize": 682327232
                 },
@@ -219,7 +219,7 @@
                   "Name": "Latest",
                   "DriverVersion" : "24.3.1",
                   "DirLink": "https://download.microsoft.com/download/f/9/9/f9957727-073d-4b1e-afa1-b00a52f1f97a/whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-win10-win11.exe",
-                  "FwLink": "https://download.microsoft.com/download/f/9/9/f9957727-073d-4b1e-afa1-b00a52f1f97a/whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-win10-win11.exe",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281503",
                   "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\",
                   "DriverFileSize": 682327232
                 },
