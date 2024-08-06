@@ -1,0 +1,236 @@
+{
+    "Metadata": {
+        "Version": 20240802,
+        "OS": "Windows"
+    },
+    "Latest": [
+        {
+            "SupportedVmFamily-GPUModel": {
+                "NC series": "NVIDIA Tesla K80",
+                "NCv2 series": "NVIDIA Tesla P100",
+                "NCv3 series": "NVIDIA Tesla V100",
+                "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                "NVv3 Series": "NVIDIA Tesla M60",
+                "NVadsA10_v5 Series": "NVIDIA A10"
+            },
+            "Certificate": {
+                "Expiration": "7/26/2018",
+                "DirLink": "https://download.microsoft.com/download/7/1/F/71FB7755-D899-4FD9-AC05-2216EE8102AC/nvidia.cer",
+                "FwLink": "https://go.microsoft.com/fwlink/?linkid=871664"
+            },
+            "Category": [
+                {
+                    "Name": "CUDA",
+                    "Versions": [
+                        {
+                            "SupportedOSVersions": "Windows 11 21H2, Windows 11 22H2, Windows 11 23H2, Windows 10 21H2, Windows 10 22H2",
+                            "Num": "529.19",
+                            "DirLink": "https://download.microsoft.com/download/a/c/8/ac8f92af-8a95-41ee-aa64-a44d694ebbe6/529.19-data-center-tesla-desktop-winserver-2016-2019-2022-dch-international.exe",
+                            "FwLink": "https://go.microsoft.com/fwlink/?linkid=874179"
+                        }
+                    ]
+                },
+                {
+                    "Name": "GRID",
+                    "Versions": [
+                        {
+                            "SupportedOSVersions": "Windows Server 2019, Windows Server 2022, Windows 10 22H2, Windows 11 23H2",
+                            "DriverVersion": "538.46",
+                            "vGPUVersion": "16.5",
+                            "DirLink": "https://download.microsoft.com/download/a/3/1/a3186ac9-1f9f-4351-a8e7-b5b34ea4e4ea/538.46_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
+                            "FwLink": "https://go.microsoft.com/fwlink/?linkid=874181"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Archive": [
+        {
+            "SupportedVmFamily-GPUModel": {
+                "NC series": "NVIDIA Tesla K80",
+                "NCv2 series": "NVIDIA Tesla P100",
+                "NCv3 series": "NVIDIA Tesla V100",
+                "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                "NVv3 Series": "NVIDIA Tesla M60",
+                "NVadsA10_v5 Series": "NVIDIA A10"
+            },
+            "Category": [
+                {
+                    "Name": "CUDA",
+                    "Versions": [
+                        {
+                            "DriverVersion": "473.47",
+                            "DirLink": "https://download.microsoft.com/download/a/c/a/aca6122c-3565-4f55-9d4d-56a1cecc6ba6/473.47-data-center-tesla-desktop-winserver-2019-2016-international.exe"
+                        },
+                        {
+                            "DriverVersion": "451.82",
+                            "FwLink": "https://download.microsoft.com/download/6/1/0/6102ece3-39ae-4a95-93c1-e76db97c4ed3/Tesla_Windows_451_82.exe"
+                        },
+                        {
+                            "DriverVersion": "398.75",
+                            "FwLink": "https://download.microsoft.com/download/C/F/3/CF3A81B4-9279-45DA-92D0-AF698537E917/398.75-tesla-desktop-winserver2016-international.exe"
+                        },
+                        {
+                            "DriverVersion": "397.44",
+                            "FwLink": "https://download.microsoft.com/download/2/2/4/224C672F-1AD7-46CF-A4B2-1E7EEAD87F05/397.44-tesla-desktop-winserver2016-international.exe"
+                        },
+                        {
+                            "DriverVersion": "390.85",
+                            "DirLink": "https://download.microsoft.com/download/D/8/4/D846AE1E-6565-4EC7-9C99-45FC839A7659/390.85-tesla-desktop-winserver2016-international.exe",
+                            "FwLink": "https://go.microsoft.com/fwlink/?linkid=874802"
+                        }
+                    ]
+                },
+                {
+                    "Name": "GRID",
+                    "Versions": [
+                        {
+                            "Num": "538.15",
+                            "vGPUVersion": "16.3",
+                            "FwLink": "https://download.microsoft.com/download/c/b/0/cb00d90e-5786-4882-89cd-75fb17fa787d/538.15_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
+                            "SupportedOSVersions": "Windows Server 2019, Windows Server 2022, Windows 10 22H2, Windows 11 22H2"
+                        },
+                        {
+                            "Num": "537.13",
+                            "vGPUVersion": "16.2",
+                            "FwLink": "https://download.microsoft.com/download/9/d/6/9d6f3611-ff0c-43bc-8958-fe7fb0ded78d/537.13_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
+                            "SupportedOSVersions": "Windows Server 2019, Windows Server 2022, Windows 10 22H2, Windows 11 22H2"
+                        },
+                        {
+                            "Num": "536.25",
+                            "FwLink": "https://download.microsoft.com/download/c/2/6/c265afdc-b985-470d-952c-b3f0cc9a2be8/536.25_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
+                            "vGPUVersion": "16.0",
+                            "SupportedOSVersions": "Windows Server 2019, Windows Server 2022, Windows 10 22H2, Windows 11 22H2"
+                        },
+                        {
+                            "Num": "528.89",
+                            "FwLink": "https://download.microsoft.com/download/2/5/a/25ad21ca-ed89-41b4-935f-73023ef6c5af/528.89_grid_win10_win11_server2019_server2022_dch_64bit_international_Azure_swl.exe",
+                            "vGPUVersion": "15.2",
+                            "SupportedOSVersions": "Windows Server 2019, Windows Server 2022, Windows 10 22H2"
+                        },
+                        {
+                            "Num": "528.24",
+                            "FwLink": "https://download.microsoft.com/download/f/a/f/fafa2972-4975-482e-99e6-442d5ad864a1/528.24_grid_win10_win11_server2019_server2022_dch_64bit_international-Azure-swl.exe",
+                            "vGPUVersion": "15.1",
+                            "SupportedOSVersions": "Windows Server 2019, Windows Server 2022, Windows 10 22H2"
+                        },
+                        {
+                            "Num": "527.41",
+                            "FwLink": "https://download.microsoft.com/download/4/6/0/4605339d-133c-4b7b-a750-90352df79aa6/527.41_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
+                            "vGPUVersion": "15.0",
+                            "SupportedOSVersions": "Windows Server 2019, Windows Server 2022, Windows 10 22H2"
+                        },
+                        {
+                            "Num": "512.78",
+                            "FwLink": "https://download.microsoft.com/download/7/3/6/7361d1b9-08c8-4571-87aa-18cf671e71a0/512.78_grid_win10_win11_server2016_server2019_server2022_64bit_azure_swl.exe",
+                            "vGPUVersion": "14.1",
+                            "SupportedOSVersions": "Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows Server 2022, Windows 10 21H2"
+                        },
+                        {
+                            "Num": "472.39",
+                            "FwLink": "https://download.microsoft.com/download/3/2/2/322f99aa-57f3-4539-b5fc-718f8c0e2579/472.39_grid_win11_win10_64bit_Azure-SWL.exe",
+                            "vGPUVersion": "13.1",
+                            "SupportedOSVersions": "Windows Server 2012 R2, Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows Server 2022, Windows 10 21H2"
+                        },
+                        {
+                            "Num": "471.68",
+                            "FwLink": "https://download.microsoft.com/download/f/0/1/f0121609-68b4-48af-8426-ef454d4d2376/471.68_grid_win10_server2016_server2019_server-azure-swl.exe",
+                            "vGPUVersion": "13",
+                            "SupportedOSVersions": "Windows Server 2012 R2, Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows Server 2022, Windows 10 21H2"
+                        },
+                        {
+                            "Num": "462.31",
+                            "FwLink": "https://download.microsoft.com/download/0/0/1/001f0edf-d852-4297-9cb7-10b31b1abf45/462.31_grid_win10_server2016_server2019_64bit_azure_swl.exe",
+                            "vGPUVersion": "12.2",
+                            "SupportedOSVersions": "Windows Server 2012 R2, Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows 10 21H1"
+                        },
+                        {
+                            "Num": "461.33",
+                            "FwLink": "https://download.microsoft.com/download/9/7/e/97e1be73-d24b-410b-9c08-cc98c7becfa3/461.33_grid_win10_server2016_server2019_64bit_azure_swl.exe",
+                            "vGPUVersion": "12.1",
+                            "SupportedOSVersions": "Windows Server 2012 R2, Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows 10 21H1"
+                        },
+                        {
+                            "Num": "461.09",
+                            "FwLink": "https://download.microsoft.com/download/4/8/d/48d2d45b-bebc-44ad-9c58-e0b79a9d4ff2/461.09_grid_win10_server2016_server2019_64bit_azure_swl.exe",
+                            "vGPUVersion": "12.0",
+                            "SupportedOSVersions": "Windows Server 2012 R2, Windows Server 2016 1607, Windows Server 2016 1709, Windows Server 2019, Windows 10 21H1"
+                        },
+                        {
+                            "Num": "452.77",
+                            "FwLink": "https://download.microsoft.com/download/f/d/5/fd5ad39b-89cb-4990-ae85-a6fd30475584/452.77_grid_win10_server2016_server2019_64bit_azure_swl.exe",
+                            "vGPUVersion": "11.3"
+                        },
+                        {
+                            "Num": "452.57",
+                            "FwLink": "https://download.microsoft.com/download/1/b/1/1b15516a-de49-4ba4-8651-6abda4f7fb82/452.57_grid_win10_server2016_server2019_64bit_international.exe",
+                            "vGPUVersion": "11.2"
+                        },
+                        {
+                            "Num": "452.39",
+                            "FwLink": "https://download.microsoft.com/download/9/9/1/99186e1b-d27d-47d5-9957-175c88f4efbe/452.39_grid_win10_64bit_whql.exe",
+                            "vGPUVersion": "11.1"
+                        },
+                        {
+                            "Num": "451.48",
+                            "FwLink": "https://download.microsoft.com/download/C/1/4/c147a482-1364-4d12-b9e3-0beda0f00a13/451.48_grid_win10_server2016_server2019_64bit_international.exe",
+                            "vGPUVersion": "11.0"
+                        },
+                        {
+                            "Num": "442.06",
+                            "FwLink": "https://download.microsoft.com/download/b/8/f/b8f5ecec-b8f9-47de-b007-ac40adc88dc8/442.06_grid_win10_64bit_international_whql.exe",
+                            "vGPUVersion": "10.1"
+                        },
+                        {
+                            "Num": "441.66",
+                            "FwLink": "https://download.microsoft.com/download/2/a/3/2a316e62-3be9-4ddb-ae8e-c04b6df6e22d/441.66_grid_win10_server2016_server2019_64bit_international.exe",
+                            "vGPUVersion": "10.0"
+                        },
+                        {
+                            "Num": "431.79",
+                            "FwLink": "https://download.microsoft.com/download/e/8/2/e8257939-a439-4da8-a927-b64b63743db1/431.79_grid_win10_server2016_server2019_64bit_international.exe",
+                            "vGPUVersion": "9.1"
+                        },
+                        {
+                            "Num": "431.02",
+                            "FwLink": "https://download.microsoft.com/download/8/C/C/8CC88D54-EB07-44D3-8FA9-B797B173ED04/431.02_grid_win10_server2016_server2019_64bit_international.exe",
+                            "vGPUVersion": "9.0"
+                        },
+                        {
+                            "Num": "425.31",
+                            "FwLink": "https://download.microsoft.com/download/4/8/C/48C2D46E-EB64-460E-A8D9-0F55737D0D68/425.31_grid_win10_server2016_64bit_international.exe",
+                            "vGPUVersion": "8.0"
+                        },
+                        {
+                            "Num": "412.16",
+                            "FwLink": "https://download.microsoft.com/download/0/B/0/0B082E50-4162-4910-B422-81B2E06E28B5/412.16_grid_win10_server2016_64bit_international.exe",
+                            "vGPUVersion": "7.1"
+                        },
+                        {
+                            "Num": "411.81",
+                            "FwLink": "https://download.microsoft.com/download/0/B/0/0B082E50-4162-4910-B422-81B2E06E28B5/411.81_grid_win10_server2016_64bit_international.exe",
+                            "vGPUVersion": "7.0"
+                        },
+                        {
+                            "Num": "391.81",
+                            "FwLink": "https://download.microsoft.com/download/A/3/A/A3AA4560-02DC-4315-A503-52E4B5B1E0ED/391.81_grid_win10_server2016_64bit_international.exe",
+                            "vGPUVersion": "6.2"
+                        },
+                        {
+                            "Num": "391.58",
+                            "FwLink": "https://download.microsoft.com/download/1/5/B/15B59944-F780-4A80-A8E1-D4489C83E830/391.58_grid_win10_server2016_64bit_international.exe",
+                            "vGPUVersion": "6.1"
+                        },
+                        {
+                            "Num": "391.03",
+                            "DirLink": "https://download.microsoft.com/download/7/D/2/7D276FE8-93AF-446E-8B0D-0B9EA5700255/391.03_grid_win10_server2016_64bit_international.exe",
+                            "FwLink": "https://go.microsoft.com/fwlink/?linkid=874799",
+                            "vGPUVersion": "6.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
