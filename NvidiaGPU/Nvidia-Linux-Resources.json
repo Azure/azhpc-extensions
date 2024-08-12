@@ -4,14 +4,6 @@
         "OS": "Linux"
     },
     "Latest": {
-        "SupportedVmFamily-GPUModel": {
-            "NC series": "NVIDIA Tesla K80",
-            "NCv2 series": "NVIDIA Tesla P100",
-            "NCv3 series": "NVIDIA Tesla V100",
-            "NCasT4_v3 sizes": "Nvidia Tesla T4",
-            "NVv3 Series": "NVIDIA Tesla M60",
-            "NVadsA10_v5 Series": "NVIDIA A10"
-        },
         "PublicKey": {
             "FwLink": "https://download.microsoft.com/download/f/4/7/f472d46c-1bc2-49dc-b43b-c803ce3e2f1d/3bf863cc.pub",
             "BaseUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
@@ -20,6 +12,11 @@
         "Category": [
             {
                 "Name": "GRID",
+                "SupportedVmFamily-GPUModel": {
+                    "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                    "NVv3 Series": "NVIDIA Tesla M60",
+                    "NVadsA10_v5 Series": "NVIDIA A10"
+                },
                 "Versions": [
                     {
                         "Num": "535.161",
@@ -32,6 +29,13 @@
             },
             {
                 "Name": "CUDA",
+                "SupportedVmFamily-GPUModel": {
+                    "NC series": "NVIDIA Tesla K80",
+                    "NCv2 series": "NVIDIA Tesla P100",
+                    "NCv3 series": "NVIDIA Tesla V100",
+                    "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                    "NVv3 Series": "NVIDIA Tesla M60"
+                },
                 "Versions": [
                     {
                         "SupportedOSVersions": "Ubuntu 22.04 LTS",
@@ -82,14 +86,6 @@
         ]
     },
     "Archive": {
-        "SupportedVmFamily-GPUModel": {
-            "NC series": "NVIDIA Tesla K80",
-            "NCv2 series": "NVIDIA Tesla P100",
-            "NCv3 series": "NVIDIA Tesla V100",
-            "NCasT4_v3 sizes": "Nvidia Tesla T4",
-            "NVv3 Series": "NVIDIA Tesla M60",
-            "NVadsA10_v5 Series": "NVIDIA A10"
-        },
         "PublicKey": {
             "FwLink": "https://download.microsoft.com/download/f/4/7/f472d46c-1bc2-49dc-b43b-c803ce3e2f1d/3bf863cc.pub",
             "BaseUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
@@ -98,6 +94,11 @@
         "Category": [
             {
                 "Name": "GRID",
+                "SupportedVmFamily-GPUModel": {
+                    "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                    "NVv3 Series": "NVIDIA Tesla M60",
+                    "NVadsA10_v5 Series": "NVIDIA A10"
+                },
                 "Versions": [
                     {
                         "Num": "535.154",
@@ -228,6 +229,13 @@
             },
             {
                 "Name": "CUDA",
+                "SupportedVmFamily-GPUModel": {
+                    "NC series": "NVIDIA Tesla K80",
+                    "NCv2 series": "NVIDIA Tesla P100",
+                    "NCv3 series": "NVIDIA Tesla V100",
+                    "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                    "NVv3 Series": "NVIDIA Tesla M60"
+                },
                 "Versions": [
                     {
                         "SupportedOSVersions": "Ubuntu 22.04 LTS",
