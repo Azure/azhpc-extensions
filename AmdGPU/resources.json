@@ -12,9 +12,7 @@
               "Num": "GA",
               "DirLink": "https://download.microsoft.com/download/4/1/2/412559d0-4de5-4fb1-aa27-eaa3873e1f81/AMD-Azure-NVv4-Driver-22Q2.exe",
               "FwLink": "https://go.microsoft.com/fwlink/?linkid=2175154",
-              "DriverPath": "AMD\\AMD-Azure-NVv4-Driver-22Q2\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
-              "vGPUVersion" :"22Q2",
-              "SupportedOSVersions" : "Windows Server 2019, Windows Server 2022, Windows 10 22H2, Windows 11 23H2"
+              "DriverPath": "AMD\\AMD-Azure-NVv4-Driver-22Q2\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf"
             },
             {
               "SKU": "NGv1",
@@ -22,9 +20,7 @@
               "Num": "GA",
               "DirLink": "https://download.microsoft.com/download/9/1/e/91ed0d01-1a2c-46ad-b014-51ece3b1936c/amd-software-cloud-edition-23.q3-azure-ngads-v620.exe",
               "FwLink": "https://go.microsoft.com/fwlink/?linkid=2234555",
-              "DriverPath": "AMD\\AMD Software Cloud Edition 23.Q3\\Packages\\Drivers\\Display\\WT6A_INF\\",
-              "vGPUVersion" :"23Q3",
-              "SupportedOSVersions" : "Windows Server 2019, Windows Server 2022, Windows 10 22H2, Windows 11 23H2"
+              "DriverPath": "AMD\\AMD Software Cloud Edition 23.Q3\\Packages\\Drivers\\Display\\WT6A_INF\\"
             },
             {
               "SKU": "NGv1",
@@ -32,9 +28,7 @@
               "Num": "V620",
               "DirLink": "https://download.microsoft.com/download/7/9/6/79620982-19db-4b10-8e09-bfb27402320d/Guest-AMD_GPU DRIVER-230208a-388197e-microsoft.zip",
               "AuthenticodeSignature": "Guest-AMD_GPU DRIVER-230208a-388197e-microsoft\\Packages\\Drivers\\Display\\WT6A_INF\\amdfdans\\amdfdans.cat",
-              "DriverPath": "Guest-AMD_GPU DRIVER-230208a-388197e-microsoft\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
-              "vGPUVersion" :"23Q3",
-              "SupportedOSVersions" : "Windows Server 2019, Windows Server 2022, Windows 10 22H2, Windows 11 23H2"
+              "DriverPath": "Guest-AMD_GPU DRIVER-230208a-388197e-microsoft\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf"
             }
           ]
         }
