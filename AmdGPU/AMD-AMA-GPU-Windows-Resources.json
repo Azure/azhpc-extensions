@@ -6,7 +6,7 @@
             "NVv4 Series": "Cloud Edition VDI",
             "NGads V620-series": "Cloud Edition - Gaming Update"
         },
-        "Comment" : "We install the default set of drivers as mentioned in the DefaultSelectionsPerVMFamily for each VM family. If the user wants to install a different driver, for example, Gaming driver instead of VDI (or) VDI driver instead of Gaming Driver, can do so by passing runtime settings on supported VM series. For checking the supported VM families refer to SupportedVmFamilyAndGPUModel under each category below. For installing VDI driver, please specify {VDIDriver':True} in runtime settings and for installing Gaming driver, please specify {'GamingDriver':True} in runtime settings."
+        "Comment" : "We install the default set of drivers as mentioned in the DefaultSelectionsPerVMFamily for each VM family. If the user wants to install a different driver, for example, Gaming driver instead of VDI (or) VDI driver instead of Gaming Driver, can do so by passing runtime settings on supported VM series. For checking the supported VM families refer to SupportedVmFamilyAndGPUModel under each category below. For installing VDI driver, please specify {'installVDIDriver':True} in runtime settings and for installing Gaming driver, please specify {'installGamingDriver':True} in runtime settings."
   },
   "Latest": {
     "Category": [
