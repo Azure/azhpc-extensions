@@ -1,7 +1,8 @@
 {
     "Metadata": {
         "Version": 20240802,
-        "OS": "Linux",
+        "GPU Vendor" : "NVIDIA",
+        "OS": "Linux",        
         "DefaultSelectionsPerVMFamily": {
             "NC series": "CUDA",
             "NCv2 series": "CUDA",

@@ -1,6 +1,7 @@
 {
     "Metadata": {
         "Version": 20240802,
+        "GPU Vendor" : "NVIDIA",
         "OS": "Windows",
         "DefaultSelectionsPerVMFamily": {
             "NC series": "CUDA",

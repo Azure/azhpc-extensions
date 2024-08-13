@@ -1,6 +1,7 @@
 {
   "Metadata": {
     "Version": 20240802,
+    "GPU Vendor" : "AMD and Advanced Media Accelerator (AMA)",
     "OS": "Windows",
     "DefaultSelectionsPerVMFamily": {
             "NVv4 Series": "Cloud Edition VDI",
