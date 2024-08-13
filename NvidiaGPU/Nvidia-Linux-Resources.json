@@ -9,7 +9,8 @@
             "NCasT4_v3 sizes": "CUDA",
             "NVv3 Series": "GRID",
             "NVadsA10_v5 Series": "GRID"
-        }
+        },
+        "Comment" : "We install the default set of drivers as mentioned in the DefaultSelectionsPerVMFamily for each VM family. If the user wants to install a different driver, for example, GRID driver instead of CUDA (or) CUDA driver instead of grid, can do so by passing runtime settings on supported VM series. For checking the supported VM families refer to SupportedVmFamilyAndGPUModel under each category below."
     },
     "Latest": {
         "PublicKey": {

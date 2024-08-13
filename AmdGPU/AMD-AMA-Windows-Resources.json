@@ -1,12 +1,17 @@
 {
   "Metadata": {
     "Version": 20240802,
-    "OS": "Windows"
+    "OS": "Windows",
+    "DefaultSelectionsPerVMFamily": {
+            "NVv4 Series": "Cloud Edition VDI",
+            "NGads V620-series": "Cloud Edition - Gaming Update"
+        },
+        "Comment" : "We install the default set of drivers as mentioned in the DefaultSelectionsPerVMFamily for each VM family. If the user wants to install a different driver, for example, Gaming driver instead of VDI (or) CUDA driver instead of grid, can do so by passing runtime settings on supported VM series. For checking the supported VM families refer to SupportedVmFamilyAndGPUModel under each category below. For installing VDI driver, please specify {VDIDriver':True} in runtime settings and for installing Gaming driver, please specify {'GamingDriver':True} in runtime settings."
   },
   "Latest": {
     "Category": [
       {
-        "Name": "Cloud Edition - Gaming Update",
+        "Name": "Cloud Edition VDI",
         "Versions": [
           {
             "DriverVersion": "23Q3",
@@ -60,6 +65,37 @@
               }
             ]
           },
+          {
+            "DriverVersion": "23Q3",
+            "SupportedVmFamilyAndGPUModel": {
+              "NGads V620-series": "AMD Radeon PRO V620 GPU"
+            },
+            "Drivers": [
+              {
+                "SupportedOSVersions": [
+                  "Windows 11 23H2",
+                  "Windows 11 22H2",
+                  "Windows 11 21H2",
+                  "Windows 10 22H2",
+                  "Windows 10 21H2",
+                  "Windows Server 2022",
+                  "Windows Server 2019",
+                  "Windows Server 2016",
+                  "Windows 11 Enterprise multi-session",
+                  "Windows 10 Enterprise multi-session"
+                ],
+                "DirLink": "https://download.microsoft.com/download/9/1/e/91ed0d01-1a2c-46ad-b014-51ece3b1936c/amd-software-cloud-edition-23.q3-azure-ngads-v620.exe",
+                "FwLink": "https://go.microsoft.com/fwlink/?linkid=2234555",
+                "DriverPath": "AMD\\AMD Software Cloud Edition 23.Q3\\Packages\\Drivers\\Display\\WT6A_INF\\",
+                "DriverFileSize": 672465407
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Cloud Edition - Gaming Update",
+        "Versions": [
           {
             "DriverVersion": "24.3.1",
             "SupportedVmFamilyAndGPUModel": {
@@ -116,56 +152,39 @@
   },
   "Archive": [
     {
-      "NVv4": {
-        "VMFamily": "NVv4 Series",
-        "GPUModel": "AMD Radeon Instinct MI25",
-        "DriverVersion": "22Q2",
-        "Drivers": [
-          {
-            "SupportedOSVersions": [
-              "Windows 11 23H2",
-              "Windows 11 22H2",
-              "Windows 11 21H2",
-              "Windows 10 22H2",
-              "Windows 10 21H2",
-              "Windows Server 2022",
-              "Windows Server 2019",
-              "Windows Server 2016",
-              "Windows 11 Enterprise multi-session",
-              "Windows 10 Enterprise multi-session"
-            ],
-            "DirLink": "https://download.microsoft.com/download/4/1/2/412559d0-4de5-4fb1-aa27-eaa3873e1f81/AMD-Azure-NVv4-Driver-22Q2.exe",
-            "FwLink": "https://go.microsoft.com/fwlink/?linkid=2175154",
-            "DriverPath": "AMD\\AMD-Azure-NVv4-Driver-22Q2\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
-            "DriverFileSize": 508080113
-          }
-        ]
-      },
-      "NGv1": {
-        "VMFamily": "NGads V620-series",
-        "GPUModel": "AMD Radeon PRO V620 GPU",
-        "DriverVersion": "23Q3",
-        "Drivers": [
-          {
-            "SupportedOSVersions": [
-              "Windows 11 23H2",
-              "Windows 11 22H2",
-              "Windows 11 21H2",
-              "Windows 10 22H2",
-              "Windows 10 21H2",
-              "Windows Server 2022",
-              "Windows Server 2019",
-              "Windows Server 2016",
-              "Windows 11 Enterprise multi-session",
-              "Windows 10 Enterprise multi-session"
-            ],
-            "DirLink": "https://download.microsoft.com/download/9/1/e/91ed0d01-1a2c-46ad-b014-51ece3b1936c/amd-software-cloud-edition-23.q3-azure-ngads-v620.exe",
-            "FwLink": "https://go.microsoft.com/fwlink/?linkid=2234555",
-            "DriverPath": "AMD\\AMD Software Cloud Edition 23.Q3\\Packages\\Drivers\\Display\\WT6A_INF\\",
-            "DriverFileSize": 672465407
-          }
-        ]
-      }
+      "Category": [
+        {
+          "Name": "Cloud Edition VDI",
+          "Versions": [
+            {
+              "DriverVersion": "22Q2",
+              "SupportedVmFamilyAndGPUModel": {
+                "NVv4 Series": "AMD Radeon Instinct MI25"
+              },
+              "Drivers": [
+                {
+                  "SupportedOSVersions": [
+                    "Windows 11 23H2",
+                    "Windows 11 22H2",
+                    "Windows 11 21H2",
+                    "Windows 10 22H2",
+                    "Windows 10 21H2",
+                    "Windows Server 2022",
+                    "Windows Server 2019",
+                    "Windows Server 2016",
+                    "Windows 11 Enterprise multi-session",
+                    "Windows 10 Enterprise multi-session"
+                  ],
+                  "DirLink": "https://download.microsoft.com/download/4/1/2/412559d0-4de5-4fb1-aa27-eaa3873e1f81/AMD-Azure-NVv4-Driver-22Q2.exe",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=2175154",
+                  "DriverPath": "AMD\\AMD-Azure-NVv4-Driver-22Q2\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
+                  "DriverFileSize": 508080113
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
