@@ -1,7 +1,7 @@
 {
     "Metadata": {
         "Version": 20240802,
-        "GPU Vendor" : "NVIDIA",
+        "GPU Vendor": "NVIDIA",
         "OS": "Windows",
         "DefaultSelectionsPerVMFamily": {
             "NC series": "CUDA",
@@ -11,7 +11,7 @@
             "NVv3 Series": "GRID",
             "NVadsA10_v5 Series": "GRID"
         },
-        "Comment" : "We install the default set of drivers as mentioned in the DefaultSelectionsPerVMFamily for each VM family. \n If the user wants to install GRID driver on NC or ND series, can do so by passing runtime settings on supported GPU VM families. For checking the supported VM families refer to SupportedVmFamilyAndGPUModel under each category below. For installing GRID driver on NC Series, please specify {'installGridNC':True} in the runtime setting. For installing GRID driver on ND series, please specify {'installGridND':True} in the runtime settings."
+        "Comment": "We install the default set of drivers as mentioned in the DefaultSelectionsPerVMFamily for each VM family. \n If the user wants to install GRID driver on NC or ND series, can do so by passing runtime settings on supported GPU VM families. For checking the supported VM families refer to SupportedVmFamilyAndGPUModel under each category below. For installing GRID driver on NC Series, please specify {'installGridNC':True} in the runtime setting. For installing GRID driver on ND series, please specify {'installGridND':True} in the runtime settings."
     },
     "Latest": [
         {
@@ -38,7 +38,9 @@
                                 "Windows 10 21H2",
                                 "Windows Server 2022",
                                 "Windows Server 2019",
-                                "Windows Server 2016"
+                                "Windows Server 2016",
+                                "Windows 11 Enterprise multi-session",
+                                "Windows 10 Enterprise multi-session"
                             ],
                             "DriverVersion": "538.46",
                             "vGPUVersion": "16.5",
@@ -66,7 +68,9 @@
                                 "Windows 10 21H2",
                                 "Windows Server 2022",
                                 "Windows Server 2019",
-                                "Windows Server 2016"
+                                "Windows Server 2016",
+                                "Windows 11 Enterprise multi-session",
+                                "Windows 10 Enterprise multi-session"
                             ],
                             "Num": "529.19",
                             "DirLink": "https://download.microsoft.com/download/a/c/8/ac8f92af-8a95-41ee-aa64-a44d694ebbe6/529.19-data-center-tesla-desktop-winserver-2016-2019-2022-dch-international.exe",
@@ -126,8 +130,8 @@
                             "FwLink": "https://download.microsoft.com/download/2/5/a/25ad21ca-ed89-41b4-935f-73023ef6c5af/528.89_grid_win10_win11_server2019_server2022_dch_64bit_international_Azure_swl.exe",
                             "vGPUVersion": "15.2",
                             "SupportedOSVersions": [
-                                "Windows Server 2019", 
-                                "Windows Server 2022", 
+                                "Windows Server 2019",
+                                "Windows Server 2022",
                                 "Windows 10 22H2"
                             ]
                         },
@@ -136,8 +140,8 @@
                             "FwLink": "https://download.microsoft.com/download/f/a/f/fafa2972-4975-482e-99e6-442d5ad864a1/528.24_grid_win10_win11_server2019_server2022_dch_64bit_international-Azure-swl.exe",
                             "vGPUVersion": "15.1",
                             "SupportedOSVersions": [
-                                "Windows Server 2019", 
-                                "Windows Server 2022", 
+                                "Windows Server 2019",
+                                "Windows Server 2022",
                                 "Windows 10 22H2"
                             ]
                         },
@@ -146,8 +150,8 @@
                             "FwLink": "https://download.microsoft.com/download/4/6/0/4605339d-133c-4b7b-a750-90352df79aa6/527.41_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
                             "vGPUVersion": "15.0",
                             "SupportedOSVersions": [
-                                "Windows Server 2019", 
-                                "Windows Server 2022", 
+                                "Windows Server 2019",
+                                "Windows Server 2022",
                                 "Windows 10 22H2"
                             ]
                         },
@@ -167,12 +171,12 @@
                             "vGPUVersion": "13.1",
                             "SupportedOSVersions": [
                                 "Windows Server 2012 R2",
-                                "Windows Server 2016 1607", 
-                                "Windows Server 2016 1709", 
-                                "Windows Server 2019", 
-                                "Windows Server 2022", 
+                                "Windows Server 2016 1607",
+                                "Windows Server 2016 1709",
+                                "Windows Server 2019",
+                                "Windows Server 2022",
                                 "Windows 10 21H2"
-                            ]                             
+                            ]
                         },
                         {
                             "Num": "471.68",
@@ -180,10 +184,10 @@
                             "vGPUVersion": "13",
                             "SupportedOSVersions": [
                                 "Windows Server 2012 R2",
-                                "Windows Server 2016 1607", 
-                                "Windows Server 2016 1709", 
-                                "Windows Server 2019", 
-                                "Windows Server 2022", 
+                                "Windows Server 2016 1607",
+                                "Windows Server 2016 1709",
+                                "Windows Server 2019",
+                                "Windows Server 2022",
                                 "Windows 10 21H2"
                             ]
                         },
@@ -193,9 +197,9 @@
                             "vGPUVersion": "12.2",
                             "SupportedOSVersions": [
                                 "Windows Server 2012 R2",
-                                "Windows Server 2016 1607", 
-                                "Windows Server 2016 1709", 
-                                "Windows Server 2019", 
+                                "Windows Server 2016 1607",
+                                "Windows Server 2016 1709",
+                                "Windows Server 2019",
                                 "Windows 10 21H1"
                             ]
                         },
@@ -204,10 +208,10 @@
                             "FwLink": "https://download.microsoft.com/download/9/7/e/97e1be73-d24b-410b-9c08-cc98c7becfa3/461.33_grid_win10_server2016_server2019_64bit_azure_swl.exe",
                             "vGPUVersion": "12.1",
                             "SupportedOSVersions": [
-                                "Windows Server 2012 R2", 
-                                "Windows Server 2016 1607", 
-                                "Windows Server 2016 1709", 
-                                "Windows Server 2019", 
+                                "Windows Server 2012 R2",
+                                "Windows Server 2016 1607",
+                                "Windows Server 2016 1709",
+                                "Windows Server 2019",
                                 "Windows 10 21H1"
                             ]
                         },
@@ -216,10 +220,10 @@
                             "FwLink": "https://download.microsoft.com/download/4/8/d/48d2d45b-bebc-44ad-9c58-e0b79a9d4ff2/461.09_grid_win10_server2016_server2019_64bit_azure_swl.exe",
                             "vGPUVersion": "12.0",
                             "SupportedOSVersions": [
-                                "Windows Server 2012 R2", 
-                                "Windows Server 2016 1607", 
-                                "Windows Server 2016 1709", 
-                                "Windows Server 2019", 
+                                "Windows Server 2012 R2",
+                                "Windows Server 2016 1607",
+                                "Windows Server 2016 1709",
+                                "Windows Server 2019",
                                 "Windows 10 21H1"
                             ]
                         },
