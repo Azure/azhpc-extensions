@@ -1,8 +1,9 @@
 {
     "Metadata": {
         "Version": 20240802,
-        "GPU Vendor" : "NVIDIA",
-        "OS": "Linux",        
+        "Vendor": "NVIDIA",
+        "AcceleratorType": "GPU",
+        "OS": "Linux",
         "DefaultSelectionsPerVMFamily": {
             "NC series": "CUDA",
             "NCv2 series": "CUDA",
@@ -11,7 +12,7 @@
             "NVv3 Series": "GRID",
             "NVadsA10_v5 Series": "GRID"
         },
-        "Comment" : "We install the default set of drivers as mentioned in the DefaultSelectionsPerVMFamily for each VM family. If the user wants to install GRID driver on NC or ND series, can do so by passing runtime settings on supported GPU VM families. For checking the supported VM families for a particular driver category, refer to SupportedVmFamilyAndGPUModel under each category below. For installing GRID driver on NC Series, please specify {'installGridNC':True} in the runtime setting. For installing GRID driver on ND series, please specify {'installGridND':True} in the runtime settings."
+        "Comment": "We install the default set of drivers as mentioned in the DefaultSelectionsPerVMFamily for each VM family. If the user wants to install GRID driver on NC or ND series, can do so by passing runtime settings on supported GPU VM families. For checking the supported VM families for a particular driver category, refer to SupportedVmFamilyAndGPUModel under each category below. For installing GRID driver on NC Series, please specify {'installGridNC':True} in the runtime setting. For installing GRID driver on ND series, please specify {'installGridND':True} in the runtime settings."
     },
     "Latest": {
         "PublicKey": {
@@ -22,91 +23,147 @@
         "Category": [
             {
                 "Name": "GRID",
-                "SupportedVmFamilyAndGPUModel": {
-                    "NCasT4_v3 sizes": "Nvidia Tesla T4",
-                    "NVv3 Series": "NVIDIA Tesla M60",
-                    "NVadsA10_v5 Series": "NVIDIA A10"
-                },
                 "Versions": [
                     {
-                        "Num": "535.161",
-                        "DirLink": "https://download.microsoft.com/download/8/d/a/8da4fb8e-3a9b-4e6a-bc9a-72ff64d7a13c/NVIDIA-Linux-x86_64-535.161.08-grid-azure.run",
-                        "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272",
+                        "DriverVersion": "535.161",
                         "vGPUVersion": "16.5",
-                        "SupportedOSVersions": [
-                            "Ubuntu 22.04 LTS",
-                            "Ubuntu 20.04 LTS",
-                            "Ubuntu 18.04 LTS",
-                            "Red Hat Enterprise Linux 8.6, 8.8, 8.9",
-                            "RHEL/CentOS 8.x",
-                            "RHEL/CentOS 7.x"
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 22.04 LTS",
+                                    "Ubuntu 20.04 LTS",
+                                    "Ubuntu 18.04 LTS",
+                                    "Red Hat Enterprise Linux 8.6, 8.8, 8.9",
+                                    "RHEL/CentOS 8.x",
+                                    "RHEL/CentOS 7.x"
+                                ],
+                                "DirLink": "https://download.microsoft.com/download/8/d/a/8da4fb8e-3a9b-4e6a-bc9a-72ff64d7a13c/NVIDIA-Linux-x86_64-535.161.08-grid-azure.run",
+                                "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                            }
                         ]
                     }
                 ]
             },
             {
                 "Name": "CUDA",
-                "SupportedVmFamilyAndGPUModel": {
-                    "NC series": "NVIDIA Tesla K80",
-                    "NCv2 series": "NVIDIA Tesla P100",
-                    "NCv3 series": "NVIDIA Tesla V100",
-                    "NCasT4_v3 sizes": "Nvidia Tesla T4",
-                    "NVv3 Series": "NVIDIA Tesla M60"
-                },
                 "Versions": [
                     {
-                        "SupportedOSVersions": [
-                            "Ubuntu 22.04 LTS"
-                        ],
-                        "Num": "12.2",
-                        "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/",
-                        "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin",
-                        "InstallMethod": 1
-                    },
-                    {
-                        "SupportedOSVersions": [
-                            "RHEL/CentOS 7.x"
-                        ],
-                        "Num": "10.0.130",
-                        "DirLink": "https://download.microsoft.com/download/9/3/5/9356AEC3-D562-4E16-BF7A-4369980CB0D5/cuda-repo-rhel7-10.0.130-1.x86_64.rpm",
-                        "FwLink": "https://go.microsoft.com/fwlink/?linkid=874273",
-                        "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64/cuda-rhel7.repo",
-                        "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
-                        "InstallMethod": 0,
-                        "DKMS": {
-                            "FwLink": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm"
+                        "DriverVersion": "535.54",
+                        "CUDA Toolkit": "12.2",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NC series": "NVIDIA Tesla K80",
+                            "NCv2 series": "NVIDIA Tesla P100",
+                            "NCv3 series": "NVIDIA Tesla V100",
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60"
                         },
-                        "LIS": {
-                            "LatestKernel": "3.10.0-1062.9.1.el7",
-                            "FwLink": "https://aka.ms/lis"
-                        }
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 22.04 LTS"
+                                ],
+                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/",
+                                "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin",
+                                "InstallMethod": 1
+                            }
+                        ]
                     },
                     {
-                        "SupportedOSVersions": [
-                            "RHEL/CentOS 8.x"
-                        ],
-                        "Num": "11.1",
-                        "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo",
-                        "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm",
-                        "InstallMethod": 2
+                        "DriverVersion": "530.30",
+                        "CUDA Toolkit": "12.1",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NC series": "NVIDIA Tesla K80",
+                            "NCv2 series": "NVIDIA Tesla P100",
+                            "NCv3 series": "NVIDIA Tesla V100",
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 18.x LTS"
+                                ],
+                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
+                                "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
+                                "InstallMethod": 1
+                            }
+                        ]
                     },
                     {
-                        "SupportedOSVersions": [
-                            "Ubuntu 18.x LTS"
-                        ],
-                        "Num": "12.1",
-                        "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
-                        "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
-                        "InstallMethod": 1
+                        "DriverVersion": "530.30",
+                        "CUDA Toolkit": "12.1",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NC series": "NVIDIA Tesla K80",
+                            "NCv2 series": "NVIDIA Tesla P100",
+                            "NCv3 series": "NVIDIA Tesla V100",
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 20.x LTS"
+                                ],
+                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
+                                "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
+                                "InstallMethod": 1
+                            }
+                        ]
                     },
                     {
-                        "SupportedOSVersions": [
-                            "Ubuntu 20.x LTS"
-                        ],
-                        "Num": "12.2",
-                        "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-                        "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
-                        "InstallMethod": 1
+                        "DriverVersion": "455.23",
+                        "CUDA Toolkit": "11.1",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NC series": "NVIDIA Tesla K80",
+                            "NCv2 series": "NVIDIA Tesla P100",
+                            "NCv3 series": "NVIDIA Tesla V100",
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "RHEL/CentOS 8.x"
+                                ],
+                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo",
+                                "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm",
+                                "InstallMethod": 2
+                            }
+                        ]
+                    },
+                    {
+                        "DriverVersion": "10.0.130",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NC series": "NVIDIA Tesla K80",
+                            "NCv2 series": "NVIDIA Tesla P100",
+                            "NCv3 series": "NVIDIA Tesla V100",
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "RHEL/CentOS 7.x"
+                                ],
+                                "DirLink": "https://download.microsoft.com/download/9/3/5/9356AEC3-D562-4E16-BF7A-4369980CB0D5/cuda-repo-rhel7-10.0.130-1.x86_64.rpm",
+                                "FwLink": "https://go.microsoft.com/fwlink/?linkid=874273",
+                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64/cuda-rhel7.repo",
+                                "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
+                                "InstallMethod": 0,
+                                "DKMS": {
+                                    "FwLink": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm"
+                                },
+                                "LIS": {
+                                    "LatestKernel": "3.10.0-1062.9.1.el7",
+                                    "FwLink": "https://aka.ms/lis"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -121,192 +178,402 @@
         "Category": [
             {
                 "Name": "GRID",
-                "SupportedVmFamilyAndGPUModel": {
-                    "NCasT4_v3 sizes": "Nvidia Tesla T4",
-                    "NVv3 Series": "NVIDIA Tesla M60",
-                    "NVadsA10_v5 Series": "NVIDIA A10"
-                },
                 "Versions": [
                     {
-                        "Num": "535.154",
-                        "DirLink": "https://download.microsoft.com/download/1/4/4/14450d0e-a3f2-4b0a-9bb4-a8e729e986c4/NVIDIA-Linux-x86_64-535.154.05-grid-azure.run",
+                        "DriverVersion": "535.154",
                         "vGPUVersion": "16.3",
-                        "SupportedOSVersions": [
-                            "Ubuntu 20.04 LTS",
-                            "Red Hat Enterprise Linux 8.6, 8.8, 8.9"
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 20.04 LTS",
+                                    "Red Hat Enterprise Linux 8.6, 8.8, 8.9"
+                                ],
+                                "DirLink": "https://download.microsoft.com/download/1/4/4/14450d0e-a3f2-4b0a-9bb4-a8e729e986c4/NVIDIA-Linux-x86_64-535.154.05-grid-azure.run"
+                            }
                         ]
                     },
                     {
-                        "Num": "535.54",
-                        "FwLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run",
+                        "DriverVersion": "535.54",
                         "vGPUVersion": "16.2",
-                        "SupportedOSVersions": [
-                            "Ubuntu 20.04 LTS",
-                            "Red Hat Enterprise Linux 8.6, 8.8, 8.9, 7.9"
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 20.04 LTS",
+                                    "Red Hat Enterprise Linux 8.6, 8.8, 8.9, 7.9"
+                                ],
+                                "DirLink": "https://download.microsoft.com/download/2/e/8/2e85b622-d376-4166-be95-38fd60f18eda/NVIDIA-Linux-x86_64-535.54.03-grid-azure.run"
+                            }
                         ]
                     },
                     {
-                        "Num": "525.105",
-                        "FwLink": "https://download.microsoft.com/download/6/b/d/6bd2850f-5883-4e2a-9a35-edbd3dd6808c/NVIDIA-Linux-x86_64-525.105.17-grid-azure.run",
+                        "DriverVersion": "525.105",
                         "vGPUVersion": "15.2",
-                        "SupportedOSVersions": [
-                            "Ubuntu 20.04 LTS",
-                            "Ubuntu 18.04 LTS",
-                            "Red Hat Enterprise Linux 8.6, 8.8, 8.9, 7.9"
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 20.04 LTS",
+                                    "Ubuntu 18.04 LTS",
+                                    "Red Hat Enterprise Linux 8.6, 8.8, 8.9, 7.9"
+                                ],
+                                "DirLink": "https://download.microsoft.com/download/6/b/d/6bd2850f-5883-4e2a-9a35-edbd3dd6808c/NVIDIA-Linux-x86_64-525.105.17-grid-azure.run"
+                            }
                         ]
                     },
                     {
-                        "Num": "525.85",
-                        "FwLink": "https://download.microsoft.com/download/c/e/9/ce913061-ccf1-4c88-94ff-294e48c55439/NVIDIA-Linux-x86_64-525.85.05-grid-azure.run",
+                        "DriverVersion": "525.85",
                         "vGPUVersion": "15.1",
-                        "SupportedOSVersions": [
-                            "Ubuntu 20.04 LTS",
-                            "Ubuntu 18.04 LTS",
-                            "Red Hat Enterprise Linux 8.6, 8.8, 8.9, 7.9"
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 20.04 LTS",
+                                    "Ubuntu 18.04 LTS",
+                                    "Red Hat Enterprise Linux 8.6, 8.8, 8.9, 7.9"
+                                ],
+                                "DirLink": "https://download.microsoft.com/download/c/e/9/ce913061-ccf1-4c88-94ff-294e48c55439/NVIDIA-Linux-x86_64-525.85.05-grid-azure.run"
+                            }
                         ]
                     },
                     {
-                        "Num": "525.60",
-                        "FwLink": "https://download.microsoft.com/download/1/e/8/1e82a212-9e77-4d74-9455-828d430a39f1/NVIDIA-Linux-x86_64-525.60.13-grid-azure.run",
+                        "DriverVersion": "525.60",
                         "vGPUVersion": "15.0",
-                        "SupportedOSVersions": [
-                            "Ubuntu 20.04 LTS",
-                            "Ubuntu 18.04 LTS",
-                            "Red Hat Enterprise Linux 8.6, 8.8, 8.9, 7.9"
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 20.04 LTS",
+                                    "Ubuntu 18.04 LTS",
+                                    "Red Hat Enterprise Linux 8.6, 8.8, 8.9, 7.9"
+                                ],
+                                "DirLink": "https://download.microsoft.com/download/1/e/8/1e82a212-9e77-4d74-9455-828d430a39f1/NVIDIA-Linux-x86_64-525.60.13-grid-azure.run"
+                            }
                         ]
                     },
                     {
-                        "Num": "470.82",
-                        "FwLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run",
+                        "DriverVersion": "470.82",
                         "vGPUVersion": "13.1",
-                        "SupportedOSVersions": [
-                            "Ubuntu 14.04 LTS, 16.04 LTS, 20.04 LTS", 
-                            "Red Hat Enterprise Linux 8.1, 8.2, 8.4"
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 14.04 LTS, 16.04 LTS, 20.04 LTS",
+                                    "Red Hat Enterprise Linux 8.1, 8.2, 8.4"
+                                ],
+                                "DirLink": "https://download.microsoft.com/download/a/3/c/a3c078a0-e182-4b61-ac9b-ac011dc6ccf4/NVIDIA-Linux-x86_64-470.82.01-grid-azure.run"
+                            }
                         ]
                     },
                     {
-                        "Num": "470.63",
-                        "FwLink": "https://download.microsoft.com/download/b/d/d/bdd729ee-5003-4427-ace4-a7b9172b2e29/NVIDIA-Linux-x86_64-470.63.01-grid-azure.run",
+                        "DriverVersion": "470.63",
                         "vGPUVersion": "13.0",
-                        "SupportedOSVersions": [
-                            "Ubuntu 14.04 LTS, 16.04 LTS, 20.04 LTS",
-                            "Red Hat Enterprise Linux 8.1, 8.2, 8.4"
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 14.04 LTS, 16.04 LTS, 20.04 LTS",
+                                    "Red Hat Enterprise Linux 8.1, 8.2, 8.4"
+                                ],
+                                "DirLink": "https://download.microsoft.com/download/b/d/d/bdd729ee-5003-4427-ace4-a7b9172b2e29/NVIDIA-Linux-x86_64-470.63.01-grid-azure.run"
+                            }
                         ]
                     },
                     {
-                        "Num": "460.73",
-                        "FwLink": "https://download.microsoft.com/download/5/f/9/5f9d855b-8910-4e2d-90a6-5a038e78940f/NVIDIA-Linux-x86_64-460.73.01-grid-azure.run",
+                        "DriverVersion": "460.73",
                         "vGPUVersion": "12.2",
-                        "SupportedOSVersions": [
-                            "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS",
-                            "Red Hat Enterprise Linux 8.1 - 8.4, 7.7 - 7.9"
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS",
+                                    "Red Hat Enterprise Linux 8.1 - 8.4, 7.7 - 7.9"
+                                ],
+                                "DirLink": "https://download.microsoft.com/download/5/f/9/5f9d855b-8910-4e2d-90a6-5a038e78940f/NVIDIA-Linux-x86_64-460.73.01-grid-azure.run"
+                            }
                         ]
                     },
                     {
-                        "Num": "460.32",
-                        "FwLink": "https://download.microsoft.com/download/9/5/c/95c667ff-ab95-4c56-89e0-e13e9a76782d/NVIDIA-Linux-x86_64-460.32.03-grid-azure.run",
+                        "DriverVersion": "460.32",
                         "vGPUVersion": "12.1",
-                        "SupportedOSVersions": [
-                            "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS",
-                            "Red Hat Enterprise Linux 8.1 - 8.3, 7.7 - 7.9"
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 14.04 LTS, 16.04 LTS, 18.04 LTS, 20.04 LTS",
+                                    "Red Hat Enterprise Linux 8.1 - 8.3, 7.7 - 7.9"
+                                ],
+                                "DirLink": "https://download.microsoft.com/download/9/5/c/95c667ff-ab95-4c56-89e0-e13e9a76782d/NVIDIA-Linux-x86_64-460.32.03-grid-azure.run"
+                            }
                         ]
                     },
                     {
-                        "Num": "450.102",
-                        "FwLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run",
-                        "vGPUVersion": "11.3"
+                        "DriverVersion": "450.102",
+                        "vGPUVersion": "12.1",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [],
+                                "DirLink": "https://download.microsoft.com/download/6/3/7/637bdced-9b43-45a4-8b24-f737d058f61c/NVIDIA-Linux-x86_64-450.102.04-grid-azure.run"
+                            }
+                        ]
                     },
                     {
-                        "Num": "450.89",
-                        "FwLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run",
-                        "vGPUVersion": "11.2"
+                        "DriverVersion": "450.89",
+                        "vGPUVersion": "11.2",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [],
+                                "DirLink": "https://download.microsoft.com/download/c/1/0/c1050457-b310-436c-8b8f-e475c7695577/NVIDIA-Linux-x86_64-450.89-grid-azure.run"
+                            }
+                        ]
                     },
                     {
-                        "Num": "450.80",
-                        "FwLink": "https://download.microsoft.com/download/6/1/d/61dad7f0-7be6-48b5-b297-bd46e44a1f14/NVIDIA-Linux-x86_64-450.80.02-grid-azure.run",
-                        "vGPUVersion": "11.1"
+                        "DriverVersion": "450.80",
+                        "vGPUVersion": "11.1",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [],
+                                "DirLink": "https://download.microsoft.com/download/6/1/d/61dad7f0-7be6-48b5-b297-bd46e44a1f14/NVIDIA-Linux-x86_64-450.80.02-grid-azure.run"
+                            }
+                        ]
                     },
                     {
-                        "Num": "450.51",
-                        "FwLink": "https://download.microsoft.com/download/d/d/9/dd97a245-d277-4f43-915e-8d38b01334fb/NVIDIA-Linux-x86_64-450.51.05-grid-azure.run",
-                        "vGPUVersion": "11.0"
+                        "DriverVersion": "450.51",
+                        "vGPUVersion": "11.0",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [],
+                                "DirLink": "https://download.microsoft.com/download/d/d/9/dd97a245-d277-4f43-915e-8d38b01334fb/NVIDIA-Linux-x86_64-450.51.05-grid-azure.run"
+                            }
+                        ]
                     },
                     {
-                        "Num": "440.56",
-                        "FwLink": "https://download.microsoft.com/download/3/0/8/3084787d-078d-4a3d-b3e8-7394c6a1e2cd/NVIDIA-Linux-x86_64-440.56-grid-azure.run",
-                        "vGPUVersion": "10.1"
+                        "DriverVersion": "440.56",
+                        "vGPUVersion": "10.1",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [],
+                                "DirLink": "https://download.microsoft.com/download/3/0/8/3084787d-078d-4a3d-b3e8-7394c6a1e2cd/NVIDIA-Linux-x86_64-440.56-grid-azure.run"
+                            }
+                        ]
                     },
                     {
-                        "Num": "440.43",
-                        "FwLink": "https://download.microsoft.com/download/b/9/5/b95127da-6d8f-4dea-8d7d-827be40bb2b7/NVIDIA-Linux-x86_64-440.43-grid.run",
-                        "vGPUVersion": "10.0"
+                        "DriverVersion": "440.43",
+                        "vGPUVersion": "10.0",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [],
+                                "DirLink": "https://download.microsoft.com/download/b/9/5/b95127da-6d8f-4dea-8d7d-827be40bb2b7/NVIDIA-Linux-x86_64-440.43-grid.run"
+                            }
+                        ]
                     },
                     {
-                        "Num": "430.46",
-                        "FwLink": "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run",
-                        "vGPUVersion": "9.1"
+                        "DriverVersion": "430.46",
+                        "vGPUVersion": "9.1",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [],
+                                "DirLink": "https://download.microsoft.com/download/1/a/5/1a537cae-5b52-4348-acd2-2f210fc412b0/NVIDIA-Linux-x86_64-430.46-grid.run"
+                            }
+                        ]
                     },
                     {
-                        "Num": "430.30",
-                        "FwLink": "https://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run",
-                        "vGPUVersion": "9.0"
+                        "DriverVersion": "430.30",
+                        "vGPUVersion": "9.0",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [],
+                                "DirLink": "https://download.microsoft.com/download/B/0/D/B0DD6405-CA50-4B99-A908-6D32C1B6836A/NVIDIA-Linux-x86_64-430.30-grid.run"
+                            }
+                        ]
                     },
                     {
-                        "Num": "418.70",
-                        "FwLink": "https://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run",
-                        "vGPUVersion": "8.x"
+                        "DriverVersion": "418.70",
+                        "vGPUVersion": "8.x",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [],
+                                "DirLink": "https://download.microsoft.com/download/D/7/B/D7BC68DD-2BF3-4CBD-A6D3-AA7F68C22FD0/NVIDIA-Linux-x86_64-418.70-grid.run"
+                            }
+                        ]
                     },
                     {
-                        "Num": "410.92",
-                        "FwLink": "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run",
-                        "vGPUVersion": "7.1"
+                        "DriverVersion": "410.92",
+                        "vGPUVersion": "7.1",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [],
+                                "DirLink": "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.92-grid.run"
+                            }
+                        ]
                     },
                     {
-                        "Num": "410.71",
-                        "FwLink": "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.71-grid.run",
-                        "vGPUVersion": "7.0"
+                        "DriverVersion": "410.71",
+                        "vGPUVersion": "7.0",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [],
+                                "DirLink": "https://download.microsoft.com/download/8/5/D/85DC7798-B9F7-4BB9-84E8-B3350D7B52F7/NVIDIA-Linux-x86_64-410.71-grid.run"
+                            }
+                        ]
                     },
                     {
-                        "Num": "390.75",
-                        "FwLink": "https://download.microsoft.com/download/C/C/A/CCA1A402-D4EC-4260-BAD1-3AA1B004882A/NVIDIA-Linux-x86_64-390.75-grid.run",
-                        "vGPUVersion": "6.2"
+                        "DriverVersion": "390.75",
+                        "vGPUVersion": "6.2",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [],
+                                "DirLink": "https://download.microsoft.com/download/C/C/A/CCA1A402-D4EC-4260-BAD1-3AA1B004882A/NVIDIA-Linux-x86_64-390.75-grid.run"
+                            }
+                        ]
                     },
                     {
-                        "Num": "390.57",
-                        "FwLink": "https://download.microsoft.com/download/6/0/4/6041F2BB-8194-4DB9-BA22-CF1898B9CB70/NVIDIA-Linux-x86_64-grid.run",
-                        "vGPUVersion": "6.1"
+                        "DriverVersion": "390.57",
+                        "vGPUVersion": "6.1",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [],
+                                "DirLink": "https://download.microsoft.com/download/6/0/4/6041F2BB-8194-4DB9-BA22-CF1898B9CB70/NVIDIA-Linux-x86_64-grid.run"
+                            }
+                        ]
                     },
                     {
-                        "Num": "390.42",
-                        "DirLink": "https://download.microsoft.com/download/3/8/2/382E8D8A-7620-4F89-B772-A84D97524F7E/NVIDIA-Linux-x86_64-grid.run",
-                        "FwLink": "https://go.microsoft.com/fwlink/?linkid=874834",
-                        "vGPUVersion": "6.0"
+                        "DriverVersion": "390.42",
+                        "vGPUVersion": "6.0",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [],
+                                "DirLink": "https://download.microsoft.com/download/3/8/2/382E8D8A-7620-4F89-B772-A84D97524F7E/NVIDIA-Linux-x86_64-grid.run"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "Name": "CUDA",
-                "SupportedVmFamilyAndGPUModel": {
-                    "NC series": "NVIDIA Tesla K80",
-                    "NCv2 series": "NVIDIA Tesla P100",
-                    "NCv3 series": "NVIDIA Tesla V100",
-                    "NCasT4_v3 sizes": "Nvidia Tesla T4",
-                    "NVv3 Series": "NVIDIA Tesla M60"
-                },
                 "Versions": [
                     {
-                        "SupportedOSVersions": [
-                            "Ubuntu 22.04 LTS"
-                        ],
-                        "Drivers": [
+                        "DriverVersion": "530.30",
+                        "CUDA Toolkit": "12.1",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NC series": "NVIDIA Tesla K80",
+                            "NCv2 series": "NVIDIA Tesla P100",
+                            "NCv3 series": "NVIDIA Tesla V100",
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60"
+                        },
+                        "Driver": [
                             {
-                                "Num": "12.1",
-                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/",
-                                "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin",
-                                "InstallMethod": 1
-                            },
-                            {
-                                "Num": "12.0",
+                                "SupportedOSVersions": [
+                                    "Ubuntu 22.04 LTS"
+                                ],
                                 "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/",
                                 "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin",
                                 "InstallMethod": 1
@@ -314,41 +581,20 @@
                         ]
                     },
                     {
-                        "SupportedOSVersions": [
-                            "RHEL/CentOS 7.x"
-                        ],
-                        "DKMS": {
-                            "FwLink": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm"
+                        "DriverVersion": "450.51",
+                        "CUDA Toolkit": "11.0",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NC series": "NVIDIA Tesla K80",
+                            "NCv2 series": "NVIDIA Tesla P100",
+                            "NCv3 series": "NVIDIA Tesla V100",
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60"
                         },
-                        "LIS": {
-                            "LatestKernel": "3.10.0-1062.9.1.el7",
-                            "FwLink": "https://aka.ms/lis"
-                        },
-                        "Drivers": [
+                        "Driver": [
                             {
-                                "Num": "9.2.88",
-                                "FwLink": "https://download.microsoft.com/download/F/F/A/FFAC979D-AD9C-4684-A6CE-C92BB9372A3B/cuda-repo-rhel7-9.2.88-1.x86_64.rpm",
-                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64/cuda-rhel7.repo",
-                                "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
-                                "InstallMethod": 0
-                            },
-                            {
-                                "Num": "9.1.85",
-                                "DirLink": "https://download.microsoft.com/download/F/F/A/FFAC979D-AD9C-4684-A6CE-C92BB9372A3B/cuda-repo-rhel7-9.1.85-1.x86_64.rpm",
-                                "FwLink": "https://go.microsoft.com/fwlink/?linkid=874833",
-                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64/cuda-rhel7.repo",
-                                "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
-                                "InstallMethod": 0
-                            }
-                        ]
-                    },
-                    {
-                        "SupportedOSVersions": [
-                            "RHEL/CentOS 8.x"
-                        ],
-                        "Drivers": [
-                            {
-                                "Num": "11.0",
+                                "SupportedOSVersions": [
+                                    "RHEL/CentOS 8.x"
+                                ],
                                 "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo",
                                 "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm",
                                 "InstallMethod": 2
@@ -356,66 +602,63 @@
                         ]
                     },
                     {
-                        "SupportedOSVersions": [
-                            "Ubuntu 18.x LTS"
-                        ],
-                        "Drivers": [
+                        "DriverVersion": "9.2.88",
+                        "CUDA Toolkit": "",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NC series": "NVIDIA Tesla K80",
+                            "NCv2 series": "NVIDIA Tesla P100",
+                            "NCv3 series": "NVIDIA Tesla V100",
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60"
+                        },
+                        "Driver": [
                             {
-                                "Num": "12.0",
-                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
-                                "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
-                                "InstallMethod": 1
-                            },
-                            {
-                                "Num": "11.1",
-                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
-                                "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
-                                "InstallMethod": 1
-                            },
-                            {
-                                "Num": "11.0",
-                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
-                                "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
-                                "InstallMethod": 1
-                            },
-                            {
-                                "Num": "10.0.130",
-                                "DirLink": "https://download.microsoft.com/download/9/3/5/9356AEC3-D562-4E16-BF7A-4369980CB0D5/cuda-repo-ubuntu1604_10.0.130-1_amd64.deb",
-                                "FwLink": "https://go.microsoft.com/fwlink/?linkid=874271",
+                                "SupportedOSVersions": [
+                                    "RHEL/CentOS 7.x"
+                                ],
+                                "FwLink": "https://download.microsoft.com/download/F/F/A/FFAC979D-AD9C-4684-A6CE-C92BB9372A3B/cuda-repo-rhel7-9.2.88-1.x86_64.rpm",
+                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64/cuda-rhel7.repo",
+                                "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
                                 "InstallMethod": 0
                             }
-                        ]
+                        ],
+                        "DKMS": {
+                            "FwLink": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm"
+                        },
+                        "LIS": {
+                            "LatestKernel": "3.10.0-1062.9.1.el7",
+                            "FwLink": "https://aka.ms/lis"
+                        }
                     },
                     {
-                        "SupportedOSVersions": [
-                            "Ubuntu 20.x LTS"
-                        ],
-                        "Drivers": [
+                        "DriverVersion": "9.1.85",
+                        "CUDA Toolkit": "",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NC series": "NVIDIA Tesla K80",
+                            "NCv2 series": "NVIDIA Tesla P100",
+                            "NCv3 series": "NVIDIA Tesla V100",
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60"
+                        },
+                        "Driver": [
                             {
-                                "Num": "12.1",
-                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-                                "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
-                                "InstallMethod": 1
-                            },
-                            {
-                                "Num": "12.0",
-                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-                                "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
-                                "InstallMethod": 1
-                            },
-                            {
-                                "Num": "11.1",
-                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-                                "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
-                                "InstallMethod": 1
-                            },
-                            {
-                                "Num": "11.0",
-                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-                                "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
-                                "InstallMethod": 1
+                                "SupportedOSVersions": [
+                                    "RHEL/CentOS 7.x"
+                                ],
+                                "DirLink": "https://download.microsoft.com/download/F/F/A/FFAC979D-AD9C-4684-A6CE-C92BB9372A3B/cuda-repo-rhel7-9.1.85-1.x86_64.rpm",
+                                "FwLink": "https://go.microsoft.com/fwlink/?linkid=874833",
+                                "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64/cuda-rhel7.repo",
+                                "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
+                                "InstallMethod": 0
                             }
-                        ]
+                        ],
+                        "DKMS": {
+                            "FwLink": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm"
+                        },
+                        "LIS": {
+                            "LatestKernel": "3.10.0-1062.9.1.el7",
+                            "FwLink": "https://aka.ms/lis"
+                        }
                     }
                 ]
             }
