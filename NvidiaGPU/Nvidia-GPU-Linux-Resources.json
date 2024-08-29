@@ -1,6 +1,6 @@
 {
     "Metadata": {
-        "Version": 20240802,
+        "Version": 20240829,
         "Vendor": "NVIDIA",
         "AcceleratorType": "GPU",
         "OS": "Linux",
@@ -8,18 +8,14 @@
             "NC series": "CUDA",
             "NCv2 series": "CUDA",
             "NCv3 series": "CUDA",
+            "NC_A100_v4 series": "CUDA",
             "NCasT4_v3 sizes": "CUDA",
             "NVv3 Series": "GRID",
             "NVadsA10_v5 Series": "GRID"
         },
-        "Comment": "We install the default set of drivers as mentioned in the DefaultSelectionsPerVMFamily for each VM family. If the user wants to install GRID driver on NC or ND series, can do so by passing runtime settings on supported GPU VM families. For checking the supported VM families for a particular driver category, refer to SupportedVmFamilyAndGPUModel under each category below. For installing GRID driver on NC Series, please specify {'installGridNC':True} in the runtime setting. For installing GRID driver on ND series, please specify {'installGridND':True} in the runtime settings."
+        "Comment": "We install the default set of drivers as mentioned in the DefaultSelectionsPerVMFamily for each VM family. If the user wants to install GRID driver on NC or ND series, can do so by passing runtime settings on supported GPU VM families. For checking the supported VM families for a particular driver category, refer to SupportedVmFamilyAndGPUModel under each category below. For installing GRID driver on NC Series, please specify {'installGridNC':True} in the runtime setting. For installing GRID driver on ND series, please specify {'installGridND':True} in the runtime settings. Runtime settings can be provided from Azure CLI - (az vm extension set  --resource-group <rg-name> --vm-name <vm-name> --name NvidiaGpuDriverLinux --publisher Microsoft.HpcCompute --settings \"{'installGridNC': True}\""
     },
     "Latest": {
-        "PublicKey": {
-            "FwLink": "https://download.microsoft.com/download/f/4/7/f472d46c-1bc2-49dc-b43b-c803ce3e2f1d/3bf863cc.pub",
-            "BaseUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-            "KeyRing": "cuda-keyring_1.0-1_all.deb"
-        },
         "Category": [
             {
                 "Name": "GRID",
@@ -60,7 +56,8 @@
                             "NCv2 series": "NVIDIA Tesla P100",
                             "NCv3 series": "NVIDIA Tesla V100",
                             "NCasT4_v3 sizes": "Nvidia Tesla T4",
-                            "NVv3 Series": "NVIDIA Tesla M60"
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NC_A100_v4 series": "NVIDIA A100"
                         },
                         "Driver": [
                             {
@@ -81,7 +78,8 @@
                             "NCv2 series": "NVIDIA Tesla P100",
                             "NCv3 series": "NVIDIA Tesla V100",
                             "NCasT4_v3 sizes": "Nvidia Tesla T4",
-                            "NVv3 Series": "NVIDIA Tesla M60"
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NC_A100_v4 series": "NVIDIA A100"
                         },
                         "Driver": [
                             {
@@ -102,7 +100,8 @@
                             "NCv2 series": "NVIDIA Tesla P100",
                             "NCv3 series": "NVIDIA Tesla V100",
                             "NCasT4_v3 sizes": "Nvidia Tesla T4",
-                            "NVv3 Series": "NVIDIA Tesla M60"
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NC_A100_v4 series": "NVIDIA A100"
                         },
                         "Driver": [
                             {
@@ -123,7 +122,8 @@
                             "NCv2 series": "NVIDIA Tesla P100",
                             "NCv3 series": "NVIDIA Tesla V100",
                             "NCasT4_v3 sizes": "Nvidia Tesla T4",
-                            "NVv3 Series": "NVIDIA Tesla M60"
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NC_A100_v4 series": "NVIDIA A100"
                         },
                         "Driver": [
                             {
@@ -143,7 +143,8 @@
                             "NCv2 series": "NVIDIA Tesla P100",
                             "NCv3 series": "NVIDIA Tesla V100",
                             "NCasT4_v3 sizes": "Nvidia Tesla T4",
-                            "NVv3 Series": "NVIDIA Tesla M60"
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NC_A100_v4 series": "NVIDIA A100"
                         },
                         "Driver": [
                             {
@@ -167,7 +168,12 @@
                     }
                 ]
             }
-        ]
+        ],
+        "PublicKey": {
+            "FwLink": "https://download.microsoft.com/download/f/4/7/f472d46c-1bc2-49dc-b43b-c803ce3e2f1d/3bf863cc.pub",
+            "BaseUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
+            "KeyRing": "cuda-keyring_1.0-1_all.deb"
+        }
     },
     "Archive": {
         "PublicKey": {
