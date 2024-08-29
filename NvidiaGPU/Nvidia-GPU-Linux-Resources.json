@@ -573,7 +573,8 @@
                             "NCv2 series": "NVIDIA Tesla P100",
                             "NCv3 series": "NVIDIA Tesla V100",
                             "NCasT4_v3 sizes": "Nvidia Tesla T4",
-                            "NVv3 Series": "NVIDIA Tesla M60"
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NC_A100_v4 series": "NVIDIA A100"
                         },
                         "Driver": [
                             {
@@ -594,7 +595,8 @@
                             "NCv2 series": "NVIDIA Tesla P100",
                             "NCv3 series": "NVIDIA Tesla V100",
                             "NCasT4_v3 sizes": "Nvidia Tesla T4",
-                            "NVv3 Series": "NVIDIA Tesla M60"
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NC_A100_v4 series": "NVIDIA A100"
                         },
                         "Driver": [
                             {
@@ -615,7 +617,8 @@
                             "NCv2 series": "NVIDIA Tesla P100",
                             "NCv3 series": "NVIDIA Tesla V100",
                             "NCasT4_v3 sizes": "Nvidia Tesla T4",
-                            "NVv3 Series": "NVIDIA Tesla M60"
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NC_A100_v4 series": "NVIDIA A100"
                         },
                         "Driver": [
                             {
@@ -644,7 +647,8 @@
                             "NCv2 series": "NVIDIA Tesla P100",
                             "NCv3 series": "NVIDIA Tesla V100",
                             "NCasT4_v3 sizes": "Nvidia Tesla T4",
-                            "NVv3 Series": "NVIDIA Tesla M60"
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NC_A100_v4 series": "NVIDIA A100"
                         },
                         "Driver": [
                             {
