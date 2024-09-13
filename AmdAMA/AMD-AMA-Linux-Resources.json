@@ -1,0 +1,42 @@
+{
+    "Metadata": {
+        "Version": 20240913,
+        "Vendor": "AMD",
+        "AcceleratorType": "Advance Media Accelerator (AMA)",
+        "OS": "Linux",
+        "DefaultSelectionsPerVMFamily": {
+            "NM Series": "MA35D"
+        },
+        "Comment": ""
+    },
+    "Latest": {
+        "Category": [
+            {
+                "Name": "Vedio Accelrator Drivers",
+                "Versions": [
+                    {
+                        "DriverVersion": "1.2.0",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NM Series": "MA35D"
+                        },
+                        "Drivers": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 20.04"
+                                ],
+                                "core-package": "https://download.microsoft.com/download/8/8/8/888130ac-ffcb-46ec-8005-a91da8730575/amd-ama-core_1.2.0-2408071645-amd64.deb",
+                                "driver-package": "https://download.microsoft.com/download/8/8/8/888130ac-ffcb-46ec-8005-a91da8730575/amd-ama-driver_1.2.0-2408071645-amd64.deb",
+                                "ffmpeg-package": "https://download.microsoft.com/download/8/8/8/888130ac-ffcb-46ec-8005-a91da8730575/amd-ama-ffmpeg_1.2.0-2408071645-amd64.deb",
+                                "gstreamer-package": "//download.microsoft.com/download/8/8/8/888130ac-ffcb-46ec-8005-a91da8730575/amd-ama-gstreamer_1.2.0-2408071645-amd64.deb",
+                                "xma-package": "https://download.microsoft.com/download/8/8/8/888130ac-ffcb-46ec-8005-a91da8730575/amd-ama-xma_1.2.0-2408071645-amd64.deb"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Archive": [
+        {}
+    ]
+}
