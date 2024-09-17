@@ -5,14 +5,14 @@
         "AcceleratorType": "Advance Media Accelerator (AMA)",
         "OS": "Linux",
         "DefaultSelectionsPerVMFamily": {
-            "NM Series": "Vedio Accelrator Drivers"
+            "NM Series": "Video Accelerator Drivers"
         },
         "Comment": " "
     },
     "Latest": {
         "Category": [
             {
-                "Name": "Vedio Accelrator Drivers",
+                "Name": "Video Accelerator Drivers",
                 "Versions": [
                     {
                         "DriverVersion": "1.2.0",
@@ -27,7 +27,7 @@
                                 "core-package": "https://download.microsoft.com/download/8/8/8/888130ac-ffcb-46ec-8005-a91da8730575/amd-ama-core_1.2.0-2408071645-amd64.deb",
                                 "driver-package": "https://download.microsoft.com/download/8/8/8/888130ac-ffcb-46ec-8005-a91da8730575/amd-ama-driver_1.2.0-2408071645-amd64.deb",
                                 "ffmpeg-package": "https://download.microsoft.com/download/8/8/8/888130ac-ffcb-46ec-8005-a91da8730575/amd-ama-ffmpeg_1.2.0-2408071645-amd64.deb",
-                                "gstreamer-package": "//download.microsoft.com/download/8/8/8/888130ac-ffcb-46ec-8005-a91da8730575/amd-ama-gstreamer_1.2.0-2408071645-amd64.deb",
+                                "gstreamer-package": "https://download.microsoft.com/download/8/8/8/888130ac-ffcb-46ec-8005-a91da8730575/amd-ama-gstreamer_1.2.0-2408071645-amd64.deb",
                                 "xma-package": "https://download.microsoft.com/download/8/8/8/888130ac-ffcb-46ec-8005-a91da8730575/amd-ama-xma_1.2.0-2408071645-amd64.deb"
                             }
                         ]
