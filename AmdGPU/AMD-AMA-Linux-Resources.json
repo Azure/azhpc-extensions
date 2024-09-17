@@ -5,7 +5,7 @@
         "AcceleratorType": "Advance Media Accelerator (AMA)",
         "OS": "Linux",
         "DefaultSelectionsPerVMFamily": {
-            "NM Series": "MA35D"
+            "NM Series": "Vedio Accelrator Drivers"
         },
         "Comment": " "
     },
