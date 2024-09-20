@@ -22,7 +22,7 @@
                         "Drivers": [
                             {
                                 "SupportedOSVersions": [
-                                    "Ubuntu 20.04"
+                                    "Ubuntu 22.04"
                                 ],
                                 "core-package": "https://download.microsoft.com/download/8/8/8/888130ac-ffcb-46ec-8005-a91da8730575/amd-ama-core_1.2.0-2408071645-amd64.deb",
                                 "driver-package": "https://download.microsoft.com/download/8/8/8/888130ac-ffcb-46ec-8005-a91da8730575/amd-ama-driver_1.2.0-2408071645-amd64.deb",
