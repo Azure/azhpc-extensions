@@ -1,0 +1,39 @@
+{
+    "Metadata": {
+        "Version": 20241003,
+        "Vendor": "AMD",
+        "AcceleratorType": "GPU",
+        "OS": "Linux",
+        "DefaultSelectionsPerVMFamily": {
+            "NVads_V710_v5 Series": "Cloud Edition VDI"
+        },
+        "Comment": ""
+    },
+    "Latest": {
+        "Category": [
+            {
+                "Name": "Cloud Edition VDI",
+                "Versions": [
+                    {
+                        "DriverVersion": "24Q2",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NVads_V710_v5": "V710"
+                        },
+                        "Drivers": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 22.04"
+                                ],
+                                "DirLink" : "https://download.microsoft.com/download/0/6/f/06f595bb-2a68-4a5c-b76e-45e8f23dfe7e/AMD_GPU_DRIVER-24.10.18.01-240605a-403919e-microsoft.zip",
+                                "FwdLink" : "https://go.microsoft.com/fwlink/?linkid=2290962"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Archive": [
+        {}
+    ]
+}
