@@ -71,7 +71,7 @@
           {
             "DriverVersion": "23Q3",
             "SupportedVmFamilyAndGPUModel": {
-              "NGads V620-series": "AMD Radeon PRO V620 GPU"
+              "NGads_V620 series": "AMD Radeon PRO V620 GPU"
             },
             "Drivers": [
               {
