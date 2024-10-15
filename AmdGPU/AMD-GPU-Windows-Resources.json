@@ -6,7 +6,7 @@
     "OS": "Windows",
     "DefaultSelectionsPerVMFamily": {
       "NVv4 Series": "Cloud Edition VDI",
-      "NGads_V620 series": "Cloud Edition - Gaming Update",
+      "NGads_V620 Series": "Cloud Edition - Gaming Update",
       "NVads_V710_v5 Series": "Cloud Edition VDI"
     },
     "Comment": "We install the default set of drivers as mentioned in the DefaultSelectionsPerVMFamily for each VM family. If the user wants to install a different driver, for example, Gaming driver instead of VDI (or) VDI driver instead of Gaming Driver, can do so by passing runtime settings on supported VM series. For checking the supported VM families refer to SupportedVmFamilyAndGPUModel under each category below. For installing VDI driver, please specify {'installVDIDriver':True} in runtime settings and for installing Gaming driver, please specify {'installGamingDriver':True} in runtime settings."
@@ -71,7 +71,7 @@
           {
             "DriverVersion": "23Q3",
             "SupportedVmFamilyAndGPUModel": {
-              "NGads_V620 series": "AMD Radeon PRO V620 GPU"
+              "NGads_V620 Series": "AMD Radeon PRO V620 GPU"
             },
             "Drivers": [
               {
