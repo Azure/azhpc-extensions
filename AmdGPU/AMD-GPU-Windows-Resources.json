@@ -165,7 +165,7 @@
                 ],
                 "DirLink": "https://download.microsoft.com/download/f/9/9/f9957727-073d-4b1e-afa1-b00a52f1f97a/whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-win10-win11.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281503",
-                "DriverPath": "",
+                "DriverPath": "AMD\\AMD Software Cloud Edition 23.Q3\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                 "DriverFileSize": 682327232
               },
               {
