@@ -174,7 +174,7 @@
                 ],
                 "DirLink": "https://download.microsoft.com/download/2/0/9/209f96a0-082c-4ee9-965a-f5d73cb515a2/non-whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-winsvr2022.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268726",
-                "DriverPath": "",
+                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                 "DriverFileSize": 615994424
               },
               {
@@ -183,7 +183,7 @@
                 ],
                 "DirLink": "https://download.microsoft.com/download/4/5/5/455cbd46-2bf6-4b20-affb-c320c36ba9f4/non-whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-winsvr2019.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268376",
-                "DriverPath": "",
+                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                 "DriverFileSize": 615974392
               },
               {
