@@ -38,6 +38,7 @@
               {
                 "SupportedOSVersions": [
                   "Windows Server 2022",
+                  "Windows 11 Enterprise multi-session 23H2",
                   "Windows 11 Enterprise multi-session 22H2",
                   "Windows 11 Enterprise multi-session 21H2"
                 ],
@@ -160,8 +161,6 @@
                   "Windows 11 23H2",
                   "Windows 10 21H2",
                   "Windows 10 22H2",
-                  "Windows 11 Enterprise multi-session",
-                  "Windows 10 Enterprise multi-session"
                 ],
                 "DirLink": "https://download.microsoft.com/download/f/9/9/f9957727-073d-4b1e-afa1-b00a52f1f97a/whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-win10-win11.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281503",
@@ -170,7 +169,8 @@
               },
               {
                 "SupportedOSVersions": [
-                  "Windows Server 2022"
+                  "Windows Server 2022",
+                  "Windows 11 Enterprise multi-session"
                 ],
                 "DirLink": "https://download.microsoft.com/download/2/0/9/209f96a0-082c-4ee9-965a-f5d73cb515a2/non-whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-winsvr2022.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268726",
@@ -179,7 +179,8 @@
               },
               {
                 "SupportedOSVersions": [
-                  "Windows Server 2019"
+                  "Windows Server 2019",
+                  "Windows 10 Enterprise multi-session"
                 ],
                 "DirLink": "https://download.microsoft.com/download/4/5/5/455cbd46-2bf6-4b20-affb-c320c36ba9f4/non-whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-winsvr2019.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268376",
