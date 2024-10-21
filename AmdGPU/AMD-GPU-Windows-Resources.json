@@ -6,7 +6,7 @@
     "OS": "Windows",
     "DefaultSelectionsPerVMFamily": {
       "NVv4 Series": "Cloud Edition VDI",
-      "NGads_V620 series": "Cloud Edition - Gaming Update",
+      "NGads_V620 Series": "Cloud Edition - Gaming Update",
       "NVads_V710_v5 Series": "Cloud Edition VDI"
     },
     "Comment": "We install the default set of drivers as mentioned in the DefaultSelectionsPerVMFamily for each VM family. If the user wants to install a different driver, for example, Gaming driver instead of VDI (or) VDI driver instead of Gaming Driver, can do so by passing runtime settings on supported VM series. For checking the supported VM families refer to SupportedVmFamilyAndGPUModel under each category below. For installing VDI driver, please specify {'installVDIDriver':True} in runtime settings and for installing Gaming driver, please specify {'installGamingDriver':True} in runtime settings."
@@ -38,6 +38,7 @@
               {
                 "SupportedOSVersions": [
                   "Windows Server 2022",
+                  "Windows 11 Enterprise multi-session 23H2",
                   "Windows 11 Enterprise multi-session 22H2",
                   "Windows 11 Enterprise multi-session 21H2"
                 ],
@@ -71,7 +72,7 @@
           {
             "DriverVersion": "23Q3",
             "SupportedVmFamilyAndGPUModel": {
-              "NGads V620-series": "AMD Radeon PRO V620 GPU"
+              "NGads_V620 Series": "AMD Radeon PRO V620 GPU"
             },
             "Drivers": [
               {
@@ -89,7 +90,7 @@
                 ],
                 "DirLink": "https://download.microsoft.com/download/9/1/e/91ed0d01-1a2c-46ad-b014-51ece3b1936c/amd-software-cloud-edition-23.q3-azure-ngads-v620.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2234555",
-                "DriverPath": "AMD\\AMD Software Cloud Edition 23.Q3\\Packages\\Drivers\\Display\\WT6A_INF\\",
+                "DriverPath": "AMD\\AMD Software Cloud Edition 23.Q3\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                 "DriverFileSize": 672465407
               }
             ]
@@ -111,7 +112,7 @@
                 ],
                 "DirLink": "https://download.microsoft.com/download/0/7/a/07aa5777-cfdc-4faa-9a59-a6be19bfa54f/AMD-Software-Cloud-Edition-24.Q2-Win10-Win11-Azure-V710.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2291063",
-                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\",
+                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                 "DriverFileSize": 709852912
               },
               {
@@ -124,20 +125,18 @@
                 ],
                 "DirLink": "https://download.microsoft.com/download/5/9/a/59a75123-1fc8-44ac-b6a3-105d59ffd7d3/AMD-Software-Cloud-Edition-24.Q2-WinSvr2022-Azure-V710.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2292204",
-                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\",
+                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                 "DriverFileSize": 641422712
               },
               {
                 "SupportedOSVersions": [
                   "Windows Server 2019",
-                  "Windows 10 Enterprise multi-session 24H2",
-                  "Windows 10 Enterprise multi-session 23H2",
                   "Windows 10 Enterprise multi-session 22H2",
                   "Windows 10 Enterprise multi-session 21H2"
                 ],
                 "DirLink": "https://download.microsoft.com/download/d/0/5/d057db57-bde0-4836-8a43-afe8f640d7b3/AMD-Software-Cloud-Edition-24.Q2-WinSvr2019-Azure-V710.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2292402",
-                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\",
+                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                 "DriverFileSize": 641433976
               }
             ]
@@ -150,40 +149,40 @@
           {
             "DriverVersion": "24.3.1",
             "SupportedVmFamilyAndGPUModel": {
-              "NGads V620-series": "AMD Radeon PRO V620 GPU"
+              "NGads_V620 Series": "AMD Radeon PRO V620 GPU"
             },
             "Drivers": [
               {
                 "SupportedOSVersions": [
-                  "Windows 11 21H2",
-                  "Windows 11 22H2",
                   "Windows 11 23H2",
-                  "Windows 10 21H2",
+                  "Windows 11 22H2",
+                  "Windows 11 21H2",
                   "Windows 10 22H2",
-                  "Windows 11 Enterprise multi-session",
-                  "Windows 10 Enterprise multi-session"
+                  "Windows 10 21H2"
                 ],
                 "DirLink": "https://download.microsoft.com/download/f/9/9/f9957727-073d-4b1e-afa1-b00a52f1f97a/whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-win10-win11.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281503",
-                "DriverPath": "",
+                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                 "DriverFileSize": 682327232
               },
               {
                 "SupportedOSVersions": [
-                  "Windows Server 2022"
+                  "Windows Server 2022",
+                  "Windows 11 Enterprise multi-session"
                 ],
                 "DirLink": "https://download.microsoft.com/download/2/0/9/209f96a0-082c-4ee9-965a-f5d73cb515a2/non-whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-winsvr2022.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268726",
-                "DriverPath": "",
+                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                 "DriverFileSize": 615994424
               },
               {
                 "SupportedOSVersions": [
-                  "Windows Server 2019"
+                  "Windows Server 2019",
+                  "Windows 10 Enterprise multi-session"
                 ],
                 "DirLink": "https://download.microsoft.com/download/4/5/5/455cbd46-2bf6-4b20-affb-c320c36ba9f4/non-whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-winsvr2019.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268376",
-                "DriverPath": "",
+                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                 "DriverFileSize": 615974392
               },
               {
@@ -192,7 +191,7 @@
                 ],
                 "DirLink": "https://download.microsoft.com/download/9/1/e/91ed0d01-1a2c-46ad-b014-51ece3b1936c/amd-software-cloud-edition-23.q3-azure-ngads-v620.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2234555",
-                "DriverPath": "AMD\\AMD Software Cloud Edition 23.Q3\\Packages\\Drivers\\Display\\WT6A_INF\\",
+                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                 "DriverFileSize": 672465407
               }
             ]
