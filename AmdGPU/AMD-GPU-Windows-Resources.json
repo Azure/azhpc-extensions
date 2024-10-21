@@ -131,8 +131,6 @@
               {
                 "SupportedOSVersions": [
                   "Windows Server 2019",
-                  "Windows 10 Enterprise multi-session 24H2",
-                  "Windows 10 Enterprise multi-session 23H2",
                   "Windows 10 Enterprise multi-session 22H2",
                   "Windows 10 Enterprise multi-session 21H2"
                 ],
@@ -156,11 +154,11 @@
             "Drivers": [
               {
                 "SupportedOSVersions": [
-                  "Windows 11 21H2",
-                  "Windows 11 22H2",
                   "Windows 11 23H2",
-                  "Windows 10 21H2",
+                  "Windows 11 22H2",
+                  "Windows 11 21H2",
                   "Windows 10 22H2",
+                  "Windows 10 21H2"
                 ],
                 "DirLink": "https://download.microsoft.com/download/f/9/9/f9957727-073d-4b1e-afa1-b00a52f1f97a/whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-win10-win11.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281503",
