@@ -21,7 +21,7 @@
                 "Name": "GRID",
                 "Versions": [
                     {
-                        "DriverVersion": "535.161",
+                        "DriverVersion": "535.161.08",
                         "vGPUVersion": "16.5",
                         "SupportedVmFamilyAndGPUModel": {
                             "NCasT4_v3 sizes": "Nvidia Tesla T4",
