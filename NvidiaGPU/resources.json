@@ -50,19 +50,19 @@
                 },
                 {
                   "Num": "552.74",
-                  "DirLink": "https://download.microsoft.com/download/e/1/7/e170f423-219c-467f-80f6-260caaebb148/552.74_grid_win10_win11_server2022_dch_64bit_international_azure_swl.exe",
+                  "FwLink": "https://download.microsoft.com/download/e/1/7/e170f423-219c-467f-80f6-260caaebb148/552.74_grid_win10_win11_server2022_dch_64bit_international_azure_swl.exe",
                   "vGPUVersion" :"17.3",
                   "SupportedOSVersions" : "Windows Server 2022, Windows 10 22H2, Windows 11 23H2"
                 },
                 {
                   "Num": "538.46",
-                  "DirLink": "https://download.microsoft.com/download/a/3/1/a3186ac9-1f9f-4351-a8e7-b5b34ea4e4ea/538.46_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
+                  "FwLink": "https://download.microsoft.com/download/a/3/1/a3186ac9-1f9f-4351-a8e7-b5b34ea4e4ea/538.46_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
                   "vGPUVersion" :"16.5",
                   "SupportedOSVersions" : "Windows Server 2019, Windows Server 2022, Windows 10 22H2, Windows 11 23H2"
                 },
                 {
                   "Num": "538.15",
-                  "DirLink": "https://download.microsoft.com/download/c/b/0/cb00d90e-5786-4882-89cd-75fb17fa787d/538.15_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
+                  "FwLink": "https://download.microsoft.com/download/c/b/0/cb00d90e-5786-4882-89cd-75fb17fa787d/538.15_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
                   "vGPUVersion" :"16.3",
                   "SupportedOSVersions" : "Windows Server 2019, Windows Server 2022, Windows 10 22H2, Windows 11 22H2"
                 },
