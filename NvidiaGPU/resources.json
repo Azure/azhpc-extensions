@@ -346,7 +346,7 @@
               "Type" : "CUDA",
               "Version" : [
                 {
-                  "Num" : "12.2",
+                  "Num" : "12.7",
                   "RepoUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/",
                   "PinUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin",
                   "InstallMethod" : 1
