@@ -369,6 +369,12 @@
               "Type" : "GRID",
               "Version" : [
                 {
+                  "Num": "535.154",
+                  "FwLink": "https://download.microsoft.com/download/1/4/4/14450d0e-a3f2-4b0a-9bb4-a8e729e986c4/NVIDIA-Linux-x86_64-535.154.05-grid-azure.run",
+                  "vGPUVersion" :"16.3",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9 "
+                },
+                {
                   "Num": "535.161",
                   "DirLink": "https://download.microsoft.com/download/8/d/a/8da4fb8e-3a9b-4e6a-bc9a-72ff64d7a13c/NVIDIA-Linux-x86_64-535.161.08-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272",
