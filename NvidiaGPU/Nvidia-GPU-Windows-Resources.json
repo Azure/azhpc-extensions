@@ -5,8 +5,33 @@
         "AcceleratorType": "GPU",
         "OS": "Windows",
         "DefaultSelectionsPerVMFamily": {
-            "NC series": "CUDA",
-            "NCv2 series": "CUDA",
+            "NCv3 series": {
+                "VMSizes" :["Standard_NC6s_v3", "Standard_NC12s_v3", "Standard_NC24s_v3", "Standard_NC24rs_v3"],
+                "Type":"CUDA", 
+                "DriverVersion": "Latest"
+            },
+            "NC_A100_v4 series": {
+                "VMSizes" :["Standard_NC24ads_A100_v4", "Standard_NC48ads_A100_v4", "Standard_NC96ads_A100_v4"],
+                "Type":"CUDA", 
+                "DriverVersion": "Latest"
+            },
+            "NCasT4_v3 sizes": {
+                "VMSizes" :["Standard_NC4as_T4_v3", "Standard_NC8as_T4_v3", "Standard_NC16as_T4_v3", "Standard_NC64as_T4_v3"],
+                "Type":"CUDA", 
+                "DriverVersion": "Latest"
+            },
+            "NVv3 Series": {
+                "VMSizes" :["Standard_NV12s_v3", "Standard_NV24s_v3", "Standard_NV48s_v3"],
+                "Type":"GRID", 
+                "DriverVersion": "538.46"
+            },
+            "NVadsA10_v5 Series": {
+                "VMSizes":["Standard_NV6ads_A10_v5", "Standard_NV12ads_A10_v5", "Standard_NV18ads_A10_v5", "Standard_NV36ads_A10_v5", "Standard_NV36adms_A10_v5", "Standard_NV36adms_A10_v5"],
+                "Type":"GRID", 
+                "DriverVersion": "Latest"
+            }
+        },
+        "DefaultDriverVersionPerVMFamily": {
             "NCv3 series": "CUDA",
             "NC_A100_v4 series": "CUDA",
             "NCasT4_v3 sizes": "CUDA",
@@ -54,8 +79,6 @@
                             "DriverVersion": "529.19",
                             "CUDA Toolkit": "11.1",
                             "SupportedVmFamilyAndGPUModel": {
-                                "NC series": "NVIDIA Tesla K80",
-                                "NCv2 series": "NVIDIA Tesla P100",
                                 "NCv3 series": "NVIDIA Tesla V100",
                                 "NCasT4_v3 sizes": "Nvidia Tesla T4",
                                 "NVv3 Series": "NVIDIA Tesla M60",
