@@ -547,7 +547,7 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "550.144.03",
+                  "Num": "550.144",
                   "DirLink": "https://download.microsoft.com/download/c/3/4/c3484f19-fe76-4495-a65d-a5222ead9517/NVIDIA-Linux-x86_64-550.144.03-grid-azure.run",
                   "FwLink": "https://download.microsoft.com/download/c/3/4/c3484f19-fe76-4495-a65d-a5222ead9517/NVIDIA-Linux-x86_64-550.144.03-grid-azure.run",
                   "vGPUVersion" :"17.5",
@@ -745,7 +745,7 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "550.144.03",
+                  "Num": "550.144",
                   "DirLink": "https://download.microsoft.com/download/c/3/4/c3484f19-fe76-4495-a65d-a5222ead9517/NVIDIA-Linux-x86_64-550.144.03-grid-azure.run",
                   "FwLink": "https://download.microsoft.com/download/c/3/4/c3484f19-fe76-4495-a65d-a5222ead9517/NVIDIA-Linux-x86_64-550.144.03-grid-azure.run",
                   "vGPUVersion" :"17.5",
@@ -950,7 +950,7 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "550.144.03",
+                  "Num": "550.144",
                   "DirLink": "https://download.microsoft.com/download/c/3/4/c3484f19-fe76-4495-a65d-a5222ead9517/NVIDIA-Linux-x86_64-550.144.03-grid-azure.run",
                   "FwLink": "https://download.microsoft.com/download/c/3/4/c3484f19-fe76-4495-a65d-a5222ead9517/NVIDIA-Linux-x86_64-550.144.03-grid-azure.run",
                   "vGPUVersion" :"17.5",
@@ -1155,7 +1155,7 @@
               "Type" : "GRID",
               "Version" : [
                 {
-                  "Num": "550.144.03",
+                  "Num": "550.144",
                   "DirLink": "https://download.microsoft.com/download/c/3/4/c3484f19-fe76-4495-a65d-a5222ead9517/NVIDIA-Linux-x86_64-550.144.03-grid-azure.run",
                   "FwLink": "https://download.microsoft.com/download/c/3/4/c3484f19-fe76-4495-a65d-a5222ead9517/NVIDIA-Linux-x86_64-550.144.03-grid-azure.run",
                   "vGPUVersion" :"17.5",
