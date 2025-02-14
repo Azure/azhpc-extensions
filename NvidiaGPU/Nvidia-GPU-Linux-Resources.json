@@ -49,7 +49,7 @@
                 "Versions": [
                     {
                         "DriverVersion": "535.54",
-                        "CUDA Toolkit": "12.2",
+                        "CUDA Toolkit": "12.8",
                         "SupportedVmFamilyAndGPUModel": {
                             "NC series": "NVIDIA Tesla K80",
                             "NCv2 series": "NVIDIA Tesla P100",
@@ -612,7 +612,7 @@
                 "Versions": [
                     {
                         "DriverVersion": "530.30",
-                        "CUDA Toolkit": "12.1",
+                        "CUDA Toolkit": "12.2",
                         "SupportedVmFamilyAndGPUModel": {
                             "NC series": "NVIDIA Tesla K80",
                             "NCv2 series": "NVIDIA Tesla P100",
