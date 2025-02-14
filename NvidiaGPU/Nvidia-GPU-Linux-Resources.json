@@ -5,8 +5,6 @@
         "AcceleratorType": "GPU",
         "OS": "Linux",
         "DefaultSelectionsPerVMFamily": {
-            "NC series": "CUDA",
-            "NCv2 series": "CUDA",
             "NCv3 series": "CUDA",
             "NC_A100_v4 series": "CUDA",
             "NCasT4_v3 sizes": "CUDA",
@@ -21,11 +19,10 @@
                 "Name": "GRID",
                 "Versions": [
                     {
-                        "DriverVersion": "535.161.08",
-                        "vGPUVersion": "16.5",
+                        "DriverVersion": "550.144.03",
+                        "vGPUVersion": "17.5",
                         "SupportedVmFamilyAndGPUModel": {
                             "NCasT4_v3 sizes": "Nvidia Tesla T4",
-                            "NVv3 Series": "NVIDIA Tesla M60",
                             "NVadsA10_v5 Series": "NVIDIA A10"
                         },
                         "Driver": [
@@ -40,7 +37,7 @@
                                     "RHEL/CentOS 8.x",
                                     "RHEL/CentOS 7.x"
                                 ],
-                                "DirLink": "https://download.microsoft.com/download/8/d/a/8da4fb8e-3a9b-4e6a-bc9a-72ff64d7a13c/NVIDIA-Linux-x86_64-535.161.08-grid-azure.run",
+                                "DirLink": "https://download.microsoft.com/download/c/3/4/c3484f19-fe76-4495-a65d-a5222ead9517/NVIDIA-Linux-x86_64-550.144.03-grid-azure.run",
                                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
                             }
                         ]
@@ -52,7 +49,7 @@
                 "Versions": [
                     {
                         "DriverVersion": "535.54",
-                        "CUDA Toolkit": "12.2",
+                        "CUDA Toolkit": "12.8",
                         "SupportedVmFamilyAndGPUModel": {
                             "NC series": "NVIDIA Tesla K80",
                             "NCv2 series": "NVIDIA Tesla P100",
@@ -187,6 +184,31 @@
             {
                 "Name": "GRID",
                 "Versions": [
+                    {
+                        "DriverVersion": "535.161.08",
+                        "vGPUVersion": "16.5",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                            "NVv3 Series": "NVIDIA Tesla M60",
+                            "NVadsA10_v5 Series": "NVIDIA A10"
+                        },
+                        "Driver": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 22.04 LTS",
+                                    "Ubuntu 20.04 LTS",
+                                    "Ubuntu 18.04 LTS",
+                                    "Red Hat Enterprise Linux 8.6",
+                                    "Red Hat Enterprise Linux 8.8",
+                                    "Red Hat Enterprise Linux 8.9",
+                                    "RHEL/CentOS 8.x",
+                                    "RHEL/CentOS 7.x"
+                                ],
+                                "DirLink": "https://download.microsoft.com/download/8/d/a/8da4fb8e-3a9b-4e6a-bc9a-72ff64d7a13c/NVIDIA-Linux-x86_64-535.161.08-grid-azure.run",
+                                "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                            }
+                        ]
+                    },
                     {
                         "DriverVersion": "535.154",
                         "vGPUVersion": "16.3",
@@ -590,7 +612,7 @@
                 "Versions": [
                     {
                         "DriverVersion": "530.30",
-                        "CUDA Toolkit": "12.1",
+                        "CUDA Toolkit": "12.2",
                         "SupportedVmFamilyAndGPUModel": {
                             "NC series": "NVIDIA Tesla K80",
                             "NCv2 series": "NVIDIA Tesla P100",
