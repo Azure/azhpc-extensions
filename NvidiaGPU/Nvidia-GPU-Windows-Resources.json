@@ -50,8 +50,8 @@
                     "Name": "CUDA",
                     "Versions": [
                         {
-                            "DriverVersion": "529.19",
-                            "CUDA Toolkit": "11.1",
+                            "DriverVersion": "560.94",
+                            "CUDA Toolkit": "12.6",
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCv3 series": "NVIDIA Tesla V100",
                                 "NCasT4_v3 sizes": "Nvidia Tesla T4",
@@ -72,7 +72,7 @@
                                         "Windows 11 Enterprise multi-session",
                                         "Windows 10 Enterprise multi-session"
                                     ],
-                                    "DirLink": "https://download.microsoft.com/download/a/c/8/ac8f92af-8a95-41ee-aa64-a44d694ebbe6/529.19-data-center-tesla-desktop-winserver-2016-2019-2022-dch-international.exe",
+                                    "DirLink": "https://download.microsoft.com/download/fb39e9e2-c1ac-4a8a-a6f9-1221c1ac840d/560.94-data-center-tesla-desktop-winserver-2022-dch-international.exe",
                                     "FwLink": "https://go.microsoft.com/fwlink/?linkid=874179"
                                 }
                             ]
@@ -605,6 +605,33 @@
                 {
                     "Name": "CUDA",
                     "Versions": [
+                        {
+                            "DriverVersion": "529.19",
+                            "CUDA Toolkit": "11.1",
+                            "SupportedVmFamilyAndGPUModel": {
+                                "NCv3 series": "NVIDIA Tesla V100",
+                                "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                                "NVv3 Series": "NVIDIA Tesla M60",
+                                "NC_A100_v4 series": "NVIDIA A100"
+                            },
+                            "Drivers": [
+                                {
+                                    "SupportedOSVersions": [
+                                        "Windows 11 23H2",
+                                        "Windows 11 22H2",
+                                        "Windows 11 21H2",
+                                        "Windows 10 22H2",
+                                        "Windows 10 21H2",
+                                        "Windows Server 2022",
+                                        "Windows Server 2019",
+                                        "Windows Server 2016",
+                                        "Windows 11 Enterprise multi-session",
+                                        "Windows 10 Enterprise multi-session"
+                                    ],
+                                    "DirLink": "https://download.microsoft.com/download/a/c/8/ac8f92af-8a95-41ee-aa64-a44d694ebbe6/529.19-data-center-tesla-desktop-winserver-2016-2019-2022-dch-international.exe",
+                                }
+                            ]
+                        },
                         {
                             "DriverVersion": "473.47",
                             "SupportedVmFamilyAndGPUModel": {
