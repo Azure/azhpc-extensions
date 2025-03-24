@@ -5,27 +5,32 @@
         "AcceleratorType": "GPU",
         "OS": "Linux",
         "DefaultSelectionsPerVMFamily": {
-            "NVads_V710_v5 Series": "Cloud Edition VDI"
+            "NVads_V710_v5 Series": "RoCM"
         },
         "Comment": ""
     },
     "Latest": {
         "Category": [
             {
-                "Name": "Cloud Edition VDI",
+                "Name": "RoCM",
                 "Versions": [
                     {
-                        "DriverVersion": "24Q2",
+                        "DriverVersion": "6.3.3",
                         "SupportedVmFamilyAndGPUModel": {
-                            "NVads_V710_v5": "V710"
-                        },
+                            "NVads_V710_v5 Series": "V710"
+                        },                        
                         "Drivers": [
                             {
                                 "SupportedOSVersions": [
                                     "Ubuntu 22.04"
                                 ],
-                                "DirLink" : "https://download.microsoft.com/download/0/6/f/06f595bb-2a68-4a5c-b76e-45e8f23dfe7e/AMD_GPU_DRIVER-24.10.18.01-240605a-403919e-microsoft.zip",
-                                "FwdLink" : "https://go.microsoft.com/fwlink/?linkid=2290962"
+                                "SupportedKernels":[
+                                    "linux-image-6.5.0-1025-azure"
+                                ],
+                                "MinimumDiskSpace" : "64 GB",
+                                "DirLink" : "https://repo.radeon.com/amdgpu-install/6.3.3/ubuntu/noble/amdgpu-install_6.3.60303-1_all.deb",
+                                "FwdLink": "https://repo.radeon.com/amdgpu-install/6.3.3/ubuntu/noble/amdgpu-install_6.3.60303-1_all.deb",
+                                "FwdLink1" : "https://go.microsoft.com/fwlink/?linkid=2290962"
                             }
                         ]
                     }
@@ -33,7 +38,11 @@
             }
         ]
     },
-    "Archive": [
-        {}
-    ]
+    "Archive": {
+        "Category": [
+            {},
+            {}
+        ]
+    }
+
 }
