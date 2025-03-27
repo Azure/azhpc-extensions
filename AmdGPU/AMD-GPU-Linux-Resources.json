@@ -22,11 +22,13 @@
                         "Drivers": [
                             {
                                 "SupportedOSVersions": [
-                                    "Ubuntu 22.04"
+                                    "Ubuntu 22.04",
+                                    "Ubuntu 24.04"
                                 ],
-                                "SupportedKernels":[
-                                    "linux-image-6.5.0-1025-azure"
-                                ],
+                                "SupportedKernelsForOSVersion":{
+                                    "Ubuntu 22.04" : ["6.5.0-1025-azure"],
+                                    "Ubuntu 24.04" : ["6.8.*-azure"]
+                                },
                                 "MinimumDiskSpace" : "64 GB",
                                 "DirLink" : "https://repo.radeon.com/amdgpu-install/6.3.3/ubuntu/noble/amdgpu-install_6.3.60303-1_all.deb",
                                 "FwdLink": "https://repo.radeon.com/amdgpu-install/6.3.3/ubuntu/noble/amdgpu-install_6.3.60303-1_all.deb",
