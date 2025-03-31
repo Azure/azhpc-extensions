@@ -26,7 +26,7 @@
                                     "Ubuntu 24.04"
                                 ],
                                 "SupportedKernelsForOSVersion":{
-                                    "Ubuntu 22.04" : ["6.5.0-*-azure"],
+                                    "Ubuntu 22.04" : ["6.5.*-azure"],
                                     "Ubuntu 24.04" : ["6.8.*-azure"]
                                 },
                                 "MinimumDiskSpace" : "64 GB",
