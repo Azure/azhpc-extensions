@@ -24,7 +24,7 @@
                                 "SupportedOSVersions": [
                                     "Ubuntu 22.04"
                                 ],
-                                "MinKernelSupportedForOSVersion":{
+                                "MinKernelsSupportedForOSVersion":{
                                     "Ubuntu 22.04" : ["6.8.*-azure"]
                                 },
                                 "MinimumDiskSpace" : "64 GB",
@@ -36,10 +36,10 @@
                                 "SupportedOSVersions": [
                                     "Ubuntu 24.04"
                                 ],
-                                "MinKernelSupportedForOSVersion":{
+                                "MinKernelsSupportedForOSVersion":{
                                     "Ubuntu 24.04" : ["6.8.*-azure"]
                                 },
-                                "MaxKernelSupportedForOSVersion":{
+                                "MaxKernelsSupportedForOSVersion":{
                                     "Ubuntu 24.04" : ["6.11.*-azure"]
                                 },
                                 "MinimumDiskSpace" : "64 GB",
