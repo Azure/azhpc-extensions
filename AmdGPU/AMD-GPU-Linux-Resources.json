@@ -107,7 +107,7 @@
                                 },
                                 "MinimumDiskSpace" : "64 GB",
                                 "RepoLink" : "https://repo.radeon.com/amdgpu-install/6.3.3/ubuntu/noble/",
-                                "DriverName": "amdgpu-install_6.4.60400-1_all.deb"
+                                "DriverName": "amdgpu-install_6.3.60303-1_all.deb"
                             }
                         ]
                     }
