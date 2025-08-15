@@ -58,7 +58,7 @@
                 "DirLink": "https://download.microsoft.com/download/ef55fe52-0814-41b4-9667-a3d285161467/WHQL-AMD-Software-Cloud-Edition-23.10.18.20-WinSvr2019-NVv4-MR-4.1-Hotfix.exe",
                 "FwLink": "https://download.microsoft.com/download/ef55fe52-0814-41b4-9667-a3d285161467/WHQL-AMD-Software-Cloud-Edition-23.10.18.20-WinSvr2019-NVv4-MR-4.1-Hotfix.exe",
                 "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
-                "DriverFileSize": 329232384
+                "DriverFileSize": 329232032 
               },
               {
                 "SupportedOSVersions": [
