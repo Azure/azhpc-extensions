@@ -88,7 +88,7 @@
                 ],
                 "DirLink": "https://download.microsoft.com/download/44ee0d6c-74dd-4214-b6d5-24fbf2eac33b/whql-amd-software-cloud-edition-25.1.1-win10-win11-azure-ngads-v620.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281503",
-                "DriverPath": "AMD\\AMD Software Cloud Edition 23.Q3\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
+                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                 "DriverFileSize": 710318440
               },
               {
@@ -181,7 +181,7 @@
                 ],
                 "DirLink": "https://download.microsoft.com/download/44ee0d6c-74dd-4214-b6d5-24fbf2eac33b/whql-amd-software-cloud-edition-25.1.1-win10-win11-azure-ngads-v620.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281503",
-                "DriverPath": "AMD\\AMD Software Cloud Edition 23.Q3\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
+                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                 "DriverFileSize": 710318440
               },
               {
