@@ -215,7 +215,6 @@
                     "Windows 10 21H2"
                   ],
                   "DirLink": "https://download.microsoft.com/download/f/9/9/f9957727-073d-4b1e-afa1-b00a52f1f97a/whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-win10-win11.exe",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281503",
                   "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                   "DriverFileSize": 682327232
                 },
@@ -225,7 +224,6 @@
                     "Windows 11 Enterprise multi-session"
                   ],
                   "DirLink": "https://download.microsoft.com/download/2/0/9/209f96a0-082c-4ee9-965a-f5d73cb515a2/non-whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-winsvr2022.exe",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268726",
                   "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                   "DriverFileSize": 615994424
                 },
@@ -235,7 +233,6 @@
                     "Windows 10 Enterprise multi-session"
                   ],
                   "DirLink": "https://download.microsoft.com/download/4/5/5/455cbd46-2bf6-4b20-affb-c320c36ba9f4/non-whql-amd-software-cloud-edition-24.3.1-azure-ngads-v620-winsvr2019.exe",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268376",
                   "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                   "DriverFileSize": 615974392
                 },
@@ -244,7 +241,6 @@
                     "Windows Server 2016"
                   ],
                   "DirLink": "https://download.microsoft.com/download/9/1/e/91ed0d01-1a2c-46ad-b014-51ece3b1936c/amd-software-cloud-edition-23.q3-azure-ngads-v620.exe",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=2234555",
                   "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                   "DriverFileSize": 672465407
                 }
@@ -270,7 +266,6 @@
                     "Windows 10 21H2"
                   ],
                   "DirLink": "https://download.microsoft.com/download/0/8/1/081db0c3-d2c0-44ae-be45-90a63610b16e/AMD-Azure-NVv4-Driver-23Q3-win10-win11.exe",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281173",
                   "DriverPath": "",
                   "DriverFileSize": 669015588
                 },
@@ -282,7 +277,6 @@
                     "Windows 11 Enterprise multi-session 21H2"
                   ],
                   "DirLink": "https://download.microsoft.com/download/2/d/3/2d328d15-4188-4fdb-8912-fb300a212dfc/AMD-Azure-NVv4-Driver-23Q3-winsvr2022.exe",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=2269817",
                   "DriverPath": "AMD\\AMD Software Azure NVv4 Guest Driver 23Q3\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                   "DriverFileSize": 603286873
                 },
@@ -293,7 +287,6 @@
                     "Windows 10 Enterprise multi-session 21H2"
                   ],
                   "DirLink": "https://download.microsoft.com/download/e/8/8/e88bb244-b8e8-47cc-9f86-9ba2632b3cb6/AMD-Azure-NVv4-Driver-23Q3-winsvr2019.exe",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=2269917",
                   "DriverPath": "AMD\\AMD Software Azure NVv4 Guest Driver 23Q3\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                   "DriverFileSize": 603118818
                 },
