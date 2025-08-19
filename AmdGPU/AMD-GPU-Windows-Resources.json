@@ -17,7 +17,7 @@
         "Name": "Cloud Edition VDI",
         "Versions": [
           {
-            "DriverVersion": "mr4.1",
+            "DriverVersion": "23Q3 _MR4.1",
             "SupportedVmFamilyAndGPUModel": {
               "NVv4 Series": "AMD Radeon Instinct MI25"
             },
