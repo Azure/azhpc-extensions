@@ -1334,9 +1334,9 @@
         }
       ],
       "PublicKey" : {
-        "FwLink" : "https://download.microsoft.com/download/f/4/7/f472d46c-1bc2-49dc-b43b-c803ce3e2f1d/3bf863cc.pub",
+        "FwLink" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/3bf863cc.pub",
         "BaseUrl" : "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-        "KeyRing" : "cuda-keyring_1.0-1_all.deb"
+        "KeyRing" : "cuda-keyring_1.1-1_all.deb"
       }
     }
   ],
