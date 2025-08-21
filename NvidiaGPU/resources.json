@@ -40,6 +40,12 @@
                   "DirLink" : "https://download.microsoft.com/download/D/8/4/D846AE1E-6565-4EC7-9C99-45FC839A7659/390.85-tesla-desktop-winserver2016-international.exe",
                   "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874802"
                 }
+              ],
+              "CUDAToolkit" : [
+                {
+                  "Version" : "12.8.1",
+                  "DirLink" : "https://developer.download.nvidia.com/compute/cuda/12.8.1/network_installers/cuda_12.8.1_windows_network.exe"
+                }
               ]
             },
             {
