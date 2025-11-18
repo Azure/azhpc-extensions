@@ -46,6 +46,13 @@
               "Type" : "GRID",
               "Version" : [
                 {
+                  "Num": "573.76",
+                  "DirLink": "https://download.microsoft.com/download/dcf4d002-3a53-469d-91af-04bddf57a9d7/573.76_grid_win10_win11_server2019_server2022_server2025_dch_64bit_international_azure_swl.exe",
+                  "FwLink": "https://download.microsoft.com/download/dcf4d002-3a53-469d-91af-04bddf57a9d7/573.76_grid_win10_win11_server2019_server2022_server2025_dch_64bit_international_azure_swl.exe",
+                  "vGPUVersion" :"18.5",
+                  "SupportedOSVersions" : "Windows Server 2022, Windows Server 2025, Windows 10 22H2, Windows 11 24H2"
+                },
+                {
                   "Num": "553.62",
                   "DirLink": "https://download.microsoft.com/download/1/1/d/11dd7071-c632-4a83-b950-d5eb3fdcf587/553.62_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874181",
@@ -384,6 +391,13 @@
             {
               "Type" : "GRID",
               "Version" : [
+                {
+                  "Num": "570.195.03",
+                  "DirLink": "https://download.microsoft.com/download/0541e1a5-dff2-4b8c-a79c-96a7664b1d49/NVIDIA-Linux-x86_64-570.195.03-grid-azure.run",
+                  "FwLink": "https://download.microsoft.com/download/0541e1a5-dff2-4b8c-a79c-96a7664b1d49/NVIDIA-Linux-x86_64-570.195.03-grid-azure.run",
+                  "vGPUVersion" :"18.5",
+                  "SupportedOSVersions" : "Ubuntu 20.04 LTS, 22.04 LTS, 24.04 LTS, Red Hat Enterprise Linux 8.6, 8.8, 8.9"
+                },
                 {
                   "Num": "550.144.06",
                   "DirLink": "https://download.microsoft.com/download/c5319e92-672e-4067-8d85-ab66a7a64db3/NVIDIA-Linux-x86_64-550.144.06-grid-azure.run",
