@@ -11,6 +11,11 @@
               "Type" : "CUDA",
               "Version" : [
                 {
+                  "Num" : "591.59",
+                  "DirLink": "https://download.microsoft.com/download/8920fc6c-3546-458b-99d9-647c4e8621a4/591.59-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+                  "FwLink": "https://download.microsoft.com/download/8920fc6c-3546-458b-99d9-647c4e8621a4/591.59-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe"
+                },
+                {
                   "Num" : "573.48",
                   "DirLink": "https://us.download.nvidia.com/tesla/573.48/573.48-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
                   "FwLink": "https://us.download.nvidia.com/tesla/573.48/573.48-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe"
