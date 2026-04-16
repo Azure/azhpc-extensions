@@ -25,6 +25,76 @@
                 }
             }
         },
+        "RegionVGpuVersionSupport": {
+            "Comment": "Per-region GRID rollout control. Set a region to 'Rollout' to receive RolloutVGpuVersion, or 'Latest' to stay on the latest available driver. Regions not listed use DefaultTrack.",
+            "DefaultTrack": "Latest",
+            "RolloutVGpuVersion": "20.0",
+            "RegionTrack": {
+                "Comment": "Early update rings",
+                "centraluseuap":  "Rollout",
+                "eastus2euap":    "Rollout",
+
+                "Comment_Americas": "Americas",
+                "eastus":          "Latest",
+                "eastus2":         "Latest",
+                "westus":          "Latest",
+                "westus2":         "Latest",
+                "westus3":         "Latest",
+                "centralus":       "Latest",
+                "northcentralus":  "Latest",
+                "southcentralus":  "Latest",
+                "westcentralus":   "Latest",
+                "canadacentral":   "Latest",
+                "canadaeast":      "Latest",
+                "brazilsouth":     "Latest",
+                "brazilsoutheast": "Latest",
+
+                "Comment_Europe": "Europe",
+                "northeurope":          "Latest",
+                "westeurope":           "Latest",
+                "uksouth":              "Latest",
+                "ukwest":               "Latest",
+                "francecentral":        "Latest",
+                "francesouth":          "Latest",
+                "germanywestcentral":   "Latest",
+                "germanynorth":         "Latest",
+                "switzerlandnorth":     "Latest",
+                "switzerlandwest":      "Latest",
+                "norwayeast":           "Latest",
+                "norwaywest":           "Latest",
+                "swedencentral":        "Latest",
+                "polandcentral":        "Latest",
+                "italynorth":           "Latest",
+                "spaincentral":         "Latest",
+
+                "Comment_AsiaPacific": "Asia Pacific",
+                "eastasia":           "Latest",
+                "southeastasia":      "Latest",
+                "japaneast":          "Latest",
+                "japanwest":          "Latest",
+                "australiaeast":      "Latest",
+                "australiasoutheast": "Latest",
+                "australiacentral":   "Latest",
+                "australiacentral2":  "Latest",
+                "koreacentral":       "Latest",
+                "koreasouth":         "Latest",
+                "centralindia":       "Latest",
+                "southindia":         "Latest",
+                "westindia":          "Latest",
+                "jioindiacentral":    "Latest",
+                "jioindiawest":       "Latest",
+
+                "Comment_MiddleEastAfrica": "Middle East & Africa",
+                "uaenorth":         "Latest",
+                "uaecentral":       "Latest",
+                "southafricanorth": "Latest",
+                "southafricawest":  "Latest",
+                "israelcentral":    "Latest",
+                "qatarcentral":     "Latest",
+                "mexicocentral":    "Latest",
+                "newzealandnorth":  "Latest"
+            }
+        },
         "Comment": "We install the default set of drivers as mentioned in the DefaultSelectionsPerVMFamily for each VM family. \n If the user wants to install GRID driver on NC or ND series, can do so by passing runtime settings on supported GPU VM families. For checking the supported VM families refer to SupportedVmFamilyAndGPUModel under each category below. For installing GRID driver on NC Series, please specify {'installGridNC':True} in the runtime setting. For installing GRID driver on ND series, please specify {'installGridND':True} in the runtime settings. Runtime settings can be provided from Azure CLI - (az vm extension set  --resource-group <rg-name> --vm-name <vm-name> --name NvidiaGpuDriverWindows --publisher Microsoft.HpcCompute --settings \"{'installGridNC': True}\""
     },
     "Latest": [
@@ -100,6 +170,44 @@
                 "DirLink": "https://download.microsoft.com/download/7/1/F/71FB7755-D899-4FD9-AC05-2216EE8102AC/nvidia.cer",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=871664"
             }
+        }
+    ],
+    "Rollout": [
+        {
+            "Category": [
+                {
+                    "Name": "GRID",
+                    "Versions": [
+                        {
+                            "DriverVersion": "595.97",
+                            "vGPUVersion": "20.0",
+                            "SupportedVmFamilyAndGPUModel": {
+                                "NCasT4_v3 sizes": "Nvidia Tesla T4",
+                                "NVadsA10_v5 Series": "NVIDIA A10"
+                            },
+                            "Drivers": [
+                                {
+                                    "SupportedOSVersions": [
+                                        "Windows 11 25H2",
+                                        "Windows 11 24H2",
+                                        "Windows 11 23H2",
+                                        "Windows 11 22H2",
+                                        "Windows 11 21H2",
+                                        "Windows 10 22H2",
+                                        "Windows 10 21H2",
+                                        "Windows Server 2022",
+                                        "Windows Server 2025",
+                                        "Windows 11 Enterprise multi-session",
+                                        "Windows 10 Enterprise multi-session"
+                                    ],
+                                    "DirLink": "https://download.microsoft.com/download/169e58c8-9099-481e-a9a9-c237a189710c/595.97_grid_win10_win11_server2022_server2025_dch_64bit_international_azure_swl.exe",
+                                    "FwLink": "https://download.microsoft.com/download/169e58c8-9099-481e-a9a9-c237a189710c/595.97_grid_win10_win11_server2022_server2025_dch_64bit_international_azure_swl.exe"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "Archive": [
