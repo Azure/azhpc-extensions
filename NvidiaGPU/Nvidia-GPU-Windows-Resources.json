@@ -108,7 +108,7 @@
                             "vGPUVersion": "18.6",
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVadsA10_v5 Series": "NVIDIA A10"
+                                "NVadsA10_v5 series": "NVIDIA A10"
                             },
                             "Drivers": [
                                 {
@@ -183,7 +183,7 @@
                             "vGPUVersion": "20.0",
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVadsA10_v5 Series": "NVIDIA A10"
+                                "NVadsA10_v5 series": "NVIDIA A10"
                             },
                             "Drivers": [
                                 {
@@ -246,7 +246,7 @@
                             "vGPUVersion": "17.5",
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVadsA10_v5 Series": "NVIDIA A10"
+                                "NVadsA10_v5 series": "NVIDIA A10"
                             },
                             "Drivers": [
                                 {
@@ -270,7 +270,7 @@
                             "vGPUVersion": "17.4",
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVadsA10_v5 Series": "NVIDIA A10"
+                                "NVadsA10_v5 series": "NVIDIA A10"
                             },
                             "Drivers": [
                                 {
@@ -294,7 +294,7 @@
                             "vGPUVersion": "17.3",
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVadsA10_v5 Series": "NVIDIA A10"
+                                "NVadsA10_v5 series": "NVIDIA A10"
                             },
                             "Drivers": [
                                 {
@@ -318,7 +318,7 @@
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
                                 "NVv3 Series": "NVIDIA Tesla M60",
-                                "NVadsA10_v5 Series": "NVIDIA A10"
+                                "NVadsA10_v5 series": "NVIDIA A10"
                             },
                             "Drivers": [
                                 {
@@ -344,7 +344,7 @@
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
                                 "NVv3 Series": "NVIDIA Tesla M60",
-                                "NVadsA10_v5 Series": "NVIDIA A10"
+                                "NVadsA10_v5 series": "NVIDIA A10"
                             },
                             "Drivers": [
                                 {
@@ -366,7 +366,7 @@
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
                                 "NVv3 Series": "NVIDIA Tesla M60",
-                                "NVadsA10_v5 Series": "NVIDIA A10"
+                                "NVadsA10_v5 series": "NVIDIA A10"
                             },
                             "Drivers": [
                                 {
@@ -388,7 +388,7 @@
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
                                 "NVv3 Series": "NVIDIA Tesla M60",
-                                "NVadsA10_v5 Series": "NVIDIA A10"
+                                "NVadsA10_v5 series": "NVIDIA A10"
                             },
                             "Drivers": [
                                 {
@@ -408,7 +408,7 @@
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
                                 "NVv3 Series": "NVIDIA Tesla M60",
-                                "NVadsA10_v5 Series": "NVIDIA A10"
+                                "NVadsA10_v5 series": "NVIDIA A10"
                             },
                             "Drivers": [
                                 {
@@ -428,7 +428,7 @@
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
                                 "NVv3 Series": "NVIDIA Tesla M60",
-                                "NVadsA10_v5 Series": "NVIDIA A10"
+                                "NVadsA10_v5 series": "NVIDIA A10"
                             },
                             "Drivers": [
                                 {
@@ -448,7 +448,7 @@
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
                                 "NVv3 Series": "NVIDIA Tesla M60",
-                                "NVadsA10_v5 Series": "NVIDIA A10"
+                                "NVadsA10_v5 series": "NVIDIA A10"
                             },
                             "Drivers": [
                                 {
