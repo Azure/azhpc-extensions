@@ -185,8 +185,7 @@
                             "vGPUVersion": "20.0",
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVadsA10_v5 series": "NVIDIA A10",
-                                "NCRTXPRO6000BSE_v6 series": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
+                                "NVadsA10_v5 series": "NVIDIA A10"
                             },
                             "Drivers": [
                                 {
