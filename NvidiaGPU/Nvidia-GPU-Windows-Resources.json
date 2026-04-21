@@ -109,7 +109,8 @@
                             "vGPUVersion": "18.6",
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVadsA10_v5 series": "NVIDIA A10"
+                                "NVadsA10_v5 series": "NVIDIA A10",
+                                "NCRTXPRO6000BSE_v6 series": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
                             },
                             "Drivers": [
                                 {
@@ -142,7 +143,8 @@
                                 "NCv3 series": "NVIDIA Tesla V100",
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
                                 "NVv3 series": "NVIDIA Tesla M60",
-                                "NC_A100_v4 series": "NVIDIA A100"
+                                "NC_A100_v4 series": "NVIDIA A100",
+                                "NCRTXPRO6000BSE_v6 series": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
                             },
                             "Drivers": [
                                 {
@@ -184,7 +186,8 @@
                             "vGPUVersion": "20.0",
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVadsA10_v5 series": "NVIDIA A10"
+                                "NVadsA10_v5 series": "NVIDIA A10",
+                                "NCRTXPRO6000BSE_v6 series": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
                             },
                             "Drivers": [
                                 {
@@ -222,7 +225,8 @@
                             "vGPUVersion": "18.5",
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVadsA10_v5 series": "NVIDIA A10"
+                                "NVadsA10_v5 series": "NVIDIA A10",
+                                "NCRTXPRO6000BSE_v6 series": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
                             },
                             "Drivers": [
                                 {
