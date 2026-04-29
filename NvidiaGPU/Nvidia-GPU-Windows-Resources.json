@@ -17,6 +17,16 @@
                 "GRID": {
                     "MaxVGpuVersion": 16.5
                 }
+            },
+            "NCv3 series": {
+                "CUDA": {
+                    "MaxCudaVersion": "12.6"
+                }
+            },
+            "NCasT4_v3 series": {
+                "CUDA": {
+                    "MaxCudaVersion": "12.6"
+                }
             }
         },
         "OSVersionSupport": {
@@ -140,9 +150,7 @@
                             "DriverVersion": "591.59",
                             "CUDA Toolkit": "13.1",
                             "SupportedVmFamilyAndGPUModel": {
-                                "NCv3 series": "NVIDIA Tesla V100",
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60",
                                 "NC_A100_v4 series": "NVIDIA A100",
                                 "NCRTXPRO6000BSE_v6 series": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
                             },
