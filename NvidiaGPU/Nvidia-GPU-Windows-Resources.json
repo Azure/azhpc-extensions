@@ -22,11 +22,6 @@
                 "CUDA": {
                     "MaxCudaVersion": "12.6"
                 }
-            },
-            "NC_A100_v4 series": {
-                "CUDA": {
-                    "MaxCudaVersion": "12.6"
-                }
             }
         },
         "OSVersionSupport": {
@@ -147,13 +142,12 @@
                     "Name": "CUDA",
                     "Versions": [
                         {
-                            "DriverVersion": "560.94",
-                            "CUDA Toolkit": "12.6",
+                            "DriverVersion": "591.59",
+                            "CUDA Toolkit": "13.1",
                             "SupportedVmFamilyAndGPUModel": {
-                                "NCv3 series": "NVIDIA Tesla V100",
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60",
-                                "NC_A100_v4 series": "NVIDIA A100"
+                                "NC_A100_v4 series": "NVIDIA A100",
+                                "NCRTXPRO6000BSE_v6 series": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
                             },
                             "Drivers": [
                                 {
@@ -169,8 +163,8 @@
                                         "Windows 11 Enterprise multi-session",
                                         "Windows 10 Enterprise multi-session"
                                     ],
-                                    "DirLink": "https://download.microsoft.com/download/fb39e9e2-c1ac-4a8a-a6f9-1221c1ac840d/560.94-data-center-tesla-desktop-winserver-2022-dch-international.exe",
-                                    "FwLink": "https://go.microsoft.com/fwlink/?linkid=874179"
+                                    "DirLink": "https://download.microsoft.com/download/8920fc6c-3546-458b-99d9-647c4e8621a4/591.59-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+                                    "FwLink": "https://download.microsoft.com/download/8920fc6c-3546-458b-99d9-647c4e8621a4/591.59-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe"
                                 }
                             ]
                         }
@@ -799,33 +793,6 @@
                 {
                     "Name": "CUDA",
                     "Versions": [
-                        {
-                            "DriverVersion": "591.59",
-                            "CUDA Toolkit": "13.1",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NC_A100_v4 series": "NVIDIA A100",
-                                "NCRTXPRO6000BSE_v6 series": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows 11 23H2",
-                                        "Windows 11 22H2",
-                                        "Windows 11 21H2",
-                                        "Windows 10 22H2",
-                                        "Windows 10 21H2",
-                                        "Windows Server 2022",
-                                        "Windows Server 2019",
-                                        "Windows Server 2016",
-                                        "Windows 11 Enterprise multi-session",
-                                        "Windows 10 Enterprise multi-session"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/8920fc6c-3546-458b-99d9-647c4e8621a4/591.59-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
-                                    "FwLink": "https://download.microsoft.com/download/8920fc6c-3546-458b-99d9-647c4e8621a4/591.59-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe"
-                                }
-                            ]
-                        },
                         {
                             "DriverVersion": "560.94",
                             "CUDA Toolkit": "12.6",
