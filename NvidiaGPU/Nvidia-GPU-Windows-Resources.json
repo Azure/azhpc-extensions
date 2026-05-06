@@ -54,9 +54,9 @@
             "NVadsA10_v5 series": {
                 "GpuModel": "NVIDIA A10",
                 "DefaultCategory": "GRID",
-                "DefaultDriverVersion": "573.96",
+                "DefaultDriverVersion": "538.46",
                 "DefaultDrivervGPUVersion": "18.6",
-                "SupportedGridDriverVersions": ["538.46", "573.96"],
+                "SupportedGridDriverVersions": ["538.46"],
                 "RegionSupport" : "RegionControl",
                 "RegionControl": {
                     "centraluseuap":        "573.96",
