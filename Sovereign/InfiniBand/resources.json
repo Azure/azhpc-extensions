@@ -1,0 +1,321 @@
+{
+  "Driver" : [
+    {
+      "Name" : "OFED",
+      "Version" : [
+        {
+          "Type" : "CX6",
+          "OS" : [
+            {
+              "Comment" : "Windows driver valid for 2019, 2016, 2012R2, 2012, 10. Driver version is 2.22.",
+              "Name" : "Windows",
+              "Distro" : [
+                {
+                  "Name" : "2016",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "http://download.microsoft.com/download/0/a/f/0af7e7fd-2e83-4147-aaa4-a5501e6541eb/MLNX_WinOF2-2_22_50000_All_x64.exe"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "2012R2",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "http://download.microsoft.com/download/0/a/f/0af7e7fd-2e83-4147-aaa4-a5501e6541eb/MLNX_WinOF2-2_22_50000_All_x64.exe"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "2019/10",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "http://download.microsoft.com/download/0/a/f/0af7e7fd-2e83-4147-aaa4-a5501e6541eb/MLNX_WinOF2-2_22_50000_All_x64.exe"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Comment" : "Driver version is 5.5-1.0.3.2",
+              "Name" : "Linux",
+              "Distro" : [
+                {
+                  "Name" : "Ubuntu",
+                  "Version" : [
+                    {
+                      "Num" : "20.04",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-ubuntu20.04-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "18.04",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-ubuntu18.04-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "16.04",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-ubuntu16.04-x86_64.tgz"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "RHEL/CentOS",
+                  "Version" : [
+                    {
+                      "Num" : "8.2",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel8.2-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "8.1",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel8.1-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "7.9",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel7.9-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "7.8",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel7.8-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "7.7",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel7.7-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "7.6",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel7.6-x86_64.tgz",
+                      "KernelDevelVer" : "3.10.0-957.27.2.el7.x86_64",
+                      "KernelDevelRPM" : "https://linuxsoft.cern.ch/cern/centos/7/updates/x86_64/Packages/kernel-devel-3.10.0-957.27.2.el7.x86_64.rpm"
+                    },
+                    {
+                      "Num" : "7.5",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel7.5-x86_64.tgz",
+                      "KernelDevelVer" : "3.10.0-862.11.6.el7.x86_64",
+                      "KernelDevelRPM" : "https://linuxsoft.cern.ch/cern/centos/7/updates/x86_64/Packages/kernel-devel-3.10.0-862.11.6.el7.x86_64.rpm"
+                    },
+                    {
+                      "Num" : "7.4",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel7.4-x86_64.tgz",
+                      "KernelDevelVer" : "3.10.0-693.21.1.el7.x86_64",
+                      "KernelDevelRPM" : "https://linuxsoft.cern.ch/cern/centos/7/updates/x86_64/Packages/kernel-devel-3.10.0-693.21.1.el7.x86_64.rpm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Type" : "CX5",
+          "OS" : [
+            {
+              "Comment" : "Windows driver valid for 2019, 2016, 2012R2, 2012, 10. Driver version is 2.22.",
+              "Name" : "Windows",
+              "Distro" : [
+                {
+                  "Name" : "2016",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "http://download.microsoft.com/download/0/a/f/0af7e7fd-2e83-4147-aaa4-a5501e6541eb/MLNX_WinOF2-2_22_50000_All_x64.exe"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "2012R2",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "http://download.microsoft.com/download/0/a/f/0af7e7fd-2e83-4147-aaa4-a5501e6541eb/MLNX_WinOF2-2_22_50000_All_x64.exe"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "2019/10",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "http://download.microsoft.com/download/0/a/f/0af7e7fd-2e83-4147-aaa4-a5501e6541eb/MLNX_WinOF2-2_22_50000_All_x64.exe"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Comment" : "Driver version is 5.5-1.0.3.2",
+              "Name" : "Linux",
+              "Distro" : [
+                {
+                  "Name" : "Ubuntu",
+                  "Version" : [
+                    {
+                      "Num" : "20.04",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-ubuntu20.04-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "18.04",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-ubuntu18.04-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "16.04",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-ubuntu16.04-x86_64.tgz"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "RHEL/CentOS",
+                  "Version" : [
+                    {
+                      "Num" : "8.2",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel8.2-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "8.1",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel8.1-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "7.9",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel7.9-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "7.8",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel7.8-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "7.7",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel7.7-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "7.6",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel7.6-x86_64.tgz",
+                      "KernelDevelVer" : "3.10.0-957.27.2.el7.x86_64",
+                      "KernelDevelRPM" : "https://linuxsoft.cern.ch/cern/centos/7/updates/x86_64/Packages/kernel-devel-3.10.0-957.27.2.el7.x86_64.rpm"
+                    },
+                    {
+                      "Num" : "7.5",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel7.5-x86_64.tgz",
+                      "KernelDevelVer" : "3.10.0-862.11.6.el7.x86_64",
+                      "KernelDevelRPM" : "https://linuxsoft.cern.ch/cern/centos/7/updates/x86_64/Packages/kernel-devel-3.10.0-862.11.6.el7.x86_64.rpm"
+                    },
+                    {
+                      "Num" : "7.4",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-5.5-1.0.3.2/MLNX_OFED_LINUX-5.5-1.0.3.2-rhel7.4-x86_64.tgz",
+                      "KernelDevelVer" : "3.10.0-693.21.1.el7.x86_64",
+                      "KernelDevelRPM" : "https://linuxsoft.cern.ch/cern/centos/7/updates/x86_64/Packages/kernel-devel-3.10.0-693.21.1.el7.x86_64.rpm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Type" : "CX3-Pro",
+          "OS" : [
+            {
+              "Comment" : "Driver version is 5.65.",
+              "Name" : "Windows",
+              "Distro" : [
+                {
+                  "Name" : "2016",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "https://download.microsoft.com/download/e/f/f/eff09aa8-7d75-4ff8-b772-5fc9e374370e/MLNX_VPI_WinOF-5_65_51000_All_win2016_x64.exe"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "2012R2",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "https://download.microsoft.com/download/2/6/e/26e9cb43-657e-44cc-a8e9-e4247951d590/MLNX_VPI_WinOF-5_65_51000_All_win2012R2_x64.exe"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "2019/10",
+                  "Version" : [
+                    {
+                      "Num" : "All",
+                      "FwLink" : "https://download.microsoft.com/download/e/5/c/e5cb143e-f3d4-467b-b874-1aa7d5a7af7c/MLNX_VPI_WinOF-5_65_51000_All_win2019_x64.exe"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Comment" : "Driver version is 4.9-4.1.7.0",
+              "Name" : "Linux",
+              "Distro" : [
+                {
+                  "Name" : "Ubuntu",
+                  "Version" : [
+                    {
+                      "Num" : "20.04",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.9-4.1.7.0/MLNX_OFED_LINUX-4.9-4.1.7.0-ubuntu20.04-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "18.04",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.9-4.1.7.0/MLNX_OFED_LINUX-4.9-4.1.7.0-ubuntu18.04-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "16.04",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.9-4.1.7.0/MLNX_OFED_LINUX-4.9-4.1.7.0-ubuntu16.04-x86_64.tgz"
+                    }
+                  ]
+                },
+                {
+                  "Name" : "RHEL/CentOS",
+                  "Version" : [
+                    {
+                      "Num" : "8.2",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.9-4.1.7.0/MLNX_OFED_LINUX-4.9-4.1.7.0-rhel8.2-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "8.1",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.9-4.1.7.0/MLNX_OFED_LINUX-4.9-4.1.7.0-rhel8.1-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "7.9",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.9-4.1.7.0/MLNX_OFED_LINUX-4.9-4.1.7.0-rhel7.9-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "7.8",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.9-4.1.7.0/MLNX_OFED_LINUX-4.9-4.1.7.0-rhel7.8-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "7.7",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.9-4.1.7.0/MLNX_OFED_LINUX-4.9-4.1.7.0-rhel7.7-x86_64.tgz"
+                    },
+                    {
+                      "Num" : "7.6",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.9-4.1.7.0/MLNX_OFED_LINUX-4.9-4.1.7.0-rhel7.6-x86_64.tgz",
+                      "KernelDevelVer" : "3.10.0-957.27.2.el7.x86_64",
+                      "KernelDevelRPM" : "https://linuxsoft.cern.ch/cern/centos/7/updates/x86_64/Packages/kernel-devel-3.10.0-957.27.2.el7.x86_64.rpm"
+                    },
+                    {
+                      "Num" : "7.5",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.9-4.1.7.0/MLNX_OFED_LINUX-4.9-4.1.7.0-rhel7.5-x86_64.tgz",
+                      "KernelDevelVer" : "3.10.0-862.11.6.el7.x86_64",
+                      "KernelDevelRPM" : "https://linuxsoft.cern.ch/cern/centos/7/updates/x86_64/Packages/kernel-devel-3.10.0-862.11.6.el7.x86_64.rpm"
+                    },
+                    {
+                      "Num" : "7.4",
+                      "FwLink" : "http://content.mellanox.com/ofed/MLNX_OFED-4.9-4.1.7.0/MLNX_OFED_LINUX-4.9-4.1.7.0-rhel7.4-x86_64.tgz",
+                      "KernelDevelVer" : "3.10.0-693.21.1.el7.x86_64",
+                      "KernelDevelRPM" : "https://linuxsoft.cern.ch/cern/centos/7/updates/x86_64/Packages/kernel-devel-3.10.0-693.21.1.el7.x86_64.rpm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
