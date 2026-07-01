@@ -36,7 +36,7 @@
       "NVv3 Series": {
         "GpuModel": "NVIDIA Tesla M60",
         "DefaultCategory": "GRID",
-        "DefaultDriverVersion": "570.211.01",
+        "DefaultDriverVersion": "535.161.08",
         "RegionSupport": "DefaultAllRegions"
       },
       "NVadsA10_v5 Series": {
