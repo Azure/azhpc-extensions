@@ -8,19 +8,19 @@
       "NCv3 series": {
         "GpuModel": "NVIDIA Tesla V100",
         "DefaultCategory": "CUDA",
-        "DefaultDriverVersion": "535.54",
+        "DefaultDriverVersion": "Latest",
         "RegionSupport": "DefaultAllRegions"
       },
       "NC_A100_v4 series": {
         "GpuModel": "NVIDIA A100",
         "DefaultCategory": "CUDA",
-        "DefaultDriverVersion": "535.54",
+        "DefaultDriverVersion": "Latest",
         "RegionSupport": "DefaultAllRegions"
       },
       "NCasT4_v3 sizes": {
         "GpuModel": "Nvidia Tesla T4",
         "DefaultCategory": "CUDA",
-        "DefaultDriverVersion": "535.54",
+        "DefaultDriverVersion": "Latest",
         "RegionSupport": "DefaultAllRegions",
         "GridDriverSupported": true,
         "DefaultGridDriverVersion": "570.211.01",
@@ -112,19 +112,19 @@
       "NC_H100_v5 series": {
         "GpuModel": "NVIDIA H100 NVL GPU",
         "DefaultCategory": "CUDA",
-        "DefaultDriverVersion": "535.54",
+        "DefaultDriverVersion": "Latest",
         "RegionSupport": "DefaultAllRegions"
       },
       "NCC_H100_v5 series": {
         "GpuModel": "NVIDIA H100 Tensor Core GPU",
         "DefaultCategory": "CUDA",
-        "DefaultDriverVersion": "535.54",
+        "DefaultDriverVersion": "Latest",
         "RegionSupport": "DefaultAllRegions"
       },
       "ND family": {
         "VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6",
         "DefaultCategory": "CUDA",
-        "DefaultDriverVersion": "535.54",
+        "DefaultDriverVersion": "Latest",
         "RegionSupport": "DefaultAllRegions"
       },
       "NCRTXPRO6000BSE_v6 series": {
@@ -262,7 +262,10 @@
                 "NCv3 series": {"GpuModel": "NVIDIA Tesla V100"},
                 "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4"},
                 "NVv3 Series": {"GpuModel": "NVIDIA Tesla M60"},
-                "NC_A100_v4 series": {"GpuModel": "NVIDIA A100"}
+                "NC_A100_v4 series": {"GpuModel": "NVIDIA A100"},
+                "NC_H100_v5 series": {"GpuModel": "NVIDIA H100 NVL GPU"},
+                "NCC_H100_v5 series": {"GpuModel": "NVIDIA H100 Tensor Core GPU"},
+                "ND family": {"VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"}
               },
               "Drivers": [
                 {
@@ -312,7 +315,10 @@
                 "NCv3 series": {"GpuModel": "NVIDIA Tesla V100"},
                 "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4"},
                 "NVv3 Series": {"GpuModel": "NVIDIA Tesla M60"},
-                "NC_A100_v4 series": {"GpuModel": "NVIDIA A100"}
+                "NC_A100_v4 series": {"GpuModel": "NVIDIA A100"},
+                "NC_H100_v5 series": {"GpuModel": "NVIDIA H100 NVL GPU"},
+                "NCC_H100_v5 series": {"GpuModel": "NVIDIA H100 Tensor Core GPU"},
+                "ND family": {"VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"}
               },
               "Drivers": [
                 {
@@ -332,7 +338,11 @@
                 "NC series": {"GpuModel": "NVIDIA Tesla K80"},
                 "NCv2 series": {"GpuModel": "NVIDIA Tesla P100"},
                 "NCv3 series": {"GpuModel": "NVIDIA Tesla V100"},
-                "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4"}
+                "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4"},
+                "NC_A100_v4 series": {"GpuModel": "NVIDIA A100"},
+                "NC_H100_v5 series": {"GpuModel": "NVIDIA H100 NVL GPU"},
+                "NCC_H100_v5 series": {"GpuModel": "NVIDIA H100 Tensor Core GPU"},
+                "ND family": {"VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"}
               },
               "Drivers": [
                 {
@@ -366,6 +376,15 @@
                 },
                 "NC_A100_v4 series": {
                   "GpuModel": "NVIDIA A100"
+                },
+                "NC_H100_v5 series": {
+                  "GpuModel": "NVIDIA H100 NVL GPU"
+                },
+                "NCC_H100_v5 series": {
+                  "GpuModel": "NVIDIA H100 Tensor Core GPU"
+                },
+                "ND family": {
+                  "VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"
                 }
               },
               "Drivers": [
@@ -1028,6 +1047,15 @@
                 },
                 "NC_A100_v4 series": {
                   "GpuModel": "NVIDIA A100"
+                },
+                "NC_H100_v5 series": {
+                  "GpuModel": "NVIDIA H100 NVL GPU"
+                },
+                "NCC_H100_v5 series": {
+                  "GpuModel": "NVIDIA H100 Tensor Core GPU"
+                },
+                "ND family": {
+                  "VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"
                 }
               },
               "Drivers": [
@@ -1062,6 +1090,15 @@
                 },
                 "NC_A100_v4 series": {
                   "GpuModel": "NVIDIA A100"
+                },
+                "NC_H100_v5 series": {
+                  "GpuModel": "NVIDIA H100 NVL GPU"
+                },
+                "NCC_H100_v5 series": {
+                  "GpuModel": "NVIDIA H100 Tensor Core GPU"
+                },
+                "ND family": {
+                  "VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"
                 }
               },
               "Drivers": [
@@ -1096,6 +1133,15 @@
                 },
                 "NC_A100_v4 series": {
                   "GpuModel": "NVIDIA A100"
+                },
+                "NC_H100_v5 series": {
+                  "GpuModel": "NVIDIA H100 NVL GPU"
+                },
+                "NCC_H100_v5 series": {
+                  "GpuModel": "NVIDIA H100 Tensor Core GPU"
+                },
+                "ND family": {
+                  "VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"
                 }
               },
               "DKMS": {
