@@ -271,37 +271,58 @@
                 {
                   "SupportedOSVersions": ["Ubuntu 24.04 LTS"],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/",
-                  "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-ubuntu2404.pin",
+                  "RepositorySetup": {
+                    "PackageManager": "apt",
+                    "Trust": {
+                      "Method": "keyring",
+                      "PackageUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb",
+                      "PackageFile": "cuda-keyring_1.1-1_all.deb"
+                    }
+                  },
                   "InstallMethod": 1
                 },
                 {
                   "SupportedOSVersions": ["Ubuntu 22.04 LTS"],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/",
-                  "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin",
+                  "RepositorySetup": {
+                    "PackageManager": "apt",
+                    "Trust": {
+                      "Method": "keyring",
+                      "PackageUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb",
+                      "PackageFile": "cuda-keyring_1.1-1_all.deb"
+                    }
+                  },
                   "InstallMethod": 1
                 },
                 {
                   "SupportedOSVersions": ["Ubuntu 20.04 LTS"],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-                  "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
+                  "RepositorySetup": {
+                    "PackageManager": "apt",
+                    "Trust": {
+                      "Method": "keyring",
+                      "PackageUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.1-1_all.deb",
+                      "PackageFile": "cuda-keyring_1.1-1_all.deb"
+                    }
+                  },
                   "InstallMethod": 1
                 },
                 {
                   "SupportedOSVersions": ["RHEL/CentOS 10.x"],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel10/x86_64/",
-                  "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel10/x86_64/cuda-rhel10.repo",
+                  "DKMSUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel10/x86_64/cuda-rhel10.repo",
                   "InstallMethod": 2
                 },
                 {
                   "SupportedOSVersions": ["RHEL/CentOS 9.x"],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel9/x86_64/",
-                  "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel9/x86_64/cuda-rhel9.repo",
+                  "DKMSUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel9/x86_64/cuda-rhel9.repo",
                   "InstallMethod": 2
                 },
                 {
                   "SupportedOSVersions": ["RHEL/CentOS 8.x"],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/",
-                  "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo",
+                  "DKMSUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo",
                   "InstallMethod": 2
                 }
               ]
@@ -326,7 +347,14 @@
                     "Ubuntu 18.x LTS"
                   ],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
-                  "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin",
+                  "RepositorySetup": {
+                    "PackageManager": "apt",
+                    "Trust": {
+                      "Method": "keyring",
+                      "PackageUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-keyring_1.1-1_all.deb",
+                      "PackageFile": "cuda-keyring_1.1-1_all.deb"
+                    }
+                  },
                   "InstallMethod": 1
                 }
               ]
@@ -350,7 +378,14 @@
                     "Ubuntu 20.x LTS"
                   ],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-                  "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin",
+                  "RepositorySetup": {
+                    "PackageManager": "apt",
+                    "Trust": {
+                      "Method": "keyring",
+                      "PackageUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.1-1_all.deb",
+                      "PackageFile": "cuda-keyring_1.1-1_all.deb"
+                    }
+                  },
                   "InstallMethod": 1
                 }
               ]
@@ -400,12 +435,7 @@
             }
           ]
         }
-      ],
-      "PublicKey": {
-        "FwLink": "https://download.microsoft.com/download/f/4/7/f472d46c-1bc2-49dc-b43b-c803ce3e2f1d/3bf863cc.pub",
-        "BaseUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-        "KeyRing": "cuda-keyring_1.0-1_all.deb"
-      }
+      ]
     }
   ],
   "Archive": [
@@ -1064,7 +1094,14 @@
                     "Ubuntu 22.04 LTS"
                   ],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/",
-                  "PinUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin",
+                  "RepositorySetup": {
+                    "PackageManager": "apt",
+                    "Trust": {
+                      "Method": "keyring",
+                      "PackageUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb",
+                      "PackageFile": "cuda-keyring_1.1-1_all.deb"
+                    }
+                  },
                   "InstallMethod": 1
                 }
               ]
@@ -1208,12 +1245,7 @@
             }
           ]
         }
-      ],
-      "PublicKey": {
-        "FwLink": "https://download.microsoft.com/download/f/4/7/f472d46c-1bc2-49dc-b43b-c803ce3e2f1d/3bf863cc.pub",
-        "BaseUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-        "KeyRing": "cuda-keyring_1.0-1_all.deb"
-      }
+      ]
     }
   ]
 }
