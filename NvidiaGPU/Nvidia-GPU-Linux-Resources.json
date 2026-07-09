@@ -235,13 +235,16 @@
               "Drivers": [
                 {
                   "SupportedOSVersions": [
+                    "Ubuntu 26.04 LTS",
                     "Ubuntu 24.04 LTS",
                     "Ubuntu 22.04 LTS",
                     "Ubuntu 20.04 LTS",
                     "Red Hat Enterprise Linux 8.6",
                     "Red Hat Enterprise Linux 8.8",
                     "Red Hat Enterprise Linux 8.9",
-                    "RHEL/CentOS 8.x"
+                    "Red Hat Enterprise Linux 10.2",
+                    "RHEL/CentOS 8.x",
+                    "RHEL/CentOS 10.x"
                   ],
                   "DirLink": "https://download.microsoft.com/download/2a04ca6a-9eec-40d9-9564-9cdea1ab795f/NVIDIA-Linux-x86_64-570.211.01-grid-azure.run",
                   "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
