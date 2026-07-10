@@ -312,20 +312,20 @@
                 },
                 {
                   "SupportedOSVersions": ["RHEL/CentOS 10.x"],
-                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel10/x86_64/",
-                  "DKMSUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel10/x86_64/cuda-rhel10.repo",
+                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel10/x86_64/cuda-rhel10.repo",
+                  "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm",
                   "InstallMethod": 2
                 },
                 {
                   "SupportedOSVersions": ["RHEL/CentOS 9.x"],
-                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel9/x86_64/",
-                  "DKMSUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel9/x86_64/cuda-rhel9.repo",
+                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel9/x86_64/cuda-rhel9.repo",
+                  "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm",
                   "InstallMethod": 2
                 },
                 {
                   "SupportedOSVersions": ["RHEL/CentOS 8.x"],
-                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/",
-                  "DKMSUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo",
+                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo",
+                  "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm",                  
                   "InstallMethod": 2
                 }
               ]
