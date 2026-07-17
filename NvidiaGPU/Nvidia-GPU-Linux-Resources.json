@@ -53,7 +53,6 @@
         ],
         "RegionSupport": "RegionControl",
         "RegionControl": {
-          "centraluseuap": "570.195.03",
           "eastus2euap": "570.211.01",
           "eastus": "570.211.01",
           "eastus2": "570.211.01",
