@@ -17,9 +17,10 @@
         "DefaultDriverVersion": "Latest",
         "RegionSupport": "DefaultAllRegions",
         "GridDriverSupported": true,
-        "DefaultGridDriverVersion": "570.211.01",
+        "DefaultGridDriverVersion": "570.237",
         "SupportedGridDriverVersions": [
           "595.58.03",
+          "570.237",
           "570.211.01",
           "570.195.03",
           "550.144.06",
