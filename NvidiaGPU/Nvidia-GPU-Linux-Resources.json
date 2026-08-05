@@ -128,7 +128,8 @@
         "DefaultDriverVersion": "595.58.03",
         "DefaultDrivervGPUVersion": "20.0",
         "SupportedGridDriverVersions": [
-          "595.58.03"],
+          "595.58.03"
+        ],
         "RegionSupport": "RegionControl",
         "RegionControl": {
           "centraluseuap": "595.58.03",
