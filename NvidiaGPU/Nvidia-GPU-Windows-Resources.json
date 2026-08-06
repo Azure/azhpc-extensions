@@ -23,8 +23,8 @@
                 "DefaultDriverVersion": "591.59", 
                 "RegionSupport": "DefaultAllRegions",
                 "GridDriverSupported" : true,
-                "DefaultGridDriverVersion" : "574.24",
-                "SupportedGridDriverVersions": ["595.97","574.24","573.96", "573.76", "553.24", "552.72","538.46"],
+                    "DefaultGridDriverVersion" : "596.86",
+                    "SupportedGridDriverVersions": ["596.86", "595.97","574.24","573.96", "573.76", "553.24", "552.72","538.46"],
                 "CompatibilityPolicy": {
                     "OnDefaultOsMismatch": "FallbackByOs",
                     "OnExplicitOsMismatch": "Fail",
@@ -204,6 +204,29 @@
                 {
                     "Name": "GRID",
                     "Versions": [
+                        {
+                            "DriverVersion": "596.86",
+                            "vGPUVersion": "20.2",
+                            "SupportedVmFamilyAndGPUModel": {
+                                "NCasT4_v3 series": {
+                                    "GpuModel": "Nvidia Tesla T4",
+                                    "SupportedOSVersions": [
+                                        "Windows 11 25H2",
+                                        "Windows 11 24H2",
+                                        "Windows 11 23H2",
+                                        "Windows 11 22H2",
+                                        "Windows 10 22H2",
+                                        "Windows Server 2022",
+                                        "Windows Server 2025"
+                                    ]
+                                }
+                            },
+                            "Drivers": [
+                                {
+                                    "DirLink": "https://download.microsoft.com/download/4358a299-6c93-4674-bd54-17ce40984b61/596.86_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe"
+                                }
+                            ]
+                        },
                         {
                             "DriverVersion": "574.24",
                             "vGPUVersion": "18.8",
