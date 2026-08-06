@@ -17,8 +17,9 @@
         "DefaultDriverVersion": "Latest",
         "RegionSupport": "DefaultAllRegions",
         "GridDriverSupported": true,
-        "DefaultGridDriverVersion": "570.237",
+        "DefaultGridDriverVersion": "595.91.07",
         "SupportedGridDriverVersions": [
+          "595.91.07",
           "595.58.03",
           "570.237",
           "570.211.01",
@@ -48,7 +49,6 @@
           "535.161.08"
         ],
         "RegionSupport": "DefaultAllRegions"
-        }
       },
       "NC_H100_v5 series": {
         "GpuModel": "NVIDIA H100 NVL GPU",
@@ -77,7 +77,6 @@
           "595.58.03"
         ],
         "RegionSupport": "DefaultAllRegions"
-        }
       }
     },
     "Comment": "We install the default set of drivers as mentioned in the DefaultSelectionsPerVMFamily for each VM family. If the user wants to install GRID driver on NC or ND series, can do so by passing runtime settings on supported GPU VM families. For checking the supported VM families for a particular driver category, refer to SupportedVmFamilyAndGPUModel under each category below. For installing GRID driver on NC Series, please specify {'installGridNC':True} in the runtime setting. For installing GRID driver on ND series, please specify {'installGridND':True} in the runtime settings. Runtime settings can be provided from Azure CLI - (az vm extension set  --resource-group <rg-name> --vm-name <vm-name> --name NvidiaGpuDriverLinux --publisher Microsoft.HpcCompute --settings \"{'installGridNC': True}\""
@@ -88,6 +87,28 @@
         {
           "Name": "GRID",
           "Versions": [
+            {
+              "DriverVersion": "595.91.07",
+              "vGPUVersion": "20.2",
+              "SupportedVmFamilyAndGPUModel": {
+                "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4"}
+              },
+              "Drivers": [
+                {
+                  "SupportedOSVersions": [
+                    "Ubuntu 26.04 LTS",
+                    "Ubuntu 24.04 LTS",
+                    "Ubuntu 22.04 LTS",
+                    "Ubuntu 20.04 LTS",
+                    "Red Hat Enterprise Linux 8.6",
+                    "Red Hat Enterprise Linux 8.8",
+                    "Red Hat Enterprise Linux 8.9",
+                    "RHEL/CentOS 8.x"
+                  ],
+                  "DirLink": "https://download.microsoft.com/download/a7cb6d36-3bbc-43d6-9e88-e0842e6f9ab9/NVIDIA-Linux-x86_64-595.91.07-grid-azure.run"
+                }
+              ]
+            },
             {
               "DriverVersion": "595.58.03",
               "vGPUVersion": "20.0",
