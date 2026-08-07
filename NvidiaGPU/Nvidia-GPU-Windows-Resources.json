@@ -23,8 +23,8 @@
                 "DefaultDriverVersion": "591.59", 
                 "RegionSupport": "DefaultAllRegions",
                 "GridDriverSupported" : true,
-                    "DefaultGridDriverVersion" : "596.86",
-                    "SupportedGridDriverVersions": ["596.86", "595.97","574.24","573.96", "573.76", "553.24", "552.72","538.46"],
+                "DefaultGridDriverVersion" : "596.86",
+                "SupportedGridDriverVersions": ["596.86", "595.97","574.24","573.96", "573.76", "553.24", "552.72","538.46"],
                 "CompatibilityPolicy": {
                     "OnDefaultOsMismatch": "FallbackByOs",
                     "OnExplicitOsMismatch": "Fail",
