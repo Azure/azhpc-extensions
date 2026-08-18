@@ -11,16 +11,6 @@
               "Type" : "CUDA",
               "Version" : [
                 {
-                  "Num" : "591.59",
-                  "DirLink": "https://download.microsoft.com/download/8920fc6c-3546-458b-99d9-647c4e8621a4/591.59-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
-                  "FwLink": "https://download.microsoft.com/download/8920fc6c-3546-458b-99d9-647c4e8621a4/591.59-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe"
-                },
-                {
-                  "Num" : "573.48",
-                  "DirLink": "https://us.download.nvidia.com/tesla/573.48/573.48-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
-                  "FwLink": "https://us.download.nvidia.com/tesla/573.48/573.48-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe"
-                },
-                {
                   "Num" : "560.94",
                   "DirLink" : "https://download.microsoft.com/download/fb39e9e2-c1ac-4a8a-a6f9-1221c1ac840d/560.94-data-center-tesla-desktop-winserver-2022-dch-international.exe",
                   "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874179"
@@ -50,17 +40,31 @@
                   "DirLink" : "https://download.microsoft.com/download/D/8/4/D846AE1E-6565-4EC7-9C99-45FC839A7659/390.85-tesla-desktop-winserver2016-international.exe",
                   "FwLink" : "https://go.microsoft.com/fwlink/?linkid=874802"
                 }
-              ],
-              "CUDAToolkit" : [
-                {
-                  "Version" : "12.8.1",
-                  "DirLink" : "https://developer.download.nvidia.com/compute/cuda/12.8.1/network_installers/cuda_12.8.1_windows_network.exe"
-                }
               ]
             },
             {
               "Type" : "GRID",
               "Version" : [
+                
+                {
+                  "Num": "573.96",
+                  "DirLink": "https://download.microsoft.com/download/f7ca3c43-8f24-4365-a4cc-d528574858a8/573.96_grid_win10_win11_server2022_server2025_dch_64bit_international_azure_swl.exe",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874181",
+                  "vGPUVersion" :"18.6",
+                  "SupportedOSVersions" : "Windows Server 2022, Windows Server 2025, Windows 10 22H2, Windows 11 24H2"
+                },
+                {
+                  "Num": "595.97",
+                  "FwLink": "https://download.microsoft.com/download/169e58c8-9099-481e-a9a9-c237a189710c/595.97_grid_win10_win11_server2022_server2025_dch_64bit_international_azure_swl.exe",
+                  "vGPUVersion" :"20.0",
+                  "SupportedOSVersions" : "Windows Server 2022, Windows Server 2025, Windows 10 22H2, Windows 11 24H2"
+                },
+                {
+                  "Num": "573.76",
+                  "FwLink": "https://download.microsoft.com/download/dcf4d002-3a53-469d-91af-04bddf57a9d7/573.76_grid_win10_win11_server2019_server2022_server2025_dch_64bit_international_azure_swl.exe",
+                  "vGPUVersion" :"18.5",
+                  "SupportedOSVersions" : "Windows Server 2022, Windows Server 2025, Windows 10 22H2, Windows 11 24H2"
+                },
                 {
                   "Num": "574.24",
                   "DirLink": "https://download.microsoft.com/download/e9a86343-1981-4ac8-883a-49bf5e2c4d18/574.24_grid_win10_win11_server2022_dch_server2025_64bit_international_azure_swl.exe",
