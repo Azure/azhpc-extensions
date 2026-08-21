@@ -24,7 +24,7 @@
                 "RegionSupport": "DefaultAllRegions",
                 "GridDriverSupported" : true,
                 "DefaultGridDriverVersion" : "596.86",
-                "SupportedGridDriverVersions": ["596.86", "595.97","574.24","573.96", "573.76", "553.24", "552.72","538.46"],
+                "SupportedGridDriverVersions": ["596.86", "574.24","573.96", "573.76", "553.24", "552.72","538.46"],
                 "CompatibilityPolicy": {
                     "OnDefaultOsMismatch": "FallbackByOs",
                     "OnExplicitOsMismatch": "Fail",
@@ -134,65 +134,65 @@
             "NCRTXPRO6000BSE_v6 series": {
                 "GpuModel": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
                 "DefaultCategory": "GRID",
-                "DefaultDriverVersion": "595.97",
-                "DefaultDrivervGPUVersion": "20.0",
-                "SupportedGridDriverVersions": ["595.97"],
+                "DefaultDriverVersion": "596.86",
+                "DefaultDrivervGPUVersion": "20.2",
+                "SupportedGridDriverVersions": ["596.86"],
                 "RegionSupport" : "RegionControl",
                 "RegionControl": {
-                    "centraluseuap":        "595.97",
-                    "eastus2euap":          "595.97",
-                    "eastus":               "595.97",
-                    "eastus2":              "595.97",
-                    "westus":               "595.97",
-                    "westus2":              "595.97",
-                    "westus3":              "595.97",
-                    "centralus":            "595.97",
-                    "northcentralus":       "595.97",
-                    "southcentralus":       "595.97",
-                    "westcentralus":        "595.97",
-                    "canadacentral":        "595.97",
-                    "canadaeast":           "595.97",
-                    "brazilsouth":          "595.97",
-                    "brazilsoutheast":      "595.97",
-                    "northeurope":          "595.97",
-                    "westeurope":           "595.97",
-                    "uksouth":              "595.97",
-                    "ukwest":               "595.97",
-                    "francecentral":        "595.97",
-                    "francesouth":          "595.97",
-                    "germanywestcentral":   "595.97",
-                    "germanynorth":         "595.97",
-                    "switzerlandnorth":     "595.97",
-                    "switzerlandwest":      "595.97",
-                    "norwayeast":           "595.97",
-                    "norwaywest":           "595.97",
-                    "swedencentral":        "595.97",
-                    "polandcentral":        "595.97",
-                    "italynorth":           "595.97",
-                    "spaincentral":         "595.97",
-                    "eastasia":             "595.97",
-                    "southeastasia":        "595.97",
-                    "japaneast":            "595.97",
-                    "japanwest":            "595.97",
-                    "australiaeast":        "595.97",
-                    "australiasoutheast":   "595.97",
-                    "australiacentral":     "595.97",
-                    "australiacentral2":    "595.97",
-                    "koreacentral":         "595.97",
-                    "koreasouth":           "595.97",
-                    "centralindia":         "595.97",
-                    "southindia":           "595.97",
-                    "westindia":            "595.97",
-                    "jioindiacentral":      "595.97",
-                    "jioindiawest":         "595.97",
-                    "uaenorth":             "595.97",
-                    "uaecentral":           "595.97",
-                    "southafricanorth":     "595.97",
-                    "southafricawest":      "595.97",
-                    "israelcentral":        "595.97",
-                    "qatarcentral":         "595.97",
-                    "mexicocentral":        "595.97",
-                    "newzealandnorth":      "595.97"
+                    "centraluseuap":        "596.86",
+                    "eastus2euap":          "596.86",
+                    "eastus":               "596.86",
+                    "eastus2":              "596.86",
+                    "westus":               "596.86",
+                    "westus2":              "596.86",
+                    "westus3":              "596.86",
+                    "centralus":            "596.86",
+                    "northcentralus":       "596.86",
+                    "southcentralus":       "596.86",
+                    "westcentralus":        "596.86",
+                    "canadacentral":        "596.86",
+                    "canadaeast":           "596.86",
+                    "brazilsouth":          "596.86",
+                    "brazilsoutheast":      "596.86",
+                    "northeurope":          "596.86",
+                    "westeurope":           "596.86",
+                    "uksouth":              "596.86",
+                    "ukwest":               "596.86",
+                    "francecentral":        "596.86",
+                    "francesouth":          "596.86",
+                    "germanywestcentral":   "596.86",
+                    "germanynorth":         "596.86",
+                    "switzerlandnorth":     "596.86",
+                    "switzerlandwest":      "596.86",
+                    "norwayeast":           "596.86",
+                    "norwaywest":           "596.86",
+                    "swedencentral":        "596.86",
+                    "polandcentral":        "596.86",
+                    "italynorth":           "596.86",
+                    "spaincentral":         "596.86",
+                    "eastasia":             "596.86",
+                    "southeastasia":        "596.86",
+                    "japaneast":            "596.86",
+                    "japanwest":            "596.86",
+                    "australiaeast":        "596.86",
+                    "australiasoutheast":   "596.86",
+                    "australiacentral":     "596.86",
+                    "australiacentral2":    "596.86",
+                    "koreacentral":         "596.86",
+                    "koreasouth":           "596.86",
+                    "centralindia":         "596.86",
+                    "southindia":           "596.86",
+                    "westindia":            "596.86",
+                    "jioindiacentral":      "596.86",
+                    "jioindiawest":         "596.86",
+                    "uaenorth":             "596.86",
+                    "uaecentral":           "596.86",
+                    "southafricanorth":     "596.86",
+                    "southafricawest":      "596.86",
+                    "israelcentral":        "596.86",
+                    "qatarcentral":         "596.86",
+                    "mexicocentral":        "596.86",
+                    "newzealandnorth":      "596.86"
                 }
             }
         },
@@ -210,6 +210,18 @@
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": {
                                     "GpuModel": "Nvidia Tesla T4",
+                                    "SupportedOSVersions": [
+                                        "Windows 11 25H2",
+                                        "Windows 11 24H2",
+                                        "Windows 11 23H2",
+                                        "Windows 11 22H2",
+                                        "Windows 10 22H2",
+                                        "Windows Server 2022",
+                                        "Windows Server 2025"
+                                    ]
+                                },
+                                "NCRTXPRO6000BSE_v6 series": {
+                                    "GpuModel": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
                                     "SupportedOSVersions": [
                                         "Windows 11 25H2",
                                         "Windows 11 24H2",
@@ -259,53 +271,6 @@
                             "Drivers": [
                                 {                                    
                                     "DirLink": "https://download.microsoft.com/download/e9a86343-1981-4ac8-883a-49bf5e2c4d18/574.24_grid_win10_win11_server2022_dch_server2025_64bit_international_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "595.97",
-                            "vGPUVersion": "20.0",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": {
-                                    "GpuModel": "Nvidia Tesla T4",
-                                    "SupportedOSVersions": [
-                                        "Windows 11 25H2",
-                                        "Windows 11 24H2",
-                                        "Windows 11 23H2",
-                                        "Windows 11 22H2",
-                                        "Windows 10 22H2",
-                                        "Windows Server 2022",
-                                        "Windows Server 2025"
-                                    ]
-                                },
-                                "NVadsA10_v5 series": {
-                                    "GpuModel": "NVIDIA A10",
-                                    "SupportedOSVersions": [
-                                        "Windows 11 25H2",
-                                        "Windows 11 24H2",
-                                        "Windows 11 23H2",
-                                        "Windows 11 22H2",
-                                        "Windows 10 22H2",
-                                        "Windows Server 2022",
-                                        "Windows Server 2025"
-                                    ]
-                                },
-                                "NCRTXPRO6000BSE_v6 series": {
-                                    "GpuModel": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
-                                    "SupportedOSVersions": [
-                                        "Windows 11 25H2",
-                                        "Windows 11 24H2",
-                                        "Windows 11 23H2",
-                                        "Windows 11 22H2",
-                                        "Windows 10 22H2",
-                                        "Windows Server 2022",
-                                        "Windows Server 2025"
-                                    ]
-                                }
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/169e58c8-9099-481e-a9a9-c237a189710c/595.97_grid_win10_win11_server2022_server2025_dch_64bit_international_azure_swl.exe"
                                 }
                             ]
                         }
