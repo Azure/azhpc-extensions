@@ -202,7 +202,8 @@
               "DriverVersion": "595.91.07",
               "vGPUVersion": "20.2",
               "SupportedVmFamilyAndGPUModel": {
-                "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4"}
+                "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4"},
+                "NCRTXPRO6000BSE_v6 series" : {"GpuModel": "NVIDIA RTX PRO 6000 Blackwell Server Edition"}
               },
               "Drivers": [
                 {
@@ -247,7 +248,7 @@
             },
             {
               "DriverVersion": "570.211.01",
-              "vGPUVersion": "18.8",
+              "vGPUVersion": "18.6",
               "SupportedVmFamilyAndGPUModel": {
                 "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4"},
                 "NVadsA10_v5 Series": {"GpuModel": "NVIDIA A10"}
