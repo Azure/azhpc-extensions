@@ -38,10 +38,9 @@
       "NVadsA10_v5 Series": {
         "GpuModel": "NVIDIA A10",
         "DefaultCategory": "GRID",
-        "DefaultDriverVersion": "595.91.07",
+        "DefaultDriverVersion": "570.237",
         "DefaultDrivervGPUVersion": "18.6",
         "SupportedGridDriverVersions": [
-          "595.91.07",
           "570.237",
           "570.211.01",
           "570.195.03",
