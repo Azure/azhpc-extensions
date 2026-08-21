@@ -50,6 +50,7 @@
         ],
         "RegionSupport": "RegionControl",
         "RegionControl": {
+          "centraluseuap": "570.237",
           "eastus2euap": "570.237",
           "eastus": "570.237",
           "eastus2": "570.237",
