@@ -60,7 +60,7 @@
                 },
                 {
                   "Num": "596.86",
-                  "FwLink": "https://download.microsoft.com/download/4358a299-6c93-4674-bd54-17ce40984b61/596.86_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe",
+                  "FwLink": "https://download.microsoft.com/download/0f21fd13-2390-4c79-876a-87ae3dc724c6/596.86_grid_win10_win11_server2022_server2025_dch_64bit_international_azure_swl.exe",
                   "vGPUVersion" :"20.2",
                   "SupportedOSVersions" : "Windows Server 2022, Windows 10 22H2, Windows 11 24H2, Windows 11 25H2"
                 },
