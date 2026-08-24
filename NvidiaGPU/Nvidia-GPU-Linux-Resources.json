@@ -245,32 +245,6 @@
                   "FwLink": "https://download.microsoft.com/download/5e213ec5-834f-4b0a-87f7-772751353b06/NVIDIA-Linux-x86_64-570.237-grid-azure.run"
                 }
               ]
-            },
-            {
-              "DriverVersion": "570.211.01",
-              "vGPUVersion": "18.6",
-              "SupportedVmFamilyAndGPUModel": {
-                "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4"},
-                "NVadsA10_v5 Series": {"GpuModel": "NVIDIA A10"}
-              },
-              "Drivers": [
-                {
-                  "SupportedOSVersions": [
-                    "Ubuntu 26.04 LTS",
-                    "Ubuntu 24.04 LTS",
-                    "Ubuntu 22.04 LTS",
-                    "Ubuntu 20.04 LTS",
-                    "Red Hat Enterprise Linux 8.6",
-                    "Red Hat Enterprise Linux 8.8",
-                    "Red Hat Enterprise Linux 8.9",
-                    "Red Hat Enterprise Linux 10.2",
-                    "RHEL/CentOS 8.x",
-                    "RHEL/CentOS 10.x"
-                  ],
-                  "DirLink": "https://download.microsoft.com/download/2a04ca6a-9eec-40d9-9564-9cdea1ab795f/NVIDIA-Linux-x86_64-570.211.01-grid-azure.run",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
-                }
-              ]
             }
           ]
         },
@@ -475,6 +449,32 @@
         {
           "Name": "GRID",
           "Versions": [
+            {
+              "DriverVersion": "570.211.01",
+              "vGPUVersion": "18.6",
+              "SupportedVmFamilyAndGPUModel": {
+                "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4"},
+                "NVadsA10_v5 Series": {"GpuModel": "NVIDIA A10"}
+              },
+              "Drivers": [
+                {
+                  "SupportedOSVersions": [
+                    "Ubuntu 26.04 LTS",
+                    "Ubuntu 24.04 LTS",
+                    "Ubuntu 22.04 LTS",
+                    "Ubuntu 20.04 LTS",
+                    "Red Hat Enterprise Linux 8.6",
+                    "Red Hat Enterprise Linux 8.8",
+                    "Red Hat Enterprise Linux 8.9",
+                    "Red Hat Enterprise Linux 10.2",
+                    "RHEL/CentOS 8.x",
+                    "RHEL/CentOS 10.x"
+                  ],
+                  "DirLink": "https://download.microsoft.com/download/2a04ca6a-9eec-40d9-9564-9cdea1ab795f/NVIDIA-Linux-x86_64-570.211.01-grid-azure.run",
+                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874272"
+                }
+              ]
+            },
             {
               "DriverVersion": "570.195.03",
               "vGPUVersion": "18.5",
