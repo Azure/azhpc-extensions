@@ -38,7 +38,7 @@
         "GpuModel": "NVIDIA A10",
         "DefaultCategory": "GRID",
         "DefaultDriverVersion": "570.237",
-        "DefaultDrivervGPUVersion": "18.6",
+        "DefaultDrivervGPUVersion": "18.8",
         "SupportedGridDriverVersions": [
           "570.237",
           "570.211.01",
