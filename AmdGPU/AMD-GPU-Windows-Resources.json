@@ -98,7 +98,7 @@
             ]
           },
           {
-            "DriverVersion": "24Q2",
+            "DriverVersion": "25Q4",
             "SupportedVmFamilyAndGPUModel": {
               "NVads_V710_v5 Series": "AMD Radeon PRO V710 GPU"
             },
@@ -112,10 +112,10 @@
                   "Windows 10 22H2",
                   "Windows 10 21H2"
                 ],
-                "DirLink": "https://download.microsoft.com/download/0/7/a/07aa5777-cfdc-4faa-9a59-a6be19bfa54f/AMD-Software-Cloud-Edition-24.Q2-Win10-Win11-Azure-V710.exe",
-                "FwLink": "https://go.microsoft.com/fwlink/?linkid=2291063",
+                "DirLink": "https://download.microsoft.com/download/04605f8a-4b3e-4e08-9f88-b5b7d55d8cb5/v710-win11.exe",
+                "FwLink": "https://download.microsoft.com/download/04605f8a-4b3e-4e08-9f88-b5b7d55d8cb5/v710-win11.exe",
                 "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
-                "DriverFileSize": 709852912
+                "DriverFileSize": 755376728
               },
               {
                 "SupportedOSVersions": [
@@ -125,10 +125,10 @@
                   "Windows 11 Enterprise multi-session 22H2",
                   "Windows 11 Enterprise multi-session 21H2"
                 ],
-                "DirLink": "https://download.microsoft.com/download/5/9/a/59a75123-1fc8-44ac-b6a3-105d59ffd7d3/AMD-Software-Cloud-Edition-24.Q2-WinSvr2022-Azure-V710.exe",
-                "FwLink": "https://go.microsoft.com/fwlink/?linkid=2292204",
+                "DirLink": "https://download.microsoft.com/download/8eb8c91e-6c08-4c76-99a9-042bb84a7e86/v710-winsvr2022.exe",
+                "FwLink": "https://download.microsoft.com/download/8eb8c91e-6c08-4c76-99a9-042bb84a7e86/v710-winsvr2022.exe",
                 "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
-                "DriverFileSize": 641422712
+                "DriverFileSize": 679320904
               },
               {
                 "SupportedOSVersions": [
@@ -136,10 +136,20 @@
                   "Windows 10 Enterprise multi-session 22H2",
                   "Windows 10 Enterprise multi-session 21H2"
                 ],
+                "DriverVersion": "24Q2",
                 "DirLink": "https://download.microsoft.com/download/d/0/5/d057db57-bde0-4836-8a43-afe8f640d7b3/AMD-Software-Cloud-Edition-24.Q2-WinSvr2019-Azure-V710.exe",
                 "FwLink": "https://go.microsoft.com/fwlink/?linkid=2292402",
                 "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
                 "DriverFileSize": 641433976
+              },
+              {
+                "SupportedOSVersions": [
+                  "Windows Server 2025"
+                ],
+                "DirLink": "https://download.microsoft.com/download/68cc41fd-fe9d-47ac-98ec-c9a921a11397/v710-winsvr2025.exe",
+                "FwLink": "https://download.microsoft.com/download/68cc41fd-fe9d-47ac-98ec-c9a921a11397/v710-winsvr2025.exe",
+                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
+                "DriverFileSize": 679327232
               }
             ]
           }
@@ -252,6 +262,52 @@
           "Name": "Cloud Edition VDI",
           "Versions": [
             {
+            "DriverVersion": "24Q2",
+            "SupportedVmFamilyAndGPUModel": {
+              "NVads_V710_v5 Series": "AMD Radeon PRO V710 GPU"
+            },
+            "Drivers": [
+              {
+                "SupportedOSVersions": [
+                  "Windows 11 24H2",
+                  "Windows 11 23H2",
+                  "Windows 11 22H2",
+                  "Windows 11 21H2",
+                  "Windows 10 22H2",
+                  "Windows 10 21H2"
+                ],
+                "DirLink": "https://download.microsoft.com/download/0/7/a/07aa5777-cfdc-4faa-9a59-a6be19bfa54f/AMD-Software-Cloud-Edition-24.Q2-Win10-Win11-Azure-V710.exe",
+                "FwLink": "https://go.microsoft.com/fwlink/?linkid=2291063",
+                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
+                "DriverFileSize": 709852912
+              },
+              {
+                "SupportedOSVersions": [
+                  "Windows Server 2022",
+                  "Windows 11 Enterprise multi-session 24H2",
+                  "Windows 11 Enterprise multi-session 23H2",
+                  "Windows 11 Enterprise multi-session 22H2",
+                  "Windows 11 Enterprise multi-session 21H2"
+                ],
+                "DirLink": "https://download.microsoft.com/download/5/9/a/59a75123-1fc8-44ac-b6a3-105d59ffd7d3/AMD-Software-Cloud-Edition-24.Q2-WinSvr2022-Azure-V710.exe",
+                "FwLink": "https://go.microsoft.com/fwlink/?linkid=2292204",
+                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
+                "DriverFileSize": 641422712
+              },
+              {
+                "SupportedOSVersions": [
+                  "Windows Server 2019",
+                  "Windows 10 Enterprise multi-session 22H2",
+                  "Windows 10 Enterprise multi-session 21H2"
+                ],
+                "DirLink": "https://download.microsoft.com/download/d/0/5/d057db57-bde0-4836-8a43-afe8f640d7b3/AMD-Software-Cloud-Edition-24.Q2-WinSvr2019-Azure-V710.exe",
+                "FwLink": "https://go.microsoft.com/fwlink/?linkid=2292402",
+                "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
+                "DriverFileSize": 641433976
+              }
+            ]
+          },
+          {
               "DriverVersion": "23Q3",
               "SupportedVmFamilyAndGPUModel": {
                 "NVv4 Series": "AMD Radeon Instinct MI25"
