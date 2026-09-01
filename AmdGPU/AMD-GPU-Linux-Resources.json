@@ -16,6 +16,7 @@
                 "Versions": [
                     {
                         "DriverVersion": "latest",
+                        "FallbackDriver": "7.2.2",
                         "SupportedVmFamilyAndGPUModel": {
                             "NVads_V710_v5 Series": "V710"
                         },                        
@@ -51,6 +52,36 @@
             {
                 "Name": "RoCM",
                 "Versions": [
+                    {
+                        "DriverVersion": "7.2.2",
+                        "SupportedVmFamilyAndGPUModel": {
+                            "NVads_V710_v5 Series": "V710"
+                        },                        
+                        "Drivers": [
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 22.04"
+                                ],
+                                "MinKernelsSupportedForOSVersion":{
+                                    "Ubuntu 22.04" : ["6.8.*-azure"]
+                                },
+                                "MinimumDiskSpace" : "64 GB",
+                                "RepoLink" : "https://repo.radeon.com/amdgpu-install/7.2.2/ubuntu/jammy/",
+                                "DriverName": "amdgpu-install_7.2.2.70202-1_all.deb"
+                            },
+                            {
+                                "SupportedOSVersions": [
+                                    "Ubuntu 24.04"
+                                ],
+                                "MinKernelsSupportedForOSVersion":{
+                                    "Ubuntu 24.04" : ["6.8.*-azure"]
+                                },
+                                "MinimumDiskSpace" : "64 GB",
+                                "RepoLink": "https://repo.radeon.com/amdgpu-install/7.2.2/ubuntu/noble/",
+                                "DriverName": "amdgpu-install_7.2.2.70202-1_all.deb"
+                            }
+                        ]
+                    },
                     {
                         "DriverVersion": "6.4",
                         "SupportedVmFamilyAndGPUModel": {
