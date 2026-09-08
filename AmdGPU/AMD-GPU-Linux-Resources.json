@@ -62,8 +62,7 @@
                                 "MinKernelsSupportedForOSVersion":{
                                     "Ubuntu 22.04" : ["6.8.*-azure"]
                                 },
-                                "MinimumDiskSpace" : "64 GB",
-                                "DriverName": "amdgpu-install_6.4.60400-1_all.deb"
+                                "MinimumDiskSpace" : "64 GB"
                             },
                             {
                                 "SupportedOSVersions": [
@@ -72,8 +71,7 @@
                                 "MinKernelsSupportedForOSVersion":{
                                     "Ubuntu 24.04" : ["6.8.*-azure"]
                                 },
-                                "MinimumDiskSpace" : "64 GB",
-                                "DriverName": "amdgpu-install_6.4.60400-1_all.deb"
+                                "MinimumDiskSpace" : "64 GB"
                             }
                         ]
                     },
@@ -90,8 +88,7 @@
                                 "MinKernelsSupportedForOSVersion":{
                                     "Ubuntu 22.04" : ["6.8.*-azure"]
                                 },
-                                "MinimumDiskSpace" : "64 GB",
-                                "DriverName": "amdgpu-install_6.3.60303-1_all.deb"
+                                "MinimumDiskSpace" : "64 GB"
                             },
                             {
                                 "SupportedOSVersions": [
@@ -100,8 +97,7 @@
                                 "MinKernelsSupportedForOSVersion":{
                                     "Ubuntu 24.04" : ["6.8.*-azure"]
                                 },
-                                "MinimumDiskSpace" : "64 GB",
-                                "DriverName": "amdgpu-install_6.3.60303-1_all.deb"
+                                "MinimumDiskSpace" : "64 GB"
                             }
                         ]
                     }
