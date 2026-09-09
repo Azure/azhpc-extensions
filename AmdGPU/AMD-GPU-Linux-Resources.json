@@ -27,8 +27,7 @@
                                 "MinKernelsSupportedForOSVersion":{
                                     "Ubuntu 22.04" : ["6.8.*-azure"]
                                 },
-                                "MinimumDiskSpace" : "64 GB",
-                                "RepoLink" : "https://repo.radeon.com/amdgpu-install/latest/ubuntu/jammy/"
+                                "MinimumDiskSpace" : "64 GB"
                             },
                             {
                                 "SupportedOSVersions": [
@@ -37,8 +36,7 @@
                                 "MinKernelsSupportedForOSVersion":{
                                     "Ubuntu 24.04" : ["6.8.*-azure"]
                                 },
-                                "MinimumDiskSpace" : "64 GB",
-                                "RepoLink": "https://repo.radeon.com/amdgpu-install/latest/ubuntu/noble/"
+                                "MinimumDiskSpace" : "64 GB"
                             }
                         ]
                     }
@@ -64,9 +62,7 @@
                                 "MinKernelsSupportedForOSVersion":{
                                     "Ubuntu 22.04" : ["6.8.*-azure"]
                                 },
-                                "MinimumDiskSpace" : "64 GB",
-                                "RepoLink" : "https://repo.radeon.com/amdgpu-install/6.4/ubuntu/jammy/",
-                                "DriverName": "amdgpu-install_6.4.60400-1_all.deb"
+                                "MinimumDiskSpace" : "64 GB"
                             },
                             {
                                 "SupportedOSVersions": [
@@ -75,9 +71,7 @@
                                 "MinKernelsSupportedForOSVersion":{
                                     "Ubuntu 24.04" : ["6.8.*-azure"]
                                 },
-                                "MinimumDiskSpace" : "64 GB",
-                                "RepoLink": "https://repo.radeon.com/amdgpu-install/6.4/ubuntu/noble/",
-                                "DriverName": "amdgpu-install_6.4.60400-1_all.deb"
+                                "MinimumDiskSpace" : "64 GB"
                             }
                         ]
                     },
@@ -94,9 +88,7 @@
                                 "MinKernelsSupportedForOSVersion":{
                                     "Ubuntu 22.04" : ["6.8.*-azure"]
                                 },
-                                "MinimumDiskSpace" : "64 GB",
-                                "RepoLink" : "https://repo.radeon.com/amdgpu-install/6.3.3/ubuntu/jammy/",
-                                "DriverName": "amdgpu-install_6.3.60303-1_all.deb"
+                                "MinimumDiskSpace" : "64 GB"
                             },
                             {
                                 "SupportedOSVersions": [
@@ -105,9 +97,7 @@
                                 "MinKernelsSupportedForOSVersion":{
                                     "Ubuntu 24.04" : ["6.8.*-azure"]
                                 },
-                                "MinimumDiskSpace" : "64 GB",
-                                "RepoLink" : "https://repo.radeon.com/amdgpu-install/6.3.3/ubuntu/noble/",
-                                "DriverName": "amdgpu-install_6.3.60303-1_all.deb"
+                                "MinimumDiskSpace" : "64 GB"
                             }
                         ]
                     }
