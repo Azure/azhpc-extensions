@@ -141,6 +141,9 @@
           "Versions": [
             {
               "DriverVersion": "Latest",
+              "DriverBranch": "615",
+              "DriverPinPackage": "nvidia-driver-pinning-615",
+              "DriverPackage": "cuda-drivers",
               "CUDA Toolkit": "Latest",
               "SupportedVmFamilyAndGPUModel": {
                 "NC series": {"GpuModel": "NVIDIA Tesla K80"},
