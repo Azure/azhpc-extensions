@@ -117,8 +117,14 @@
         "DefaultDriverVersion": "Latest",
         "RegionSupport": "DefaultAllRegions"
       },
+      "NDv2 series": {
+        "GpuModel": "NVIDIA Tesla V100",
+        "DefaultCategory": "CUDA",
+        "DefaultDriverVersion": "Latest",
+        "RegionSupport": "DefaultAllRegions"
+      },
       "ND family": {
-        "VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6",
+        "VMSeries": "ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6",
         "DefaultCategory": "CUDA",
         "DefaultDriverVersion": "Latest",
         "RegionSupport": "DefaultAllRegions"
@@ -266,7 +272,8 @@
                 "NC_A100_v4 series": {"GpuModel": "NVIDIA A100", "DriverPackage": "nvidia-open"},
                 "NC_H100_v5 series": {"GpuModel": "NVIDIA H100 NVL GPU", "DriverPackage": "nvidia-open"},
                 "NCC_H100_v5 series": {"GpuModel": "NVIDIA H100 Tensor Core GPU", "DriverPackage": "nvidia-open"},
-                "ND family": {"VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"}
+                "NDv2 series": {"GpuModel": "NVIDIA Tesla V100"},
+                "ND family": {"VMSeries": "ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6", "DriverPackage": "nvidia-open"}
               },
               "Drivers": [
                 {
