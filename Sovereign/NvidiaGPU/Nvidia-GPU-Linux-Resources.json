@@ -204,19 +204,6 @@
                   "InstallMethod": 1
                 },
                 {
-                  "SupportedOSVersions": ["Ubuntu 20.04 LTS"],
-                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-                  "RepositorySetup": {
-                    "PackageManager": "apt",
-                    "Trust": {
-                      "Method": "keyring",
-                      "PackageUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.1-1_all.deb",
-                      "PackageFile": "cuda-keyring_1.1-1_all.deb"
-                    }
-                  },
-                  "InstallMethod": 1
-                },
-                {
                   "SupportedOSVersions": ["RHEL/CentOS 10.x"],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel10/x86_64/cuda-rhel10.repo",
                   "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm",
