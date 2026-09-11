@@ -253,15 +253,19 @@
           "Versions": [
             {
               "DriverVersion": "Latest",
+              "DriverBranch": "615",
+              "DriverPinPackage": "nvidia-driver-pinning-615",
+              "DriverPackage": "cuda-drivers",
+              "RhelCudaPackage": "cuda",
               "CUDA Toolkit": "Latest",
               "SupportedVmFamilyAndGPUModel": {
                 "NC series": {"GpuModel": "NVIDIA Tesla K80"},
                 "NCv2 series": {"GpuModel": "NVIDIA Tesla P100"},
-                "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4"},
+                "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4", "DriverPackage": "nvidia-open"},
                 "NVv3 Series": {"GpuModel": "NVIDIA Tesla M60"},
-                "NC_A100_v4 series": {"GpuModel": "NVIDIA A100"},
-                "NC_H100_v5 series": {"GpuModel": "NVIDIA H100 NVL GPU"},
-                "NCC_H100_v5 series": {"GpuModel": "NVIDIA H100 Tensor Core GPU"},
+                "NC_A100_v4 series": {"GpuModel": "NVIDIA A100", "DriverPackage": "nvidia-open"},
+                "NC_H100_v5 series": {"GpuModel": "NVIDIA H100 NVL GPU", "DriverPackage": "nvidia-open"},
+                "NCC_H100_v5 series": {"GpuModel": "NVIDIA H100 Tensor Core GPU", "DriverPackage": "nvidia-open"},
                 "ND family": {"VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"}
               },
               "Drivers": [
@@ -327,12 +331,14 @@
                   "SupportedOSVersions": ["RHEL/CentOS 9.x"],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel9/x86_64/cuda-rhel9.repo",
                   "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm",
+                  "DriverModuleStream": "615",
                   "InstallMethod": 2
                 },
                 {
                   "SupportedOSVersions": ["RHEL/CentOS 8.x"],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo",
-                  "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm",                  
+                  "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm",
+                  "DriverModuleStream": "615",
                   "InstallMethod": 2
                 }
               ]
