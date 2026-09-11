@@ -117,8 +117,14 @@
         "DefaultDriverVersion": "Latest",
         "RegionSupport": "DefaultAllRegions"
       },
+      "NDv2 series": {
+        "GpuModel": "NVIDIA Tesla V100",
+        "DefaultCategory": "CUDA",
+        "DefaultDriverVersion": "Latest",
+        "RegionSupport": "DefaultAllRegions"
+      },
       "ND family": {
-        "VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6",
+        "VMSeries": "ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6",
         "DefaultCategory": "CUDA",
         "DefaultDriverVersion": "Latest",
         "RegionSupport": "DefaultAllRegions"
@@ -253,16 +259,21 @@
           "Versions": [
             {
               "DriverVersion": "Latest",
+              "DriverBranch": "615",
+              "DriverPinPackage": "nvidia-driver-pinning-615",
+              "DriverPackage": "cuda-drivers",
+              "RhelCudaPackage": "cuda",
               "CUDA Toolkit": "Latest",
               "SupportedVmFamilyAndGPUModel": {
                 "NC series": {"GpuModel": "NVIDIA Tesla K80"},
                 "NCv2 series": {"GpuModel": "NVIDIA Tesla P100"},
-                "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4"},
+                "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4", "DriverPackage": "nvidia-open", "RhelDriverModuleStream": "615-open", "RhelCudaPackage": "nvidia-open"},
                 "NVv3 Series": {"GpuModel": "NVIDIA Tesla M60"},
-                "NC_A100_v4 series": {"GpuModel": "NVIDIA A100"},
-                "NC_H100_v5 series": {"GpuModel": "NVIDIA H100 NVL GPU"},
-                "NCC_H100_v5 series": {"GpuModel": "NVIDIA H100 Tensor Core GPU"},
-                "ND family": {"VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"}
+                "NC_A100_v4 series": {"GpuModel": "NVIDIA A100", "DriverPackage": "nvidia-open", "RhelDriverModuleStream": "615-open", "RhelCudaPackage": "nvidia-open"},
+                "NC_H100_v5 series": {"GpuModel": "NVIDIA H100 NVL GPU", "DriverPackage": "nvidia-open", "RhelDriverModuleStream": "615-open", "RhelCudaPackage": "nvidia-open"},
+                "NCC_H100_v5 series": {"GpuModel": "NVIDIA H100 Tensor Core GPU", "DriverPackage": "nvidia-open", "RhelDriverModuleStream": "615-open", "RhelCudaPackage": "nvidia-open"},
+                "NDv2 series": {"GpuModel": "NVIDIA Tesla V100"},
+                "ND family": {"VMSeries": "ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6", "DriverPackage": "nvidia-open", "RhelDriverModuleStream": "615-open", "RhelCudaPackage": "nvidia-open"}
               },
               "Drivers": [
                 {
@@ -305,19 +316,6 @@
                   "InstallMethod": 1
                 },
                 {
-                  "SupportedOSVersions": ["Ubuntu 20.04 LTS"],
-                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-                  "RepositorySetup": {
-                    "PackageManager": "apt",
-                    "Trust": {
-                      "Method": "keyring",
-                      "PackageUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.1-1_all.deb",
-                      "PackageFile": "cuda-keyring_1.1-1_all.deb"
-                    }
-                  },
-                  "InstallMethod": 1
-                },
-                {
                   "SupportedOSVersions": ["RHEL/CentOS 10.x"],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel10/x86_64/cuda-rhel10.repo",
                   "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm",
@@ -327,113 +325,14 @@
                   "SupportedOSVersions": ["RHEL/CentOS 9.x"],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel9/x86_64/cuda-rhel9.repo",
                   "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm",
+                  "DriverModuleStream": "615",
                   "InstallMethod": 2
                 },
                 {
                   "SupportedOSVersions": ["RHEL/CentOS 8.x"],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo",
-                  "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm",                  
-                  "InstallMethod": 2
-                }
-              ]
-            },
-            {
-              "DriverVersion": "530.30",
-              "CUDA Toolkit": "12.1",
-              "SupportedVmFamilyAndGPUModel": {
-                "NC series": {"GpuModel": "NVIDIA Tesla K80"},
-                "NCv2 series": {"GpuModel": "NVIDIA Tesla P100"},
-                "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4"},
-                "NVv3 Series": {"GpuModel": "NVIDIA Tesla M60"},
-                "NC_A100_v4 series": {"GpuModel": "NVIDIA A100"},
-                "NC_H100_v5 series": {"GpuModel": "NVIDIA H100 NVL GPU"},
-                "NCC_H100_v5 series": {"GpuModel": "NVIDIA H100 Tensor Core GPU"},
-                "ND family": {"VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"}
-              },
-              "Drivers": [
-                {
-                  "SupportedOSVersions": [
-                    "Ubuntu 18.x LTS"
-                  ],
-                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/",
-                  "RepositorySetup": {
-                    "PackageManager": "apt",
-                    "Trust": {
-                      "Method": "keyring",
-                      "PackageUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-keyring_1.1-1_all.deb",
-                      "PackageFile": "cuda-keyring_1.1-1_all.deb"
-                    }
-                  },
-                  "InstallMethod": 1
-                }
-              ]
-            },
-            {
-              "DriverVersion": "530.30",
-              "CUDA Toolkit": "12.1",
-              "SupportedVmFamilyAndGPUModel": {
-                "NC series": {"GpuModel": "NVIDIA Tesla K80"},
-                "NCv2 series": {"GpuModel": "NVIDIA Tesla P100"},
-                "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4"},
-                "NC_A100_v4 series": {"GpuModel": "NVIDIA A100"},
-                "NC_H100_v5 series": {"GpuModel": "NVIDIA H100 NVL GPU"},
-                "NCC_H100_v5 series": {"GpuModel": "NVIDIA H100 Tensor Core GPU"},
-                "ND family": {"VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"}
-              },
-              "Drivers": [
-                {
-                  "SupportedOSVersions": [
-                    "Ubuntu 20.x LTS"
-                  ],
-                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/",
-                  "RepositorySetup": {
-                    "PackageManager": "apt",
-                    "Trust": {
-                      "Method": "keyring",
-                      "PackageUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.1-1_all.deb",
-                      "PackageFile": "cuda-keyring_1.1-1_all.deb"
-                    }
-                  },
-                  "InstallMethod": 1
-                }
-              ]
-            },
-            {
-              "DriverVersion": "455.23",
-              "CUDA Toolkit": "11.1",
-              "SupportedVmFamilyAndGPUModel": {
-                "NC series": {
-                  "GpuModel": "NVIDIA Tesla K80"
-                },
-                "NCv2 series": {
-                  "GpuModel": "NVIDIA Tesla P100"
-                },
-                "NCasT4_v3 sizes": {
-                  "GpuModel": "Nvidia Tesla T4"
-                },
-                "NVv3 Series": {
-                  "GpuModel": "NVIDIA Tesla M60"
-                },
-                "NC_A100_v4 series": {
-                  "GpuModel": "NVIDIA A100"
-                },
-                "NC_H100_v5 series": {
-                  "GpuModel": "NVIDIA H100 NVL GPU"
-                },
-                "NCC_H100_v5 series": {
-                  "GpuModel": "NVIDIA H100 Tensor Core GPU"
-                },
-                "ND family": {
-                  "VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"
-                }
-              },
-              "Drivers": [
-                {
-                  "SupportedOSVersions": [
-                    "RHEL/CentOS 8.x"
-                  ],
-                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo",
                   "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm",
+                  "DriverModuleStream": "615",
                   "InstallMethod": 2
                 }
               ]
@@ -1088,8 +987,13 @@
           "Name": "CUDA",
           "Versions": [
             {
-              "DriverVersion": "530.30",
-              "CUDA Toolkit": "12.2",
+              "DriverVersion": "610",
+              "DriverBranch": "610",
+              "DriverPinPackage": "nvidia-driver-pinning-610",
+              "DriverPackage": "cuda-drivers",
+              "RhelDriverModuleStream": "610",
+              "RhelCudaPackage": "cuda",
+              "CUDA Toolkit": "Latest",
               "SupportedVmFamilyAndGPUModel": {
                 "NC series": {
                   "GpuModel": "NVIDIA Tesla K80"
@@ -1098,25 +1002,73 @@
                   "GpuModel": "NVIDIA Tesla P100"
                 },
                 "NCasT4_v3 sizes": {
-                  "GpuModel": "Nvidia Tesla T4"
+                  "GpuModel": "Nvidia Tesla T4",
+                  "DriverPackage": "nvidia-open",
+                  "RhelDriverModuleStream": "610-open",
+                  "RhelCudaPackage": "nvidia-open"
                 },
                 "NVv3 Series": {
                   "GpuModel": "NVIDIA Tesla M60"
                 },
                 "NC_A100_v4 series": {
-                  "GpuModel": "NVIDIA A100"
+                  "GpuModel": "NVIDIA A100",
+                  "DriverPackage": "nvidia-open",
+                  "RhelDriverModuleStream": "610-open",
+                  "RhelCudaPackage": "nvidia-open"
                 },
                 "NC_H100_v5 series": {
-                  "GpuModel": "NVIDIA H100 NVL GPU"
+                  "GpuModel": "NVIDIA H100 NVL GPU",
+                  "DriverPackage": "nvidia-open",
+                  "RhelDriverModuleStream": "610-open",
+                  "RhelCudaPackage": "nvidia-open"
                 },
                 "NCC_H100_v5 series": {
-                  "GpuModel": "NVIDIA H100 Tensor Core GPU"
+                  "GpuModel": "NVIDIA H100 Tensor Core GPU",
+                  "DriverPackage": "nvidia-open",
+                  "RhelDriverModuleStream": "610-open",
+                  "RhelCudaPackage": "nvidia-open"
+                },
+                "NDv2 series": {
+                  "GpuModel": "NVIDIA Tesla V100"
                 },
                 "ND family": {
-                  "VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"
+                  "VMSeries": "ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6",
+                  "DriverPackage": "nvidia-open",
+                  "RhelDriverModuleStream": "610-open",
+                  "RhelCudaPackage": "nvidia-open"
                 }
               },
               "Drivers": [
+                {
+                  "SupportedOSVersions": [
+                    "Ubuntu 26.04 LTS"
+                  ],
+                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2604/x86_64/",
+                  "RepositorySetup": {
+                    "PackageManager": "apt",
+                    "Trust": {
+                      "Method": "keyring",
+                      "PackageUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2604/x86_64/cuda-keyring_1.1-1_all.deb",
+                      "PackageFile": "cuda-keyring_1.1-1_all.deb"
+                    }
+                  },
+                  "InstallMethod": 1
+                },
+                {
+                  "SupportedOSVersions": [
+                    "Ubuntu 24.04 LTS"
+                  ],
+                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/",
+                  "RepositorySetup": {
+                    "PackageManager": "apt",
+                    "Trust": {
+                      "Method": "keyring",
+                      "PackageUrl": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb",
+                      "PackageFile": "cuda-keyring_1.1-1_all.deb"
+                    }
+                  },
+                  "InstallMethod": 1
+                },
                 {
                   "SupportedOSVersions": [
                     "Ubuntu 22.04 LTS"
@@ -1131,134 +1083,24 @@
                     }
                   },
                   "InstallMethod": 1
-                }
-              ]
-            },
-            {
-              "DriverVersion": "450.51",
-              "CUDA Toolkit": "11.0",
-              "SupportedVmFamilyAndGPUModel": {
-                "NC series": {
-                  "GpuModel": "NVIDIA Tesla K80"
                 },
-                "NCv2 series": {
-                  "GpuModel": "NVIDIA Tesla P100"
+                {
+                  "SupportedOSVersions": [
+                    "RHEL/CentOS 9.x"
+                  ],
+                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel9/x86_64/cuda-rhel9.repo",
+                  "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm",
+                  "DriverModuleStream": "610",
+                  "InstallMethod": 2
                 },
-                "NCasT4_v3 sizes": {
-                  "GpuModel": "Nvidia Tesla T4"
-                },
-                "NVv3 Series": {
-                  "GpuModel": "NVIDIA Tesla M60"
-                },
-                "NC_A100_v4 series": {
-                  "GpuModel": "NVIDIA A100"
-                },
-                "NC_H100_v5 series": {
-                  "GpuModel": "NVIDIA H100 NVL GPU"
-                },
-                "NCC_H100_v5 series": {
-                  "GpuModel": "NVIDIA H100 Tensor Core GPU"
-                },
-                "ND family": {
-                  "VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"
-                }
-              },
-              "Drivers": [
                 {
                   "SupportedOSVersions": [
                     "RHEL/CentOS 8.x"
                   ],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo",
                   "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm",
+                  "DriverModuleStream": "610",
                   "InstallMethod": 2
-                }
-              ]
-            },
-            {
-              "DriverVersion": "9.2.88",
-              "CUDA Toolkit": "",
-              "SupportedVmFamilyAndGPUModel": {
-                "NC series": {
-                  "GpuModel": "NVIDIA Tesla K80"
-                },
-                "NCv2 series": {
-                  "GpuModel": "NVIDIA Tesla P100"
-                },
-                "NCasT4_v3 sizes": {
-                  "GpuModel": "Nvidia Tesla T4"
-                },
-                "NVv3 Series": {
-                  "GpuModel": "NVIDIA Tesla M60"
-                },
-                "NC_A100_v4 series": {
-                  "GpuModel": "NVIDIA A100"
-                },
-                "NC_H100_v5 series": {
-                  "GpuModel": "NVIDIA H100 NVL GPU"
-                },
-                "NCC_H100_v5 series": {
-                  "GpuModel": "NVIDIA H100 Tensor Core GPU"
-                },
-                "ND family": {
-                  "VMSeries": "NDv2, ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6"
-                }
-              },
-              "DKMS": {
-                "FwLink": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm"
-              },
-              "LIS": {
-                "LatestKernel": "3.10.0-1062.9.1.el7",
-                "FwLink": "https://aka.ms/lis"
-              },
-              "Drivers": [
-                {
-                  "SupportedOSVersions": [
-                    "RHEL/CentOS 7.x"
-                  ],
-                  "FwLink": "https://download.microsoft.com/download/F/F/A/FFAC979D-AD9C-4684-A6CE-C92BB9372A3B/cuda-repo-rhel7-9.2.88-1.x86_64.rpm",
-                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64/cuda-rhel7.repo",
-                  "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
-                  "InstallMethod": 0
-                }
-              ]
-            },
-            {
-              "DriverVersion": "9.1.85",
-              "CUDA Toolkit": "",
-              "SupportedVmFamilyAndGPUModel": {
-                "NC series": {
-                  "GpuModel": "NVIDIA Tesla K80"
-                },
-                "NCv2 series": {
-                  "GpuModel": "NVIDIA Tesla P100"
-                },
-                "NCasT4_v3 sizes": {
-                  "GpuModel": "Nvidia Tesla T4"
-                },
-                "NVv3 Series": {
-                  "GpuModel": "NVIDIA Tesla M60"
-                },
-                "NC_A100_v4 series": {
-                  "GpuModel": "NVIDIA A100"
-                }
-              },
-              "DKMS": {
-                "FwLink": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm"
-              },
-              "LIS": {
-                "LatestKernel": "3.10.0-1062.9.1.el7",
-                "FwLink": "https://aka.ms/lis"
-              },
-              "Drivers": [
-                {
-                  "SupportedOSVersions": [
-                    "RHEL/CentOS 7.x"
-                  ],
-                  "DirLink": "https://download.microsoft.com/download/F/F/A/FFAC979D-AD9C-4684-A6CE-C92BB9372A3B/cuda-repo-rhel7-9.1.85-1.x86_64.rpm",
-                  "FwLink": "https://go.microsoft.com/fwlink/?linkid=874833",
-                  "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64/cuda-rhel7.repo",
-                  "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
-                  "InstallMethod": 0
                 }
               ]
             }
