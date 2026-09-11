@@ -256,6 +256,7 @@
               "DriverBranch": "615",
               "DriverPinPackage": "nvidia-driver-pinning-615",
               "DriverPackage": "cuda-drivers",
+              "RhelCudaPackage": "cuda",
               "CUDA Toolkit": "Latest",
               "SupportedVmFamilyAndGPUModel": {
                 "NC series": {"GpuModel": "NVIDIA Tesla K80"},
@@ -330,12 +331,14 @@
                   "SupportedOSVersions": ["RHEL/CentOS 9.x"],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel9/x86_64/cuda-rhel9.repo",
                   "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm",
+                  "DriverModuleStream": "615",
                   "InstallMethod": 2
                 },
                 {
                   "SupportedOSVersions": ["RHEL/CentOS 8.x"],
                   "RepoUrl": "https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo",
-                  "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm",                  
+                  "DKMSUrl": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm",
+                  "DriverModuleStream": "615",
                   "InstallMethod": 2
                 }
               ]
