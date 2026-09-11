@@ -155,13 +155,13 @@
               "SupportedVmFamilyAndGPUModel": {
                 "NC series": {"GpuModel": "NVIDIA Tesla K80"},
                 "NCv2 series": {"GpuModel": "NVIDIA Tesla P100"},
-                "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4", "DriverPackage": "nvidia-open"},
+                "NCasT4_v3 sizes": {"GpuModel": "Nvidia Tesla T4", "DriverPackage": "nvidia-open", "RhelDriverModuleStream": "615-open", "RhelCudaPackage": "nvidia-open"},
                 "NVv3 Series": {"GpuModel": "NVIDIA Tesla M60"},
-                "NC_A100_v4 series": {"GpuModel": "NVIDIA A100", "DriverPackage": "nvidia-open"},
-                "NC_H100_v5 series": {"GpuModel": "NVIDIA H100 NVL GPU", "DriverPackage": "nvidia-open"},
-                "NCC_H100_v5 series": {"GpuModel": "NVIDIA H100 Tensor Core GPU", "DriverPackage": "nvidia-open"},
+                "NC_A100_v4 series": {"GpuModel": "NVIDIA A100", "DriverPackage": "nvidia-open", "RhelDriverModuleStream": "615-open", "RhelCudaPackage": "nvidia-open"},
+                "NC_H100_v5 series": {"GpuModel": "NVIDIA H100 NVL GPU", "DriverPackage": "nvidia-open", "RhelDriverModuleStream": "615-open", "RhelCudaPackage": "nvidia-open"},
+                "NCC_H100_v5 series": {"GpuModel": "NVIDIA H100 Tensor Core GPU", "DriverPackage": "nvidia-open", "RhelDriverModuleStream": "615-open", "RhelCudaPackage": "nvidia-open"},
                 "NDv2 series": {"GpuModel": "NVIDIA Tesla V100"},
-                "ND family": {"VMSeries": "ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6", "DriverPackage": "nvidia-open"}
+                "ND family": {"VMSeries": "ND*-A100-v4, ND-H100-V5, ND-H200-v5, ND-GB200-v6, ND-GB300-v6", "DriverPackage": "nvidia-open", "RhelDriverModuleStream": "615-open", "RhelCudaPackage": "nvidia-open"}
               },
               "Drivers": [
                 {
