@@ -24,7 +24,7 @@
                 "RegionSupport": "DefaultAllRegions",
                 "GridDriverSupported" : true,
                 "DefaultGridDriverVersion" : "596.86",
-                "SupportedGridDriverVersions": ["596.86", "595.97","574.24","573.96", "573.76", "553.24", "552.72","538.46"],
+                "SupportedGridDriverVersions": ["596.86", "582.78","574.24","538.46"],
                 "CompatibilityPolicy": {
                     "OnDefaultOsMismatch": "FallbackByOs",
                     "OnExplicitOsMismatch": "Fail",
@@ -63,16 +63,9 @@
             "NVadsA10_v5 series": {
                 "GpuModel": "NVIDIA A10",
                 "DefaultCategory": "GRID",
-                "DefaultDriverVersion": "574.24",
-                "DefaultDrivervGPUVersion": "18.8",
-                "SupportedGridDriverVersions": ["574.24","573.96", "573.76", "553.24", "552.72","538.46"],
-                "CompatibilityPolicy": {
-                    "OnDefaultOsMismatch": "FallbackByOs",
-                    "OnExplicitOsMismatch": "Fail",
-                    "OsFallbackDriverVersions": {
-                        "Windows Server 2019": ["538.46"]
-                    }
-                },
+                "DefaultDriverVersion": "596.86",
+                "DefaultDrivervGPUVersion": "20.2",
+                "SupportedGridDriverVersions": ["596.86","582.78","574.24"],
                 "RegionSupport": "DefaultAllRegions"
             },
             "NCRTXPRO6000BSE_v6 series": {
@@ -119,29 +112,6 @@
                                         "Windows Server 2022",
                                         "Windows Server 2025"
                                     ]
-                                }
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/0f21fd13-2390-4c79-876a-87ae3dc724c6/596.86_grid_win10_win11_server2022_server2025_dch_64bit_international_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "574.24",
-                            "vGPUVersion": "18.8",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": {
-                                    "GpuModel": "Nvidia Tesla T4",
-                                    "SupportedOSVersions": [
-                                        "Windows 11 25H2",
-                                        "Windows 11 24H2",
-                                        "Windows 11 23H2",
-                                        "Windows 11 22H2",
-                                        "Windows 10 22H2",
-                                        "Windows Server 2022",
-                                        "Windows Server 2025"
-                                    ]
                                 },
                                 "NVadsA10_v5 series": {
                                     "GpuModel": "NVIDIA A10",
@@ -157,8 +127,8 @@
                                 }
                             },
                             "Drivers": [
-                                {                                    
-                                    "DirLink": "https://download.microsoft.com/download/e9a86343-1981-4ac8-883a-49bf5e2c4d18/574.24_grid_win10_win11_server2022_dch_server2025_64bit_international_azure_swl.exe"
+                                {
+                                    "DirLink": "https://download.microsoft.com/download/0f21fd13-2390-4c79-876a-87ae3dc724c6/596.86_grid_win10_win11_server2022_server2025_dch_64bit_international_azure_swl.exe"
                                 }
                             ]
                         }
@@ -220,8 +190,43 @@
                     "Name": "GRID",
                     "Versions": [
                         {
-                            "DriverVersion": "573.96",
-                            "vGPUVersion": "18.6",
+                            "DriverVersion": "582.78",
+                            "vGPUVersion": "19.6",
+                            "SupportedVmFamilyAndGPUModel": {
+                                "NCasT4_v3 series": {
+                                    "GpuModel": "Nvidia Tesla T4",
+                                    "SupportedOSVersions": [
+                                        "Windows 11 25H2",
+                                        "Windows 11 24H2",
+                                        "Windows 11 23H2",
+                                        "Windows 11 22H2",
+                                        "Windows 10 22H2",
+                                        "Windows Server 2025",
+                                        "Windows Server 2022"
+                                    ]
+                                },
+                                "NVadsA10_v5 series": {
+                                    "GpuModel": "NVIDIA A10",
+                                    "SupportedOSVersions": [
+                                        "Windows 11 25H2",
+                                        "Windows 11 24H2",
+                                        "Windows 11 23H2",
+                                        "Windows 11 22H2",
+                                        "Windows 10 22H2",
+                                        "Windows Server 2025",
+                                        "Windows Server 2022"
+                                    ]
+                                }
+                            },
+                            "Drivers": [
+                                {
+                                    "DirLink": "https://download.microsoft.com/download/29a0b851-7631-445b-b829-f4a03042bd1b/582.78_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe"
+                                }
+                            ]
+                        },
+                        {
+                            "DriverVersion": "574.24",
+                            "vGPUVersion": "18.8",
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": {
                                     "GpuModel": "Nvidia Tesla T4",
@@ -250,100 +255,7 @@
                             },
                             "Drivers": [
                                 {                                    
-                                    "DirLink": "https://download.microsoft.com/download/f7ca3c43-8f24-4365-a4cc-d528574858a8/573.96_grid_win10_win11_server2022_server2025_dch_64bit_international_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "573.76",
-                            "vGPUVersion": "18.5",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVadsA10_v5 series": "NVIDIA A10",
-                                "NCRTXPRO6000BSE_v6 series": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows 11 25H2",
-                                        "Windows 11 24H2",
-                                        "Windows 11 23H2",
-                                        "Windows 11 22H2",
-                                        "Windows 11 21H2",
-                                        "Windows 10 22H2",
-                                        "Windows 10 21H2",
-                                        "Windows Server 2022",
-                                        "Windows Server 2025"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/dcf4d002-3a53-469d-91af-04bddf57a9d7/573.76_grid_win10_win11_server2019_server2022_server2025_dch_64bit_international_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "553.62",
-                            "vGPUVersion": "17.5",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVadsA10_v5 series": "NVIDIA A10"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows 11 24H2",
-                                        "Windows 11 23H2",
-                                        "Windows 11 22H2",
-                                        "Windows 11 21H2",
-                                        "Windows 10 22H2",
-                                        "Windows 10 21H2",
-                                        "Windows Server 2022",
-                                        "Windows Server 2025"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/1/1/d/11dd7071-c632-4a83-b950-d5eb3fdcf587/553.62_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "553.24",
-                            "vGPUVersion": "17.4",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVadsA10_v5 series": "NVIDIA A10"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows 11 23H2",
-                                        "Windows 11 22H2",
-                                        "Windows 11 21H2",
-                                        "Windows 10 22H2",
-                                        "Windows 10 21H2",
-                                        "Windows Server 2022",
-                                        "Windows Server 2025"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/a/f/b/afb81f21-5165-4a87-bdbe-bb68a70b6259/553.24_grid_win10_win11_server2022_dch_64bit_international_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            
-                            "DriverVersion": "552.74",
-                            "vGPUVersion": "17.3",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVadsA10_v5 series": "NVIDIA A10"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows 11 23H2",
-                                        "Windows 11 22H2",
-                                        "Windows 11 21H2",
-                                        "Windows 10 22H2",
-                                        "Windows 10 21H2",
-                                        "Windows Server 2022",
-                                        "Windows Server 2025"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/e/1/7/e170f423-219c-467f-80f6-260caaebb148/552.74_grid_win10_win11_server2022_dch_64bit_international_azure_swl.exe"
+                                    "DirLink": "https://download.microsoft.com/download/e9a86343-1981-4ac8-883a-49bf5e2c4d18/574.24_grid_win10_win11_server2022_dch_server2025_64bit_international_azure_swl.exe"
                                 }
                             ]
                         },
@@ -352,8 +264,7 @@
                             "vGPUVersion": "16.5",
                             "SupportedVmFamilyAndGPUModel": {
                                 "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60",
-                                "NVadsA10_v5 series": "NVIDIA A10"
+                                "NVv3 series": "NVIDIA Tesla M60"
                             },
                             "Drivers": [
                                 {
@@ -368,420 +279,6 @@
                                         "Windows Server 2016"
                                     ],
                                     "DirLink": "https://download.microsoft.com/download/a/3/1/a3186ac9-1f9f-4351-a8e7-b5b34ea4e4ea/538.46_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "538.15",
-                            "vGPUVersion": "16.3",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60",
-                                "NVadsA10_v5 series": "NVIDIA A10"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows Server 2019",
-                                        "Windows Server 2022",
-                                        "Windows 10 22H2",
-                                        "Windows 11 22H2"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/c/b/0/cb00d90e-5786-4882-89cd-75fb17fa787d/538.15_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "537.13",
-                            "vGPUVersion": "16.2",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60",
-                                "NVadsA10_v5 series": "NVIDIA A10"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows Server 2019",
-                                        "Windows Server 2022",
-                                        "Windows 10 22H2",
-                                        "Windows 11 22H2"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/9/d/6/9d6f3611-ff0c-43bc-8958-fe7fb0ded78d/537.13_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "536.25",
-                            "vGPUVersion": "16.0",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60",
-                                "NVadsA10_v5 series": "NVIDIA A10"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows Server 2019",
-                                        "Windows Server 2022",
-                                        "Windows 10 22H2",
-                                        "Windows 11 22H2"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/c/2/6/c265afdc-b985-470d-952c-b3f0cc9a2be8/536.25_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "528.89",
-                            "vGPUVersion": "15.2",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60",
-                                "NVadsA10_v5 series": "NVIDIA A10"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows Server 2019",
-                                        "Windows Server 2022",
-                                        "Windows 10 22H2"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/2/5/a/25ad21ca-ed89-41b4-935f-73023ef6c5af/528.89_grid_win10_win11_server2019_server2022_dch_64bit_international_Azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "528.24",
-                            "vGPUVersion": "15.1",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60",
-                                "NVadsA10_v5 series": "NVIDIA A10"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows Server 2019",
-                                        "Windows Server 2022",
-                                        "Windows 10 22H2"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/f/a/f/fafa2972-4975-482e-99e6-442d5ad864a1/528.24_grid_win10_win11_server2019_server2022_dch_64bit_international-Azure-swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "527.41",
-                            "vGPUVersion": "15.0",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60",
-                                "NVadsA10_v5 series": "NVIDIA A10"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows Server 2019",
-                                        "Windows Server 2022",
-                                        "Windows 10 22H2"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/4/6/0/4605339d-133c-4b7b-a750-90352df79aa6/527.41_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "512.78",
-                            "vGPUVersion": "14.1",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows Server 2016",
-                                        "Windows Server 2019",
-                                        "Windows 10 22H2"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/7/3/6/7361d1b9-08c8-4571-87aa-18cf671e71a0/512.78_grid_win10_win11_server2016_server2019_server2022_64bit_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "472.39",
-                            "vGPUVersion": "13.1",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows Server 2016 1607",
-                                        "Windows Server 2016 1709",
-                                        "Windows Server 2019",
-                                        "Windows Server 2022",
-                                        "Windows 10 21H2"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/3/2/2/322f99aa-57f3-4539-b5fc-718f8c0e2579/472.39_grid_win11_win10_64bit_Azure-SWL.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "471.68",
-                            "vGPUVersion": "13",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows Server 2016 1607",
-                                        "Windows Server 2016 1709",
-                                        "Windows Server 2019",
-                                        "Windows Server 2022",
-                                        "Windows 10 21H2"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/f/0/1/f0121609-68b4-48af-8426-ef454d4d2376/471.68_grid_win10_server2016_server2019_server-azure-swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "462.31",
-                            "vGPUVersion": "12.2",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows Server 2016 1607",
-                                        "Windows Server 2016 1709",
-                                        "Windows Server 2019",
-                                        "Windows 10 21H1"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/0/0/1/001f0edf-d852-4297-9cb7-10b31b1abf45/462.31_grid_win10_server2016_server2019_64bit_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "461.33",
-                            "vGPUVersion": "12.1",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows Server 2016 1607",
-                                        "Windows Server 2016 1709",
-                                        "Windows Server 2019",
-                                        "Windows 10 21H1"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/9/7/e/97e1be73-d24b-410b-9c08-cc98c7becfa3/461.33_grid_win10_server2016_server2019_64bit_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "461.09",
-                            "vGPUVersion": "12.0",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "SupportedOSVersions": [
-                                        "Windows Server 2016 1607",
-                                        "Windows Server 2016 1709",
-                                        "Windows Server 2019",
-                                        "Windows 10 21H1"
-                                    ],
-                                    "DirLink": "https://download.microsoft.com/download/4/8/d/48d2d45b-bebc-44ad-9c58-e0b79a9d4ff2/461.09_grid_win10_server2016_server2019_64bit_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "452.77",
-                            "vGPUVersion": "11.3",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/f/d/5/fd5ad39b-89cb-4990-ae85-a6fd30475584/452.77_grid_win10_server2016_server2019_64bit_azure_swl.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "452.57",
-                            "vGPUVersion": "11.2",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/1/b/1/1b15516a-de49-4ba4-8651-6abda4f7fb82/452.57_grid_win10_server2016_server2019_64bit_international.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "452.39",
-                            "vGPUVersion": "11.1",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/9/9/1/99186e1b-d27d-47d5-9957-175c88f4efbe/452.39_grid_win10_64bit_whql.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "451.48",
-                            "vGPUVersion": "11.0",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/C/1/4/c147a482-1364-4d12-b9e3-0beda0f00a13/451.48_grid_win10_server2016_server2019_64bit_international.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "442.06",
-                            "vGPUVersion": "10.1",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/b/8/f/b8f5ecec-b8f9-47de-b007-ac40adc88dc8/442.06_grid_win10_64bit_international_whql.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "441.66",
-                            "vGPUVersion": "10.0",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/2/a/3/2a316e62-3be9-4ddb-ae8e-c04b6df6e22d/441.66_grid_win10_server2016_server2019_64bit_international.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "431.79",
-                            "vGPUVersion": "9.1",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/e/8/2/e8257939-a439-4da8-a927-b64b63743db1/431.79_grid_win10_server2016_server2019_64bit_international.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "431.02",
-                            "vGPUVersion": "9.0",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/8/C/C/8CC88D54-EB07-44D3-8FA9-B797B173ED04/431.02_grid_win10_server2016_server2019_64bit_international.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "425.31",
-                            "vGPUVersion": "8.0",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/4/8/C/48C2D46E-EB64-460E-A8D9-0F55737D0D68/425.31_grid_win10_server2016_64bit_international.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "412.16",
-                            "vGPUVersion": "7.1",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/0/B/0/0B082E50-4162-4910-B422-81B2E06E28B5/412.16_grid_win10_server2016_64bit_international.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "411.81",
-                            "vGPUVersion": "7.0",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/0/B/0/0B082E50-4162-4910-B422-81B2E06E28B5/411.81_grid_win10_server2016_64bit_international.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "391.81",
-                            "vGPUVersion": "6.2",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/A/3/A/A3AA4560-02DC-4315-A503-52E4B5B1E0ED/391.81_grid_win10_server2016_64bit_international.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "391.58",
-                            "vGPUVersion": "6.1",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/1/5/B/15B59944-F780-4A80-A8E1-D4489C83E830/391.58_grid_win10_server2016_64bit_international.exe"
-                                }
-                            ]
-                        },
-                        {
-                            "DriverVersion": "391.03",
-                            "vGPUVersion": "6.0",
-                            "SupportedVmFamilyAndGPUModel": {
-                                "NCasT4_v3 series": "Nvidia Tesla T4",
-                                "NVv3 series": "NVIDIA Tesla M60"
-                            },
-                            "Drivers": [
-                                {
-                                    "DirLink": "https://download.microsoft.com/download/7/D/2/7D276FE8-93AF-446E-8B0D-0B9EA5700255/391.03_grid_win10_server2016_64bit_international.exe"
                                 }
                             ]
                         }
