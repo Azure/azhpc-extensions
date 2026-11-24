@@ -160,44 +160,42 @@
         "Name": "Cloud Edition - Gaming Update",
         "Versions": [
           {
-            "DriverVersion": "25.1.1",
+            "DriverVersion": "25.10.43.16",
             "SupportedVmFamilyAndGPUModel": {
               "NGads_V620 Series": "AMD Radeon PRO V620 GPU"
             },
             "Drivers": [
               {
                 "SupportedOSVersions": [
+                  "Windows 11 25H2",
                   "Windows 11 24H2",
                   "Windows 11 23H2",
                   "Windows 11 22H2",
-                  "Windows 11 21H2",
-                  "Windows 10 22H2",
-                  "Windows 10 21H2"
+                  "Windows 11 21H2"
                 ],
-                "DirLink": "https://download.microsoft.com/download/44ee0d6c-74dd-4214-b6d5-24fbf2eac33b/whql-amd-software-cloud-edition-25.1.1-win10-win11-azure-ngads-v620.exe",
-                "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281503",
+                "DirLink": "https://download.microsoft.com/download/52433ff3-394f-41be-b235-4a0a3eb005a2/73543_WHQL-AMD-Software-Cloud-Edition-25.10.43.16-Win11-azure.exe",
+                "FwLink": "https://download.microsoft.com/download/52433ff3-394f-41be-b235-4a0a3eb005a2/73543_WHQL-AMD-Software-Cloud-Edition-25.10.43.16-Win11-azure.exe",
                 "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
-                "DriverFileSize": 710318440
+                "DriverFileSize": 758354992
               },
               {
                 "SupportedOSVersions": [
                   "Windows Server 2022",
                   "Windows 11 Enterprise multi-session"
                 ],
-                "DirLink": "https://download.microsoft.com/download/6f834f98-109d-4dfc-89e6-d25ff02a9dd0/amd-software-cloud-edition-25.1.1-winsvr2022-azure-v620.exe",
-                "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268726",
+                "DirLink": "https://download.microsoft.com/download/10cd24f1-8368-4af2-9378-6befad4b634d/73546_WHQL-AMD-Software-Cloud-Edition-25.10.43.16-WinSvr2022-azure-v620.exe",
+                "FwLink": "https://download.microsoft.com/download/10cd24f1-8368-4af2-9378-6befad4b634d/73546_WHQL-AMD-Software-Cloud-Edition-25.10.43.16-WinSvr2022-azure-v620.exe",
                 "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
-                "DriverFileSize": 640527168
+                "DriverFileSize": 681634240
               },
               {
                 "SupportedOSVersions": [
-                  "Windows Server 2019",
-                  "Windows 10 Enterprise multi-session"
+                  "Windows Server 2025"
                 ],
-                "DirLink": "https://download.microsoft.com/download/066e6ff4-1a59-4d15-8411-fe1dd8e5de6d/amd-software-cloud-edition-25.1.1-winsvr2019-azure-v620.exe",
-                "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268376",
+                "DirLink": "https://download.microsoft.com/download/cd27b242-a143-4c91-8ebb-42c283f4af84/73544_WHQL-AMD-Software-Cloud-Edition-25.10.43.16-WinSvr2025-azure-v620.exe",
+                "FwLink": "https://download.microsoft.com/download/cd27b242-a143-4c91-8ebb-42c283f4af84/73544_WHQL-AMD-Software-Cloud-Edition-25.10.43.16-WinSvr2025-azure-v620.exe",
                 "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
-                "DriverFileSize": 640518912
+                "DriverFileSize": 681613040
               }
             ]
           }
@@ -211,6 +209,53 @@
         {
           "Name": "Cloud Edition - Gaming Update",
           "Versions": [
+            {
+              "Name": "Cloud Edition - Gaming Update",
+              "Versions": [
+                {
+                  "DriverVersion": "25.1.1",
+                  "SupportedVmFamilyAndGPUModel": {
+                    "NGads_V620 Series": "AMD Radeon PRO V620 GPU"
+                  },
+                  "Drivers": [
+                    {
+                      "SupportedOSVersions": [
+                        "Windows 11 24H2",
+                        "Windows 11 23H2",
+                        "Windows 11 22H2",
+                        "Windows 11 21H2",
+                        "Windows 10 22H2",
+                        "Windows 10 21H2"
+                      ],
+                      "DirLink": "https://download.microsoft.com/download/44ee0d6c-74dd-4214-b6d5-24fbf2eac33b/whql-amd-software-cloud-edition-25.1.1-win10-win11-azure-ngads-v620.exe",
+                      "FwLink": "https://go.microsoft.com/fwlink/?linkid=2281503",
+                      "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
+                      "DriverFileSize": 710318440
+                    },
+                    {
+                      "SupportedOSVersions": [
+                        "Windows Server 2022",
+                        "Windows 11 Enterprise multi-session"
+                      ],
+                      "DirLink": "https://download.microsoft.com/download/6f834f98-109d-4dfc-89e6-d25ff02a9dd0/amd-software-cloud-edition-25.1.1-winsvr2022-azure-v620.exe",
+                      "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268726",
+                      "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
+                      "DriverFileSize": 640527168
+                    },
+                    {
+                      "SupportedOSVersions": [
+                        "Windows Server 2019",
+                        "Windows 10 Enterprise multi-session"
+                      ],
+                      "DirLink": "https://download.microsoft.com/download/066e6ff4-1a59-4d15-8411-fe1dd8e5de6d/amd-software-cloud-edition-25.1.1-winsvr2019-azure-v620.exe",
+                      "FwLink": "https://go.microsoft.com/fwlink/?linkid=2268376",
+                      "DriverPath": "AMD\\AMD-Software-Installer\\Packages\\Drivers\\Display\\WT6A_INF\\*.inf",
+                      "DriverFileSize": 640518912
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "DriverVersion": "24.3.1",
               "SupportedVmFamilyAndGPUModel": {
